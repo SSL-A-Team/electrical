@@ -21,6 +21,7 @@ dataframe({"Vbatt Minimum", "Vbatt Nominal", "Vbatt Maximum"; Vbatt_lo, Vbatt_no
 max_motor_current = 14.18 %df45 65W
 nom_motor_current = 3.26
 
+% relevant user guide https://www.st.com/resource/en/application_note/an5397-current-sensing-in-motion-control-applications-stmicroelectronics.pdf
 % current sense
 Rsense_chosen_R = 13e-3;
 
@@ -31,7 +32,7 @@ R_bias = R_fb .* 2.0;
 % overcurrent
 Roc_inline = 3.3e3;
 Roc_bias = 59e3;
-Voc_tgt = 250e-3; % software config OC for 250mV
+Voc_tgt = 250e-3; % software config OC for 250mV (100, 250, 500)
 
 %{
 12V, 72W regulator derivation

@@ -302,6 +302,18 @@
     )
   )
 
+  (sheet (at 63.5 88.9) (size 38.1 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid be81d4fb-4052-4577-a43e-6ea5cf9098e0)
+    (property "Sheet name" "mcu" (id 0) (at 63.5 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 63.5 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/74bea8df-c1c8-4cc6-8d41-d9f03a893b51" (page "2"))
@@ -322,6 +334,7 @@
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9" (page "19"))
     (path "/d2a30d70-bdc5-4866-9217-7a231579053f/948b6c22-f6f4-4c53-b0a7-0e040305a1cc" (page "19"))
     (path "/0fc1b88d-03c1-4e32-b2af-40d9c522c95b" (page "20"))
+    (path "/be81d4fb-4052-4577-a43e-6ea5cf9098e0" (page "20"))
   )
 
   (symbol_instances

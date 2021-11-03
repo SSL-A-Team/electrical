@@ -7,10 +7,12 @@ Global robot properties
 % battery calculations
 batt_num_cells = 6;
 
+cell_bare_minimum_under_load = 2.7;
 cell_min_safe_voltage = 3.0;
 cell_nom_voltage = 3.7;
 cell_max_safe_voltage = 4.2;
 
+Vbatt_bare_minimum_under_load = batt_num_cells .* cell_bare_minimum_under_load;
 Vbatt_lo = batt_num_cells * cell_min_safe_voltage;
 Vbatt_nom = batt_num_cells * cell_nom_voltage;
 Vbatt_hi = batt_num_cells * cell_max_safe_voltage;
@@ -33,6 +35,23 @@ R_bias = R_fb .* 2.0;
 Roc_inline = 3.3e3;
 Roc_bias = 59e3;
 Voc_tgt = 250e-3; % software config OC for 250mV (100, 250, 500)
+
+% Inrush Current Calc
+desired_Imax_inrush = 10;
+motor_decoupling_capactiance_F = 270e-6;
+cap_12v0_dc_F = 30e-6;
+
+total_motor_cap_F = 5 .* motor_decoupling_capactiance_F;
+V_batt_downstream_capacitance_F = total_motor_cap_F + cap_12v0_dc_F;
+
+% battery OV/UV LO calcs
+V_max_tolerable = Vbatt_hi .* 1.25; % we can actually tolerate quite a bit more here, but this should be sane for a kicker
+V_min_tolerable = Vbatt_bare_minimum_under_load;
+V_ovuv_lo_tol_err = 3e-3; % we don't really need 3mV, but increasing breaks datasheet math (e.g. 40M + resistor values)
+
+chosen_r1_R = 154e3; % choose from E96
+chosen_r2_R = 147e3; % choose from E96
+chosen_r3_R = 5.1e6 + 4.3e6; % choose from E96
 
 %{
 12V, 72W regulator derivation
@@ -105,4 +124,22 @@ Voc_sense_trip = Voc_tgt - Voc_bias;
 Ioc_trip = Voc_sense_trip ./ Rsense_chosen_R
 Ioc_trip_err_pct = (abs(Ioc_trip - max_motor_current) ./ max_motor_current) * 100
 
-  
+%{
+Battery Voltage and Reverse Current Calcs
+%}
+% inrush limit
+C_out = V_batt_downstream_capacitance_F;
+gate_drv_source_current_A = 35e-6;
+C_gate = (gate_drv_source_current_A .* C_out) ./ desired_Imax_inrush
+
+% voltage lock out
+%oooo kay looks like the selection value process for our 
+I_leak_A = 10e-9;
+R1_plus_R2 = V_ovuv_lo_tol_err ./ I_leak_A
+choose_R3_near = (V_ovuv_lo_tol_err ./ I_leak_A) .* ((V_min_tolerable - 0.5) ./ 0.5)
+choose_R1_near = (R1_plus_R2 + choose_R3_near) ./ (2.0 .* V_max_tolerable)
+choose_R2_near = R1_plus_R2 - choose_R1_near
+
+actual_uvlo = ((0.5 * I_leak_A * chosen_r3_R) ./ V_ovuv_lo_tol_err) + 0.5
+chosen_R1_plus_R2 = chosen_r1_R + chosen_r2_R;
+actual_ovlo = (chosen_R1_plus_R2 + chosen_r3_R) ./ (2.0 .* chosen_r1_R)

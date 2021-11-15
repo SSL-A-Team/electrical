@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Motorboard")
+    (date "2021-11-14")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
+  )
+
   (lib_symbols
     (symbol "Analog_ADC:ADS7828" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -5.08 15.24 0)

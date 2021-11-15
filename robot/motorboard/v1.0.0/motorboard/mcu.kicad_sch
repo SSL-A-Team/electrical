@@ -4,6 +4,15 @@
 
   (paper "B")
 
+  (title_block
+    (title "Motorboard")
+    (date "2021-11-14")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
+  )
+
   (lib_symbols
     (symbol "Connector:Micro_SD_Card" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -16.51 15.24 0)

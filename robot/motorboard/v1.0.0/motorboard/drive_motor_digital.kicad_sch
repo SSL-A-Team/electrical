@@ -4,6 +4,15 @@
 
   (paper "A")
 
+  (title_block
+    (title "Motorboard")
+    (date "2021-11-14")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x05_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)
@@ -803,6 +812,7 @@
       )
     )
   )
+
 
   (junction (at 36.83 132.08) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 36.83 144.78) (diameter 0.9144) (color 0 0 0 0))
@@ -1738,7 +1748,7 @@
     (property "Reference" "C18" (id 0) (at 115.57 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF 25V" (id 1) (at 115.57 71.1199 0)
+    (property "Value" "1uF" (id 1) (at 115.57 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 112.7252 73.66 0)

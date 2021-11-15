@@ -4,6 +4,15 @@
 
   (paper "A")
 
+  (title_block
+    (title "Motorboard")
+    (date "2021-11-14")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.254 1.778 0)

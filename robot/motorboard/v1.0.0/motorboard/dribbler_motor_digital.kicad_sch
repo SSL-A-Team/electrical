@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Motorboard")
+    (date "2021-11-14")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x05_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)
@@ -694,6 +703,7 @@
       )
     )
   )
+
 
   (junction (at 41.91 143.51) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 41.91 156.21) (diameter 0.9144) (color 0 0 0 0))

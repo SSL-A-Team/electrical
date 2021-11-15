@@ -5,7 +5,12 @@
   (paper "C")
 
   (title_block
-    (date "2021-10-02")
+    (title "Motorboard")
+    (date "2021-11-14")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
   )
 
   (lib_symbols
@@ -3100,6 +3105,22 @@
     (stroke (width 0) (type dash) (color 0 0 0 0))
     (uuid 94287d58-e3ad-4c07-b07e-597a0bf97cff)
   )
+  (polyline (pts (xy 450.85 19.05) (xy 450.85 146.05))
+    (stroke (width 0) (type dash) (color 0 0 0 0))
+    (uuid a64f07ef-3a98-4a10-bf61-ce537d960a3e)
+  )
+  (polyline (pts (xy 450.85 19.05) (xy 539.75 19.05))
+    (stroke (width 0) (type dash) (color 0 0 0 0))
+    (uuid a64f07ef-3a98-4a10-bf61-ce537d960a3e)
+  )
+  (polyline (pts (xy 450.85 146.05) (xy 539.75 146.05))
+    (stroke (width 0) (type dash) (color 0 0 0 0))
+    (uuid a64f07ef-3a98-4a10-bf61-ce537d960a3e)
+  )
+  (polyline (pts (xy 539.75 146.05) (xy 539.75 19.05))
+    (stroke (width 0) (type dash) (color 0 0 0 0))
+    (uuid a64f07ef-3a98-4a10-bf61-ce537d960a3e)
+  )
 
   (text "Battery Connection" (at 21.59 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3205,10 +3226,19 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 93280bf1-ca9c-458e-a12b-48a1e0bf95e8)
   )
-  (text "Notes:\nany datasheet math is contained in\nthe adjacent matlab script titled\n\"motorboard_calcs.m\""
-    (at 462.28 38.1 0)
+  (text "Notes" (at 453.39 22.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cfc3d007-69d7-41ea-8abc-a38e662fce3f)
+  )
+  (text "Any datasheet math is contained in\nthe adjacent matlab script titled\n\"motorboard_calcs.m\". This will rederive\nmost non-obvious values for things\nlike regulators, resistor dividers, etc."
+    (at 453.39 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fb81aedc-e060-41ae-9dd9-b104d4db0b08)
+  )
+  (text "Unless otherwise notes capacitors are\nrated for 50V because ESR/package\nisn't critical.\n\nAs a rule of thumb, we've put a voltage\nrating for any cap 47uF or greater, since\nthis has a very large impact on package\nsize and there aren't many of these parts."
+    (at 453.39 57.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 85c45328-0af8-4fa6-bf9d-de9ac7e30d7a)
   )
 
   (label "V_{cell}_5" (at 36.83 58.42 0)
@@ -6285,7 +6315,7 @@
       (reference "C17") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/7e249787-7286-4569-85cc-20b8429cd6a4"
-      (reference "C18") (unit 1) (value "1uF 25V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C18") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/d21b0c80-7064-4e52-bf8a-ef0d4872ff07"
       (reference "C19") (unit 1) (value "270uF 35V") (footprint "")
@@ -6336,7 +6366,7 @@
       (reference "C34") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/7e249787-7286-4569-85cc-20b8429cd6a4"
-      (reference "C35") (unit 1) (value "1uF 25V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C35") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/d21b0c80-7064-4e52-bf8a-ef0d4872ff07"
       (reference "C36") (unit 1) (value "270uF 35V") (footprint "")
@@ -6387,7 +6417,7 @@
       (reference "C51") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/7e249787-7286-4569-85cc-20b8429cd6a4"
-      (reference "C52") (unit 1) (value "1uF 25V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C52") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/d21b0c80-7064-4e52-bf8a-ef0d4872ff07"
       (reference "C53") (unit 1) (value "270uF 35V") (footprint "")
@@ -6438,7 +6468,7 @@
       (reference "C68") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/5355b21f-ae62-487e-a8f5-534e181f4634/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/7e249787-7286-4569-85cc-20b8429cd6a4"
-      (reference "C69") (unit 1) (value "1uF 25V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C69") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/d21b0c80-7064-4e52-bf8a-ef0d4872ff07"
       (reference "C70") (unit 1) (value "270uF 35V") (footprint "")
@@ -6516,16 +6546,16 @@
       (reference "C94") (unit 1) (value "NP") (footprint "")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/e1948801-117b-458b-87dc-fbf225c98c62"
-      (reference "C95") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+      (reference "C95") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/76d7075d-84bb-4cbc-9d01-fdfe3ab7da32"
-      (reference "C96") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+      (reference "C96") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/b3b7fc4c-7b28-483d-bc38-5d71eb37b3d6"
-      (reference "C97") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+      (reference "C97") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/1de9eb06-84cf-4e4a-aef9-2855f9a428c9"
-      (reference "C98") (unit 1) (value "0.47uF 50V") (footprint "")
+      (reference "C98") (unit 1) (value "0.47uF") (footprint "")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/ff2ddb64-07d9-4305-a601-c3ee87d796a1"
       (reference "C99") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
@@ -6540,10 +6570,10 @@
       (reference "C102") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/e2aef404-74c4-4192-8aca-de0321366344"
-      (reference "C103") (unit 1) (value "10uF 25V") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+      (reference "C103") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/7f6bf619-6f5a-426b-98a9-adcae847a44a"
-      (reference "C104") (unit 1) (value "10uF 25V") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+      (reference "C104") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/a77802f9-f87f-4e2a-81d3-b0dfa7c2c504"
       (reference "C105") (unit 1) (value "320uF 25V") (footprint "")

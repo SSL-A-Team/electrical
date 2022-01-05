@@ -1753,17 +1753,17 @@
     )
   )
 
-  (bus_alias "M_{FL}_COM" (members "M_{FL}_COM.RX" "M_{FL}_COM.TX" "M_{FL}_COM.BOOT0" "M_{FL}_COM.~{RST}"))
-  (bus_alias "SPI_{IMU}" (members "SPI_{IMU}.SCK" "SPI_{IMU}.MOSI" "SPI_{IMU}.MISO" "SPI_{IMU}.~{SS1}" "SPI_{IMU}.~{SS2}"))
   (bus_alias "LOGIC_USART" (members "LOGIC_USART.RX" "LOGIC_USART.TX" "LOGIC_USART.CLK"))
-  (bus_alias "SWD" (members "SWD.CLK" "SWD.IO"))
+  (bus_alias "M_{FL}_COM" (members "M_{FL}_COM.RX" "M_{FL}_COM.TX" "M_{FL}_COM.BOOT0" "M_{FL}_COM.~{RST}"))
+  (bus_alias "I2C_{MON}" (members "I2C_{MON}.SDA" "I2C_{MON}.SCL"))
+  (bus_alias "M_{FR}_COM" (members "M_{FR}_COM.RX" "M_{FR}_COM.TX" "M_{FR}_COM.BOOT0" "M_{FR}_COM.~{RST}"))
+  (bus_alias "SPI_{IMU}" (members "SPI_{IMU}.SCK" "SPI_{IMU}.MOSI" "SPI_{IMU}.MISO" "SPI_{IMU}.~{SS1}" "SPI_{IMU}.~{SS2}"))
   (bus_alias "M_{BR}_COM" (members "M_{BR}_COM.RX" "M_{BR}_COM.TX" "M_{BR}_COM.BOOT0" "M_{BR}_COM.~{RST}"))
+  (bus_alias "SWD" (members "SWD.CLK" "SWD.IO"))
   (bus_alias "M_{BL}_COM" (members "M_{BL}_COM.RX" "M_{BL}_COM.TX" "M_{BL}_COM.BOOT0" "M_{BL}_COM.~{RST}"))
   (bus_alias "INT_{IMU}" (members "INT_{IMU}.INT1" "INT_{IMU}.INT2"))
-  (bus_alias "I2C_{MON}" (members "I2C_{MON}.SDA" "I2C_{MON}.SCL"))
-  (bus_alias "USB_OTG" (members "USB_OTG.DP" "USB_OTG.DM" "USB_OTG.ID" "USB_OTG.VBUS"))
   (bus_alias "SPI_{dotstar}" (members "SPI_{dotstar}.SCK" "SPI_{dotstar}.MOSI"))
-  (bus_alias "M_{FR}_COM" (members "M_{FR}_COM.RX" "M_{FR}_COM.TX" "M_{FR}_COM.BOOT0" "M_{FR}_COM.~{RST}"))
+  (bus_alias "USB_OTG" (members "USB_OTG.DP" "USB_OTG.DM" "USB_OTG.ID" "USB_OTG.VBUS"))
   (bus_alias "M_{DRIB}_COM" (members "M_{DRIB}_COM.RX" "M_{DRIB}_COM.TX" "M_{DRIB}_COM.BOOT0" "M_{DRIB}_COM.~{RST}"))
   (bus_alias "I2C_{IMU}" (members "I2C_{IMU}.SDA" "I2C_{IMU}.SCL"))
   (junction (at 374.65 86.36) (diameter 0.9144) (color 0 0 0 0)
@@ -4051,7 +4051,7 @@
   (symbol (lib_id "Device:Fuse") (at 198.12 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14497d6d-04a3-433b-94c2-58c982ede30a)
-    (property "Reference" "F2" (id 0) (at 198.12 48.26 90))
+    (property "Reference" "F3" (id 0) (at 198.12 48.26 90))
     (property "Value" "30A" (id 1) (at 198.12 50.8 90))
     (property "Footprint" "" (id 2) (at 198.12 56.388 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4081,7 +4081,7 @@
   (symbol (lib_id "Device:Fuse") (at 313.69 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1509f404-53d0-48c8-8ca0-98e4d738468e)
-    (property "Reference" "F3" (id 0) (at 313.69 194.31 90))
+    (property "Reference" "F4" (id 0) (at 313.69 194.31 90))
     (property "Value" "1.5A" (id 1) (at 313.69 196.85 90))
     (property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 313.69 202.438 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4133,7 +4133,7 @@
   (symbol (lib_id "Device:Fuse") (at 119.38 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1c3873c5-6cf5-4d71-98f2-3ad9955497f6)
-    (property "Reference" "F1" (id 0) (at 119.38 111.76 90))
+    (property "Reference" "F2" (id 0) (at 119.38 111.76 90))
     (property "Value" "3A" (id 1) (at 119.38 114.3 90))
     (property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 119.38 119.888 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4148,7 +4148,7 @@
   (symbol (lib_id "Device:LED") (at 374.65 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1c659f7b-7c2c-4a1f-9b21-659bc259e9b3)
-    (property "Reference" "D5" (id 0) (at 378.46 124.6504 90)
+    (property "Reference" "D6" (id 0) (at 378.46 124.6504 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (id 1) (at 378.46 127.1904 90)
@@ -4474,7 +4474,7 @@
   (symbol (lib_id "LED:APA102") (at 314.96 267.97 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4bc302c2-5b98-4f0b-aff8-9997939e3c62)
-    (property "Reference" "D3" (id 0) (at 308.61 274.32 0))
+    (property "Reference" "D4" (id 0) (at 308.61 274.32 0))
     (property "Value" "APA102" (id 1) (at 320.04 260.35 0))
     (property "Footprint" "LED_SMD:LED_RGB_5050-6" (id 2) (at 316.23 275.59 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
@@ -4541,7 +4541,7 @@
   (symbol (lib_id "LED:APA102") (at 340.36 267.97 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5a72dfa9-82db-4b6c-ba0b-f061e08b88c1)
-    (property "Reference" "D4" (id 0) (at 334.01 274.32 0))
+    (property "Reference" "D5" (id 0) (at 334.01 274.32 0))
     (property "Value" "APA102" (id 1) (at 345.44 260.35 0))
     (property "Footprint" "LED_SMD:LED_RGB_5050-6" (id 2) (at 341.63 275.59 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
@@ -4595,7 +4595,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 185.42 350.52 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 601f11a8-7f55-4183-83dd-a5322efa1af2)
-    (property "Reference" "D45" (id 0) (at 185.1025 344.17 0))
+    (property "Reference" "D3" (id 0) (at 185.1025 344.17 0))
     (property "Value" "RB411DT146" (id 1) (at 185.1025 346.71 0))
     (property "Footprint" "" (id 2) (at 185.42 350.52 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5310,7 +5310,7 @@
   (symbol (lib_id "Device:Fuse") (at 50.8 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb9284f5-4c0a-44df-b60f-4f53d1041c5f)
-    (property "Reference" "F?" (id 0) (at 50.8 109.22 90))
+    (property "Reference" "F1" (id 0) (at 50.8 109.22 90))
     (property "Value" "10-20A" (id 1) (at 50.8 111.76 90))
     (property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 50.8 117.348 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -7153,146 +7153,146 @@
     (path "/147604b2-68a6-4cd2-90a6-e50d255d56b7"
       (reference "D2") (unit 1) (value "RB411DT146") (footprint "")
     )
-    (path "/4bc302c2-5b98-4f0b-aff8-9997939e3c62"
-      (reference "D3") (unit 1) (value "APA102") (footprint "LED_SMD:LED_RGB_5050-6")
+    (path "/601f11a8-7f55-4183-83dd-a5322efa1af2"
+      (reference "D3") (unit 1) (value "RB411DT146") (footprint "")
     )
-    (path "/5a72dfa9-82db-4b6c-ba0b-f061e08b88c1"
+    (path "/4bc302c2-5b98-4f0b-aff8-9997939e3c62"
       (reference "D4") (unit 1) (value "APA102") (footprint "LED_SMD:LED_RGB_5050-6")
     )
-    (path "/1c659f7b-7c2c-4a1f-9b21-659bc259e9b3"
-      (reference "D5") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    (path "/5a72dfa9-82db-4b6c-ba0b-f061e08b88c1"
+      (reference "D5") (unit 1) (value "APA102") (footprint "LED_SMD:LED_RGB_5050-6")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/3b69fce8-d4b2-4f5a-915c-d49b14560d1e"
+    (path "/1c659f7b-7c2c-4a1f-9b21-659bc259e9b3"
       (reference "D6") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f6b235a7-607b-4437-a6af-258e2b0e8978"
-      (reference "D7") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/3b69fce8-d4b2-4f5a-915c-d49b14560d1e"
+      (reference "D7") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f6b235a7-607b-4437-a6af-258e2b0e8978"
       (reference "D8") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D9") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
       (reference "D10") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
       (reference "D11") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
       (reference "D12") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
+    (path "/b7e00f9d-0d3d-4188-85a2-43016f0e8435/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+      (reference "D13") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+    )
     (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/3b69fce8-d4b2-4f5a-915c-d49b14560d1e"
-      (reference "D13") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D14") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f6b235a7-607b-4437-a6af-258e2b0e8978"
-      (reference "D14") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
-    )
-    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D15") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
+    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D16") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
+    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
       (reference "D17") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
+    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
       (reference "D18") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
       (reference "D19") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
+    (path "/82df4770-6ad5-4dc7-8b8f-39b145ec9054/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+      (reference "D20") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+    )
     (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/3b69fce8-d4b2-4f5a-915c-d49b14560d1e"
-      (reference "D20") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D21") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f6b235a7-607b-4437-a6af-258e2b0e8978"
-      (reference "D21") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
-    )
-    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D22") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
+    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D23") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
+    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
       (reference "D24") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
+    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
       (reference "D25") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
       (reference "D26") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
+    (path "/22cbfdb8-6c6a-4adf-aead-3ee245b01b35/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+      (reference "D27") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+    )
     (path "/5355b21f-ae62-487e-a8f5-534e181f4634/c8e8cf1e-5fcc-48ce-a40f-77b2153abb0c/3b69fce8-d4b2-4f5a-915c-d49b14560d1e"
-      (reference "D27") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D28") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f6b235a7-607b-4437-a6af-258e2b0e8978"
-      (reference "D28") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
-    )
-    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D29") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
+    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D30") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
+    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
       (reference "D31") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
+    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/17a6532c-a57c-40d3-b0e7-55624d43f85b"
       (reference "D32") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/0b49d052-d637-4365-9f2c-95eed37fde38"
       (reference "D33") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/f6b235a7-607b-4437-a6af-258e2b0e8978"
+    (path "/5355b21f-ae62-487e-a8f5-534e181f4634/9ac48d79-21c6-4e75-8049-e08bdf441cbf/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
       (reference "D34") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/c455dea0-0d15-4f9b-9048-fc680e98974a"
+    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/f6b235a7-607b-4437-a6af-258e2b0e8978"
       (reference "D35") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
+    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/c455dea0-0d15-4f9b-9048-fc680e98974a"
       (reference "D36") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/17a6532c-a57c-40d3-b0e7-55624d43f85b"
+    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/f82e58f7-1601-40a7-81f8-7c3d29ad9f8a"
       (reference "D37") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/0b49d052-d637-4365-9f2c-95eed37fde38"
+    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/17a6532c-a57c-40d3-b0e7-55624d43f85b"
       (reference "D38") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/0b49d052-d637-4365-9f2c-95eed37fde38"
       (reference "D39") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
+    (path "/d2a30d70-bdc5-4866-9217-7a231579053f/1bb134a6-159d-4a2f-9c3c-5a75934ff3ae/6ec6ec21-a76a-4d7c-9760-7831c5d990f6"
+      (reference "D40") (unit 1) (value "4148WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+    )
     (path "/f3c0dfb5-6bc5-4f2a-9be9-beb4fb4e13b9/4c645b2f-4b26-4539-bc91-6eff9696e80c"
-      (reference "D40") (unit 1) (value "MBR560STR") (footprint "")
+      (reference "D41") (unit 1) (value "MBR560STR") (footprint "")
     )
     (path "/d2a30d70-bdc5-4866-9217-7a231579053f/948b6c22-f6f4-4c53-b0a7-0e040305a1cc/d736924d-4a34-4c14-b4a6-eca9c2cfbcca"
-      (reference "D41") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D42") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/d2a30d70-bdc5-4866-9217-7a231579053f/948b6c22-f6f4-4c53-b0a7-0e040305a1cc/7c2e03fc-ee0e-4cc5-a6d9-eb5e57b56b96"
-      (reference "D42") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D43") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/be81d4fb-4052-4577-a43e-6ea5cf9098e0/f105568f-b3ee-4de8-ac2a-effaeab08264"
-      (reference "D43") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D44") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/be81d4fb-4052-4577-a43e-6ea5cf9098e0/511fb73b-2f6e-4031-ac78-56f6b5df118d"
-      (reference "D44") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
-    )
-    (path "/601f11a8-7f55-4183-83dd-a5322efa1af2"
-      (reference "D45") (unit 1) (value "RB411DT146") (footprint "")
-    )
-    (path "/1c3873c5-6cf5-4d71-98f2-3ad9955497f6"
-      (reference "F1") (unit 1) (value "3A") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
-    )
-    (path "/14497d6d-04a3-433b-94c2-58c982ede30a"
-      (reference "F2") (unit 1) (value "30A") (footprint "")
-    )
-    (path "/1509f404-53d0-48c8-8ca0-98e4d738468e"
-      (reference "F3") (unit 1) (value "1.5A") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D45") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/cb9284f5-4c0a-44df-b60f-4f53d1041c5f"
-      (reference "F?") (unit 1) (value "10-20A") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F1") (unit 1) (value "10-20A") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    )
+    (path "/1c3873c5-6cf5-4d71-98f2-3ad9955497f6"
+      (reference "F2") (unit 1) (value "3A") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    )
+    (path "/14497d6d-04a3-433b-94c2-58c982ede30a"
+      (reference "F3") (unit 1) (value "30A") (footprint "")
+    )
+    (path "/1509f404-53d0-48c8-8ca0-98e4d738468e"
+      (reference "F4") (unit 1) (value "1.5A") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/0520e7c7-6aa9-4633-ad69-2f0530bb9ceb"
       (reference "J1") (unit 1) (value "XT60_mate") (footprint "")

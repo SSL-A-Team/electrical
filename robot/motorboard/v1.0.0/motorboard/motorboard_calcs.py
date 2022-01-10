@@ -135,3 +135,8 @@ choose_R2_near = R1_plus_R2 - choose_R1_near
 actual_uvlo = ((0.5 * I_leak_A * chosen_r3_R) / V_ovuv_lo_tol_err) + 0.5
 chosen_R1_plus_R2 = chosen_r1_R + chosen_r2_R
 actual_ovlo = (chosen_R1_plus_R2 + chosen_r3_R) / (2.0 * chosen_r1_R)
+
+# the laziest printing you ever did see
+for name in sorted(dir()):
+    if not name.startswith('__'): 
+        print(name, ": ", eval(name))

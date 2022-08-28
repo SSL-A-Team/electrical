@@ -9,7 +9,10 @@
     (property "Footprint" "" (id 2) (at 12.7 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 12.7 17.78 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL344.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "CC-16-3" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ADXL344_0_1"
@@ -79,7 +82,10 @@
     (property "Footprint" "" (id 2) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 1.27 0)
+    (property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi085-ds001.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LGA-16_3.0x4.5x0.95mm" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BMI085_0_1"

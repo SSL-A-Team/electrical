@@ -6,7 +6,7 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, rust-overlay, flake-utils }:
+  outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachSystem [
         "aarch64-linux"
         "aarch64-darwin"
@@ -27,15 +27,15 @@
       in {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            # Kicad
-            kicad
+            # Kicad. This has an insane build time, so maybe make folks download precached bins.
+            # kicad
 
             # ngSpice
-            ngspice
+            # ngspice
 
             # Python
-            (pkgs.${python}.withPackages
-              (ps: with ps; [ numpy matplotlib ]))
+            python
+            poetry
           ];
         };
       }

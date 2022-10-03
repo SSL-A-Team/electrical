@@ -7,6 +7,7 @@
 # script will use identical names and equation references. We use the
 # variant of the network in Figure 8, but with a non-symmetrical DC
 # offset.
+# https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjd26rjm8P6AhWyj4kEHeTmAPgQFnoECBIQAQ&url=https%3A%2F%2Fwww.st.com%2Fresource%2Fen%2Fapplication_note%2Fan5397-current-sensing-in-motion-control-applications-stmicroelectronics.pdf&usg=AOvVaw2--yddSoA57WRf8KFsh-lz
 #
 # It's also noted the STSPIN (stspin32f0(?a|b)) internal amplifier
 # doesn't have a spice model or internal chart, just characteristic
@@ -16,6 +17,7 @@
 # Generally, one should set I_max and V_motor
 
 import eseries
+import math
 from UliEngineering.Electronics import VoltageDivider
 
 ############################
@@ -34,6 +36,8 @@ V_motor_max = 4.2 * 6.0
 
 # max resistor wattage
 P_max_W = 1.0
+
+num_adc_bits = 10
 
 ###########################
 #  non-adjustable params  #
@@ -85,11 +89,35 @@ r2_E96 = eseries.find_less_than_or_equal(eseries.E96, r2)
 
 actual_gain = round(r2_E96 / an5397_recommended_R1_E96, 3)
 print(f"actual amplifier gain: {actual_gain}")
+V_actual_output_range = V_input_range * actual_gain
 
+# round in the direction of higher DC offset to keep away from edges of amplifier operating region
+R_dc_offset_bottom_E96 = eseries.find_greater_than_or_equal(eseries.E96, 2 * r2_E96)
+R_dc_offset_ratio = V_amp_output_min / Vdda
+R_dc_offset_top = VoltageDivider.top_resistor_by_ratio(R_dc_offset_bottom_E96, R_dc_offset_ratio)
+# round in the direction of higher DC offset to keep away from edges of amplifier operating region
+R_dc_offset_top_E96 = eseries.find_less_than_or_equal(eseries.E96, R_dc_offset_top)
+V_dc_offset = VoltageDivider.voltage_divider_voltage(R_dc_offset_top_E96, R_dc_offset_bottom_E96, Vdda)
 
+V_actual_min_output = round(V_dc_offset, 3)
+if V_actual_min_output < V_amp_output_min:
+    print("WARNING: minimum amplifier output fell below desired minimum")
 
+V_actual_max_output = round(V_dc_offset + V_actual_output_range, 3)
+if V_actual_max_output > V_amp_output_max:
+    print("WARNING: maximum amplifier output is above desired maximim")
+
+num_adc_values = 2 ** num_adc_bits
+pct_range_used = V_actual_output_range / (Vdda - Vgnd)
+
+print("")
+print("")
+print(f"Nominal voltage range at ADC: [{V_actual_min_output}, {V_actual_max_output}]")
+print(f"Num ADC quant. steps used {math.floor(pct_range_used * num_adc_values)} ({round(pct_range_used * 100.0, 1)}%)")
 print("")
 print(f"BUY: R_sense (AN5397 Rs) resistor value {str(round(R_sense_E24, 3))} (5%)")
 # print(f"\tALT: Buy resistor value {str(round(R_sense_05_E24, 3))} (5%) and place in parallel")
 print(f"BUY: R1 (AN5397 R1) value {str(round(an5397_recommended_R1_E96, 3))}")
 print(f"BUY: R2 (AN5397 R2) value {str(round(r2_E96, 3))} (1%)")
+print(f"BUY: R_dc_offset_lower (AN5397 2*R2 lower) value {str(round(R_dc_offset_bottom_E96, 3))} (1%)")
+print(f"BUY: R_dc_offset_upper (AN5397 2*R2 upper) value {str(round(R_dc_offset_top_E96, 3))} (1%)")

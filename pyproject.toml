@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ateam-electrical"
+version = "0.1.0"
+description = "PCBs, Spice Models, Supporting Analysis Scripts for SSL A-Team"
+authors = ["Your Name <you@example.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "ateam_electrical"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.3"
+matplotlib = "^3.6.0"
+eseries = "^1.2.1"
+uliengineering = {git = "https://github.com/ulikoehler/UliEngineering.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

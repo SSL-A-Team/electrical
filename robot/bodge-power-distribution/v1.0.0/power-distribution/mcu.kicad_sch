@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3e5c6eaa-b41d-4a02-a723-2460cac094c1)
+
+  (paper "A4")
+
+  (title_block
+    (title "Bodge Control")
+    (date "2022-11-06")
+    (rev "1.0.0")
+    (company "The A-Team (RC SSL)")
+    (comment 1 "Designed By: W. Stuckey & R. Osawa")
+    (comment 2 "Reviewed By:")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 110.49 71.12) (size 25.4 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 266a088d-ef75-452e-a959-01f0b893a448)
+    (property "Sheet name" "IMU" (id 0) (at 110.49 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "imu.kicad_sch" (id 1) (at 110.49 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+)

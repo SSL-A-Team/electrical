@@ -1,0 +1,33 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7cfeeadc-5484-43a0-8ad3-94ff54fbcb4b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 152.4 25.4) (size 38.1 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 89b03a37-9b58-4954-87fa-504b69fb9b5e)
+    (property "Sheet name" "flyback_charger" (id 0) (at 152.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "flyback_charger.kicad_sch" (id 1) (at 152.4 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/80d8b0bb-c9ab-46c2-b3eb-19980cc0843a"
+      (reference "U?") (unit 1) (value "LT3751") (footprint "")
+    )
+  )
+)

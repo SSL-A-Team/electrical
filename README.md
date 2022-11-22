@@ -11,7 +11,7 @@ Example entry:
 - Path: `C:\Users\guyfl\Documents\A-Team\electrical\lib`
 
 # Setting Up the Python Environment
- 1. We recommend creating a python environment using `python3 -m venv venv`
+ 1. We recommend creating a python environment using `python3 -m venv venv` (python 10 appears to be required)
  2. Install poetry `pip install poetry`
  3. Run any python file with `poetry run python <python_file>`
  4. (Optional) Add dependencies with `poetry add <dependency>`

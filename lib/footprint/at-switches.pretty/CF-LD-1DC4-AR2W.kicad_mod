@@ -38,7 +38,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 6ae47305-86b3-4e27-b3c6-46e195fdaa6d) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -52,7 +52,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 84e154cc-34e9-48ac-ab7e-fc52b3bc90d0) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -66,7 +66,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp a57e46ab-4127-4b88-afea-d94b5d7bc928) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -78,7 +78,7 @@
     )
   )
   (model "${LIB_DIR_AT}/3dmodels/CF-LD-1DC4-AR2W.stp"
-    (offset (xyz 0 5.08 2.9))
+    (offset (xyz 0 5.14 2.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

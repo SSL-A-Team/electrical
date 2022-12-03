@@ -18,13 +18,13 @@ C_out = 3600e-6
 # voltage of the primary bank (V)
 V_out = 250.0
 # selected primary side charging current (A)
-I_pk = 20.0
+I_pk = 10.0
 
 ### Inductor Parameters
 # transformer ratio of the selected transformer
 N = 10
 # inductance of the primary side of the selected transformer
-L_pri = 5e-6
+L_pri = 10e-6
 
 ### Switching FET Properties
 V_ds_on = 12.0

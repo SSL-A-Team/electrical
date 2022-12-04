@@ -3,6 +3,7 @@
 # here: https://www.analog.com/media/en/technical-documentation/data-sheets/LT3751.pdf
 #
 # A spice model is included by default with LT Spice.
+import math
 
 import eseries
 
@@ -18,13 +19,17 @@ C_out = 3600e-6
 # voltage of the primary bank (V)
 V_out = 250.0
 # selected primary side charging current (A)
-I_pk = 10.0
+I_pk = 40.0
+# charge voltage safety buffer
+V_out_buf = 5.0
 
 ### Inductor Parameters
 # transformer ratio of the selected transformer
 N = 10
 # inductance of the primary side of the selected transformer
-L_pri = 10e-6
+L_pri = 2.5e-6
+# leakage inductance max
+L_pri_leak = 0.060e-6
 
 ### Switching FET Properties
 V_ds_on = 12.0
@@ -33,10 +38,10 @@ I_d_max = 50.0
 
 ### Rectifier Diode Properties
 # forward votlage drop of the selected rectifier diode
-V_f_diode = 1.0  # forward voltage drop
+V_f_diode = 1.28  # forward voltage drop
 V_rrm_diode = 600.0  # rated repetitive reverse voltage
-I_diode = 1.0  # rated current
-T_rr_diode = 100e-9  # reverse recovery time
+I_diode = 4.0  # rated current
+T_rr_diode = 50e-9  # reverse recovery time
 
 ### Battery Parameters (or source voltage variability)
 lipo_num_cells = 6
@@ -111,6 +116,8 @@ DEL_V_drain_max = V_drain_max - V_trans_min  # select antagonistically for great
 V_drain_min = V_trans_min + ((V_out + V_diode) / N)
 DEL_V_drain_min = V_drain_min - V_trans_max  # select antagonistically for smallest range
 
+print(f"Delta v drain max: {DEL_V_drain_max}, Delta v drain min: {DEL_V_drain_min}")
+
 # assemble a table of R values for RVtrans, RVout, Rdcm
 # datasheet gives the impression the designer should select the
 # first compatible values going top down
@@ -122,6 +129,8 @@ R_value_table = [
     [(4.75, 60.0), (5.0, 80.0), 40.2e3, 40.2e3, 18.2e3],
     [(8.00, 80.0), (8.0, 160.0), 80.6e3, 80.6e3, 36.5e3]
 ]
+
+R_value_table.reverse()
 
 selected_R_value_entry = None
 for entry in R_value_table:
@@ -147,7 +156,7 @@ print(f"selected RVout: {R_V_out}")
 print(f"selected Rdcm: {R_dcm}")
 
 # as V_out is larger, R_bg becomes smaller, so round R_bg UP so V_out doesn't overshoot
-R_bg = 0.98 * N * (R_V_out / (V_out + V_diode))
+R_bg = 0.98 * N * (R_V_out / ((V_out - V_out_buf) + V_diode))
 R_bg_e96 = eseries.find_greater_than_or_equal(eseries.E96, R_bg)
 print(f"selected Rbg: {R_bg_e96}")
 
@@ -234,3 +243,24 @@ print(f"selected R_Vtrans OVLO1 {R_vtrans_ovlo1_E96}")
 print(f"selected R_Vcc UVLO2 {R_cc_uvlo2_E96}")
 print(f"selected R_Vcc OVLO2 {R_cc_ovlo2_E96}")
 
+print("")
+print(f"-------------------===-------------------")
+print("determine SPICE leakage values")
+print("")
+
+L_sec = L_pri * (N ** 2)
+K = math.sqrt(1.0 - (L_pri_leak / L_pri))
+L_pri_series_leakage = (1.0 - K) * L_pri
+L_pri_coupled = K * L_pri
+L_sec_series_leakage = (1.0 - K) * L_sec
+L_sec_coupled = K * L_sec
+
+L_pri_series_leakage = round(L_pri_series_leakage, 9)
+L_pri_coupled = round(L_pri_coupled, 9)
+L_sec_series_leakage = round(L_sec_series_leakage, 8)
+L_sec_coupled = round(L_sec_coupled, 6)
+
+print(f"primary series inductance (leakage) uH: {L_pri_series_leakage * 1e6}")
+print(f"primary coupled inductance uH: {L_pri_coupled * 1e6}")
+print(f"secondary series inductance (leakage) uH: {L_sec_series_leakage * 1e6}")
+print(f"secondary coupled inductance uH: {L_sec_coupled * 1e6}")

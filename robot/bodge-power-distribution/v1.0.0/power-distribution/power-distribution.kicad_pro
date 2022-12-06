@@ -146,7 +146,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|508000|1397000|8e5e23a3-9420-484b-9e32-cbdf32de3036|906a337a-9bbc-4b95-841a-1e0e3951fda0"
+    ],
     "meta": {
       "version": 0
     },
@@ -456,6 +458,10 @@
     [
       "3a74dea1-1510-40f9-ac26-652aca9a28c3",
       "MCU"
+    ],
+    [
+      "30d6c38e-9009-42e8-8342-33fb747f6616",
+      "Motor"
     ],
     [
       "0c5edbaa-2fa1-4ec5-afa6-eeab501d36c1",

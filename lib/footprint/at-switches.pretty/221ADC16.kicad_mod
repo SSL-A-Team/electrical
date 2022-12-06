@@ -25,4 +25,9 @@
   (pad "6" thru_hole circle (at 3.81 -2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 492d9b3d-61a0-4941-9149-a37d0803734b))
   (pad "C" thru_hole circle (at 3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 43ee4422-0741-4bed-8d13-4d6949a81f3c))
   (pad "C" thru_hole circle (at -3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp a19a2d6e-c0b0-4f20-9638-513b0779162a))
+  (model "${LIB_DIR_AT}/3dmodels/221ADC16.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

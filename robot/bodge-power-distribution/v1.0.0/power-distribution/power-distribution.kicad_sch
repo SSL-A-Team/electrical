@@ -2579,7 +2579,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 10356099-7b8d-4914-a3cc-f6f01f45e7f8)
     (property "Reference" "J1" (id 0) (at 33.02 17.78 0))
-    (property "Value" "Conn_01x02" (id 1) (at 33.02 20.32 0))
+    (property "Value" "XT60" (id 1) (at 33.02 20.32 0))
     (property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" (id 2) (at 33.02 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3279,12 +3279,12 @@
   )
 
   (symbol (lib_id "Device:D_TVS") (at 68.58 29.21 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid f1d30166-f71e-43b9-9e76-254e9a05912d)
     (property "Reference" "D2" (id 0) (at 71.12 27.9399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "824521261" (id 1) (at 71.12 30.4799 90)
+    (property "Value" "824521261" (id 1) (at 71.12 30.48 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "AT-Discrete:D_SMB_Non-Polar" (id 2) (at 68.58 29.21 0)
@@ -3293,6 +3293,7 @@
     (property "Datasheet" "~" (id 3) (at 68.58 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "V_{BR}" "V_{BR}=30.4V" (id 4) (at 76.2 33.02 90))
     (pin "1" (uuid bb47c790-5da4-46e3-8f4b-0e70362a2c31))
     (pin "2" (uuid 183946c9-87ba-4888-a2ff-b0a70e115243))
   )
@@ -4239,64 +4240,64 @@
       (reference "F2") (unit 1) (value "2.0A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/10356099-7b8d-4914-a3cc-f6f01f45e7f8"
-      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
+      (reference "J1") (unit 1) (value "XT60") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/c45bac20-7bf4-400d-b602-9ec1a2f9e22a"
-      (reference "J2") (unit 1) (value "RADIO") (footprint "AT-Connectors:2x04_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J2") (unit 1) (value "1053082208") (footprint "AT-Connectors:2x04_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/c273c3d0-2d0f-4734-ab5f-78d604c43fe8"
-      (reference "J3") (unit 1) (value "MOTOR_{FR}") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "BB_{EMITTER}") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/49883fa7-afbb-4fb2-94d8-8f23828a1c08"
-      (reference "J4") (unit 1) (value "SERVO") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "BB_{EMITTER}") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/69106634-6d97-4ecc-bfef-d76b6a329e88"
       (reference "J5") (unit 1) (value "MEM2051-00-195-00-A") (footprint "AT-Connectors:MEM2051-00-195-00-A")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/772c7a80-d50a-4a50-bc16-de49a7fb0ef2"
-      (reference "J6") (unit 1) (value "MOTOR_{FL}") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J6") (unit 1) (value "1053082204") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/5a0da9fd-3e47-4e6a-856a-7a92d88a062a"
-      (reference "J7") (unit 1) (value "MOTOR_{BL}") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J7") (unit 1) (value "1053082204") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/dccf116e-1fbc-460e-b8c8-40ed8d7bf034"
-      (reference "J8") (unit 1) (value "MOTOR_{FL}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
+      (reference "J8") (unit 1) (value "1053072202") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/13e136ea-7031-4f83-bb4c-7073d4f920e1"
-      (reference "J9") (unit 1) (value "MOTOR_{BL}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
+      (reference "J9") (unit 1) (value "1053072202") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/b64862e9-b814-4664-967a-54d0892b04fd"
-      (reference "J10") (unit 1) (value "MOTOR_{DRB}") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J10") (unit 1) (value "1053082204") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/04444319-26f3-4d18-bfbe-2f7ffc32e7e9"
-      (reference "J11") (unit 1) (value "MOTOR_{AUX}") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J11") (unit 1) (value "1053082204") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/c77f4998-2938-4213-8d1c-1a249bb58fb6"
-      (reference "J12") (unit 1) (value "MOTOR_{DRB}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
+      (reference "J12") (unit 1) (value "1053072202") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/eb65b0cc-38e0-41e3-89dc-c6a806bbf75b"
-      (reference "J13") (unit 1) (value "MOTOR_{AUX}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
+      (reference "J13") (unit 1) (value "1053072202") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/be40ba07-86f8-40c1-9ef5-2dbf7a797993"
-      (reference "J14") (unit 1) (value "MOTOR_{FR}") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J14") (unit 1) (value "1053082204") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/9d0ba796-fdf2-4d8d-9677-6b39b2b0c0ca"
-      (reference "J15") (unit 1) (value "MOTOR_{BR}") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
+      (reference "J15") (unit 1) (value "1053082204") (footprint "AT-Connectors:2x02_P3mm_TopBottom_3x5mm_P7mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/2ae05bc3-55a9-474c-9c66-94d192ce0093"
-      (reference "J16") (unit 1) (value "MOTOR_{FR}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
+      (reference "J16") (unit 1) (value "1053072202") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/bb1d57d9-26fd-45e8-a688-db0f53a71414"
-      (reference "J17") (unit 1) (value "MOTOR_{BR}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
+      (reference "J17") (unit 1) (value "1053072202") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/fcb17547-c861-475d-a4fc-05d46dabc5b6"
       (reference "J18") (unit 1) (value "MOTOR_{FR}") (footprint "AT-Connectors:1x02_P3mm_3x5mm_Plug_SMD")
     )
     (path "/3a74dea1-1510-40f9-ac26-652aca9a28c3/30d6c38e-9009-42e8-8342-33fb747f6616/00c05c7d-daea-41bf-bc61-6fb594d7b6e5"
-      (reference "J19") (unit 1) (value "SERVO") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "J19") (unit 1) (value "RS1-03-G") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/0c5edbaa-2fa1-4ec5-afa6-eeab501d36c1/45a0f5df-5492-4364-a12a-754a113d0f25"
-      (reference "J20") (unit 1) (value "Conn_01x04") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+      (reference "J20") (unit 1) (value "ExternalDotStar") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/46919540-ba1a-4e43-8d5d-41753c666037"
       (reference "JP1") (unit 1) (value "BYPASS_SHUTDOWN_DELAY") (footprint "AT-BoardFeatures:SolderJumper-2_2.0x1.2mm_Open")
@@ -4323,13 +4324,13 @@
       (reference "JP8") (unit 1) (value "SB_{DSCLK}") (footprint "AT-BoardFeatures:SolderJumper-2_2.0x1.2mm_Closed")
     )
     (path "/fe12649d-bb0a-40f3-8811-3d0e7b82a240/24f7012f-bc22-426b-8e21-f6f2bb35febe"
-      (reference "L1") (unit 1) (value "22uH") (footprint "AT-Inductors:DEM8045C")
+      (reference "L1") (unit 1) (value "1217AS-H-220M=P3") (footprint "AT-Inductors:DEM8045C")
     )
     (path "/97991479-e19e-4c88-ad9c-d8ad199fbe5b/80e8a2d8-c964-4f27-ab12-e767707b472d"
-      (reference "L2") (unit 1) (value "4.7uH") (footprint "AT-Inductors:NRx-5040")
+      (reference "L2") (unit 1) (value "NRS5040T4R7NMGK") (footprint "AT-Inductors:NRx-5040")
     )
     (path "/97991479-e19e-4c88-ad9c-d8ad199fbe5b/d2ddec2c-bc99-4450-abc4-817d55fb40f6"
-      (reference "L3") (unit 1) (value "4.7uH") (footprint "AT-Inductors:NRx-5040")
+      (reference "L3") (unit 1) (value "NRS5040T4R7NMGK") (footprint "AT-Inductors:NRx-5040")
     )
     (path "/5d3ab164-64f1-4c62-9eca-9049888bc2a1"
       (reference "Q1") (unit 1) (value "BSS138K") (footprint "Package_TO_SOT_SMD:SOT-23")

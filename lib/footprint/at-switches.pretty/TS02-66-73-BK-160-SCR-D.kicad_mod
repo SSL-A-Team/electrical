@@ -22,4 +22,9 @@
   (pad "2" thru_hole circle (at 3.25 -2.25) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 701fe65d-c58b-4748-8cfa-221d3c3c1837))
   (pad "3" thru_hole circle (at -3.25 2.25) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 42efba94-81bc-410b-8976-dd0c625b10dd))
   (pad "4" thru_hole circle (at 3.25 2.25) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 1cac8e5f-ccfd-42bc-a7fc-d07f51b21722))
+  (model "${LIB_DIR_AT}/3dmodels/TS02-66-73-BK-160-SCR-D.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

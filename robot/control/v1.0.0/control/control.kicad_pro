@@ -33,19 +33,19 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.152,
+          "height": 1.152,
+          "width": 1.152
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.153,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -103,7 +103,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.153,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -111,9 +111,9 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_track_width": 0.153,
+        "min_via_annular_width": 0.19999999999999998,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -132,8 +132,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.7,
+          "drill": 0.3
         },
         {
           "diameter": 2.0,
@@ -345,7 +345,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -359,14 +359,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ac-dc-kicker.kicad_pro",
+    "filename": "control.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -376,9 +376,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.153,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
@@ -393,10 +393,10 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "ac-dc-kicker.step",
+      "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${LIB_DIR_AT}/AT-DrawingSheets.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -438,8 +438,36 @@
   },
   "sheets": [
     [
-      "30071953-2df9-48f8-a0df-304db94b54c9",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "fff34b63-f9ca-49b5-8ad5-f92410864411",
+      "Load Switch"
+    ],
+    [
+      "fe12649d-bb0a-40f3-8811-3d0e7b82a240",
+      "Regulator 12v0"
+    ],
+    [
+      "97991479-e19e-4c88-ad9c-d8ad199fbe5b",
+      "Regulator 3v3 & 5v0"
+    ],
+    [
+      "ca5fdd0c-8925-4be7-9762-292e384ca577",
+      "Power Monitor"
+    ],
+    [
+      "3a74dea1-1510-40f9-ac26-652aca9a28c3",
+      "MCU"
+    ],
+    [
+      "30d6c38e-9009-42e8-8342-33fb747f6616",
+      "Motor"
+    ],
+    [
+      "0c5edbaa-2fa1-4ec5-afa6-eeab501d36c1",
+      "Indicators"
     ]
   ],
   "text_variables": {}

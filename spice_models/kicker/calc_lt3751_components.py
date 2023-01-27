@@ -13,11 +13,11 @@ import eseries
 
 ### Capacitor Bank Parameters
 # desired charge time of the primary bank (s)
-T_charge_bank_s = 1.0
+T_charge_bank_s = 0.75
 # capacitance of the primary bank (F)
-C_out = 3600e-6
+C_out = 4000e-6
 # voltage of the primary bank (V)
-V_out = 250.0
+V_out = 200.0
 # selected primary side charging current (A)
 I_pk = 40.0
 # charge voltage safety buffer
@@ -32,7 +32,7 @@ L_pri = 2.5e-6
 L_pri_leak = 0.060e-6
 
 ### Switching FET Properties
-V_ds_on = 12.0
+V_ds_on = 10.0
 V_ds_max = 60.0
 I_d_max = 50.0
 
@@ -53,7 +53,7 @@ V_trans_max = lipo_num_cells * (LIPO_NOM_CELL_VOLTAGE + LIPO_CELL_VOLTAGE_SWING)
 V_trans_lockout_buffer = 2.0
 
 # IC power voltage
-V_cc = 15.0
+V_cc = 12.0
 V_cc_lockout_buffer = 0.5
 
 t_d = 0.0  # switching time delay losses (ignore or reproduce from selected switching FET as described)

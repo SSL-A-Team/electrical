@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "+VBATT(PROTECTED)" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
+  (symbol "+V_{BATT(FUSED)}" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+VBATT(PROTECTED)" (id 1) (at 0 5.08 0)
+    (property "Value" "+V_{BATT(FUSED)}" (id 1) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 0 0)
@@ -12,7 +12,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "+VBATT(PROTECTED)_0_1"
+    (symbol "+V_{BATT(FUSED)}_0_1"
       (polyline
         (pts
           (xy -0.76 1.27)
@@ -38,9 +38,147 @@
         (fill (type none))
       )
     )
-    (symbol "+VBATT(PROTECTED)_1_1"
+    (symbol "+V_{BATT(FUSED)}_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+V_{BATT(FUSED)}" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "+V_{BATT(PROTECTED)}" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+V_{BATT(PROTECTED)}" (id 1) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+V_{BATT(PROTECTED)}_0_1"
+      (polyline
+        (pts
+          (xy -0.76 1.27)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 0)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 2.54)
+          (xy 0.764 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+V_{BATT(PROTECTED)}_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
         (name "+V_{BATT(PROTECTED)}" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "+V_{BATT(RAW)}" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+V_{BATT(RAW)}" (id 1) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+V_{BATT(RAW)}_0_1"
+      (polyline
+        (pts
+          (xy -0.76 1.27)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 0)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 2.54)
+          (xy 0.764 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+V_{BATT(RAW)}_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+V_{BATT(RAW)}" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "+V_{BATT}" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+V_{BATT}" (id 1) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+V_{BATT}_0_1"
+      (polyline
+        (pts
+          (xy -0.76 1.27)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 0)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 2.54)
+          (xy 0.764 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+V_{BATT}_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+V_{BATT}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )

@@ -6,6 +6,7 @@
 import math
 
 import eseries
+from UliEngineering.Electronics import VoltageDivider
 
 ############################
 #  User Adjustable Params  #
@@ -15,15 +16,16 @@ import eseries
 # desired charge time of the primary bank (s)
 T_charge_bank_s = 0.75
 # capacitance of the primary bank (F)
-C_out = 4000e-6
+C_out = 3000e-6
 # voltage of the primary bank (V)
 V_out = 200.0
 # selected primary side charging current (A)
-I_pk = 40.0
+I_pk = 42.0
 # charge voltage safety buffer
 V_out_buf = 5.0
 
 ### Inductor Parameters
+# GA3460-BL
 # transformer ratio of the selected transformer
 N = 10
 # inductance of the primary side of the selected transformer
@@ -32,11 +34,13 @@ L_pri = 2.5e-6
 L_pri_leak = 0.060e-6
 
 ### Switching FET Properties
+# BSC0402NSATMA1
 V_ds_on = 10.0
-V_ds_max = 60.0
-I_d_max = 50.0
+V_ds_max = 150.0
+I_d_max = 80.0
 
 ### Rectifier Diode Properties
+# MURS/460 (360 backup, I=3.0, V_f 1.25, trr=50ns)
 # forward votlage drop of the selected rectifier diode
 V_f_diode = 1.28  # forward voltage drop
 V_rrm_diode = 600.0  # rated repetitive reverse voltage
@@ -217,6 +221,23 @@ R_sense_E96 = eseries.find_greater_than_or_equal(eseries.E96, R_sense)
 P_R_sense = (((I_pk ** 2.0) * R_sense_E96) / 3.0) * (V_out / (V_out + (N * V_trans_min)))
 P_R_sense = round(P_R_sense, 3)
 print(f"selected R_sense {R_sense_E96} 1%, P>={P_R_sense}W, L<=2nH")
+
+print("")
+print(f"-------------------===-------------------")
+print("select feedback resistor values")
+print("")
+
+V_fb_tgt = V_out - V_out_buf
+V_fb_ref = 1.22  # pg 8 of datasheet
+R_fb_lower = eseries.find_less_than_or_equal(eseries.E96, 2940)  # 3k as a starting point seems to make reasonable upper values
+R_tot_desired_upper = VoltageDivider.feedback_top_resistor(V_fb_tgt, R_fb_lower, V_fb_ref)
+# the voltage here can be really high for a single 0402/0603 so we'll half it and stack the values
+# to manage the potential across teh footprint
+R_half_desired = R_tot_desired_upper / 2.0
+R_half_desired_E96 = eseries.find_greater_than_or_equal(eseries.E96, R_half_desired)
+
+print(f"selected R_fb_upper  {R_half_desired_E96} x2 (use two 0402 or 0603 resistors of this value for a total of {2.0 * R_half_desired_E96}")
+print(f"selected R_fb_lower {R_fb_lower}")
 
 print("")
 print(f"-------------------===-------------------")

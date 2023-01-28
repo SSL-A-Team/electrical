@@ -1,8 +1,14 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid b9630570-4937-4978-bf60-b1904e73f4fd)
+  (uuid 9df9126c-99f2-4ac5-8f8b-72786b84be33)
 
   (paper "A4")
+
+  (title_block
+    (title "Kicker Board")
+    (rev "v1.0.0")
+    (company "A-Team")
+  )
 
   (lib_symbols
     (symbol "AT-PowerIC:IX4427" (in_bom yes) (on_board yes)
@@ -1289,10 +1295,10 @@
   (symbol (lib_id "Device:C") (at 107.95 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ba3bc012-78b1-4722-a931-b7ce01abbd2f)
-    (property "Reference" "C?" (id 0) (at 111.125 34.2899 0)
+    (property "Reference" "C?" (id 0) (at 111.76 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u 50v" (id 1) (at 111.125 36.8299 0)
+    (property "Value" "22u 35v" (id 1) (at 111.76 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 108.9152 39.37 0)

@@ -4752,6 +4752,15 @@
     (path "/a24d6f3e-2dc7-4ce9-abd5-3d169f00aa0f/e884d6ab-e8c4-4e31-bb15-7a1602cf8fd8"
       (reference "#PWR087") (unit 1) (value "GND") (footprint "")
     )
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/16d91f7a-1406-4d5b-9093-219454885183"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/4272933a-9b39-431a-ae48-2498072ed237"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/9a8ea683-5b22-465b-ae70-1fa21d058a7a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ae645035-b85e-4570-8767-6e69e963fa19"
       (reference "C1") (unit 1) (value "22u 25V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
@@ -4847,6 +4856,15 @@
     )
     (path "/a24d6f3e-2dc7-4ce9-abd5-3d169f00aa0f/6352b0cf-5a97-4db6-adc4-a7734abccdb4"
       (reference "C32") (unit 1) (value "4u7 25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/0bd0184c-f7a1-4bf9-acbb-ff521a7f873b"
+      (reference "C?") (unit 1) (value "0.47u 500V") (footprint "Capacitor_SMD:C_2225_5664Metric")
+    )
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/1f15216c-d5dc-48ec-a0ae-79b524f893ac"
+      (reference "C?") (unit 1) (value "0.1u 500V") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/bbc71205-e65b-4bc0-a3d7-be488823ec2f"
+      (reference "C?") (unit 1) (value "0.47u 500V") (footprint "Capacitor_SMD:C_2225_5664Metric")
     )
     (path "/62f49637-130a-4b15-99bb-746d622ae856"
       (reference "D1") (unit 1) (value "Green") (footprint "AT-LED:LED0603")
@@ -4948,7 +4966,7 @@
       (reference "JP5") (unit 1) (value "Fault Bypass Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/d89ba77b-babc-4b00-aa6f-b7646bc9c014"
-      (reference "JP6") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP6") (unit 1) (value "CCM_EN") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/a24d6f3e-2dc7-4ce9-abd5-3d169f00aa0f/1257fa4c-2f92-4e07-b43d-826125b0853c"
       (reference "JP7") (unit 1) (value "Disable Micro") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -5035,7 +5053,7 @@
       (reference "R19") (unit 1) (value "36k5 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/268c81e4-1dae-48f6-9ab2-8e8e849aa046"
-      (reference "R20") (unit 1) (value "1 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R20") (unit 1) (value "1 1%") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/6d5ad27e-4f52-4354-9a3a-9b3322367e88"
       (reference "R21") (unit 1) (value "4k21") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -5101,7 +5119,7 @@
       (reference "TP3") (unit 1) (value "~{FAULT}") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/3809df89-5e6c-4d5a-8790-317e2e9c1d14"
-      (reference "TP5") (unit 1) (value "SPICE: V_{drain} <<<HIGH VOLTAGE>>>") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP5") (unit 1) (value "SPICE: V_{drain} <<<HIGH VOLTAGE>>>") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/89b03a37-9b58-4954-87fa-504b69fb9b5e/db1479f2-b275-473a-91aa-65b7cf49b6dc"
       (reference "TP6") (unit 1) (value "SPICE: V_{out} <<<HIGH VOLTAGE>>>") (footprint "TestPoint:TestPoint_Pad_D1.5mm")

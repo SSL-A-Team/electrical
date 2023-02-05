@@ -2978,7 +2978,7 @@
     (uuid 1ddb3056-e27d-49b7-9753-21c1e82f4eea)
     (property "Reference" "J2" (id 0) (at 229.87 129.54 0))
     (property "Value" "1054052108" (id 1) (at 229.87 132.08 0))
-    (property "Footprint" "AT-Connectors:1054052108" (id 2) (at 229.235 144.78 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical" (id 2) (at 229.235 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 229.235 144.78 0)
@@ -4932,7 +4932,7 @@
       (reference "J1") (unit 1) (value "XT30PW-M") (footprint "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal")
     )
     (path "/1ddb3056-e27d-49b7-9753-21c1e82f4eea"
-      (reference "J2") (unit 1) (value "1054052108") (footprint "AT-Connectors:1054052108")
+      (reference "J2") (unit 1) (value "1054052108") (footprint "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical")
     )
     (path "/4343588e-be73-4266-b83e-518e278185a9/0ec2907f-33c7-4dbd-94c5-25d3cdc888a1"
       (reference "J3") (unit 1) (value "2157601002") (footprint "AT-Connectors:2157601002")
@@ -4944,10 +4944,10 @@
       (reference "J5") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "AT-Connectors:Samtec-2x5pin-0.5mm")
     )
     (path "/a24d6f3e-2dc7-4ce9-abd5-3d169f00aa0f/f368bc1f-e80d-4740-b9e2-4cd824735861"
-      (reference "J6") (unit 1) (value "Conn_01x03") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal")
+      (reference "J6") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
     )
     (path "/a24d6f3e-2dc7-4ce9-abd5-3d169f00aa0f/f99cb8ae-3481-4181-9e5b-588172a39fff"
-      (reference "J7") (unit 1) (value "Conn_01x03") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal")
+      (reference "J7") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
     )
     (path "/0fa8ee5a-ae0f-451e-a465-ec355fd564b9"
       (reference "JP1") (unit 1) (value "Power Iso.") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
@@ -4986,10 +4986,10 @@
       (reference "Q1") (unit 1) (value "BSC0402NSATMA1") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
     )
     (path "/4343588e-be73-4266-b83e-518e278185a9/9f435790-3828-46a3-bf1d-de7fd389bc78"
-      (reference "Q2") (unit 1) (value "IXGA48N60A3") (footprint "Package_TO_SOT_SMD:TO-263-2")
+      (reference "Q2") (unit 1) (value "IXGA48N60A3") (footprint "Package_TO_SOT_SMD:TO-268-2")
     )
     (path "/4343588e-be73-4266-b83e-518e278185a9/5c911682-8159-4458-8994-27b1b6e301e1"
-      (reference "Q3") (unit 1) (value "IXGA48N60A3") (footprint "Package_TO_SOT_SMD:TO-263-2")
+      (reference "Q3") (unit 1) (value "IXGA48N60A3") (footprint "Package_TO_SOT_SMD:TO-268-2")
     )
     (path "/a24d6f3e-2dc7-4ce9-abd5-3d169f00aa0f/f4d4b430-c908-44f5-9762-87caa5d91b99"
       (reference "Q4") (unit 1) (value "BSS138K") (footprint "Package_TO_SOT_SMD:SOT-23")

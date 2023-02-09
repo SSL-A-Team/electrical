@@ -1376,6 +1376,7 @@
   )
 
   (bus_alias "UART" (members "RX" "TX" "RST" "BOOT0"))
+
   (junction (at 84.455 144.145) (diameter 0) (color 0 0 0 0)
     (uuid 0b3606c5-a11b-4536-b5ae-7e0558ea75b6)
   )
@@ -3317,7 +3318,7 @@
     (property "Value" "M3" (id 1) (at 64.77 231.7749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 62.23 230.505 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (id 2) (at 62.23 230.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 62.23 230.505 0)
@@ -3890,7 +3891,7 @@
     (property "Value" "M3" (id 1) (at 40.64 231.7749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 38.1 230.505 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (id 2) (at 38.1 230.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.1 230.505 0)
@@ -4014,7 +4015,7 @@
     (property "Value" "M3" (id 1) (at 53.34 231.7749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 50.165 230.505 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (id 2) (at 50.165 230.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 50.165 230.505 0)
@@ -4969,19 +4970,19 @@
       (reference "H2") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom")
     )
     (path "/ae11ebe6-9c0c-405d-a2d5-045fcbd7f5c6"
-      (reference "H3") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H3") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom")
     )
     (path "/db1002c9-d886-47d9-bc75-4baf2fada36c"
       (reference "H4") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom")
     )
     (path "/c5b627e8-45f9-4505-9e7a-36b77c6f5010"
-      (reference "H5") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H5") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom")
     )
     (path "/f292eae1-e299-48b5-abdc-2c48974aef6b"
       (reference "H6") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom")
     )
     (path "/4cc24a70-3262-4ac3-a70a-f9f2b2cd9c56"
-      (reference "H7") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H7") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom")
     )
     (path "/5f398f38-da05-4a50-a885-b59115d2bb9f"
       (reference "H8") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom")

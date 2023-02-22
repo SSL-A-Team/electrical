@@ -6,7 +6,7 @@
 
   (title_block
     (title "Control")
-    (date "2023-02-09")
+    (date "2023-02-21")
     (rev "1.0.0")
     (company "The A-Team (RC SSL)")
     (comment 1 "W. Stuckey & R. Osawa")
@@ -269,7 +269,7 @@
   (symbol (lib_id "AT-Supplies:+V_{BATT(FUSED)}") (at 77.47 34.29 0) (unit 1)
     (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 93c1d4fa-9777-4bf0-adf5-649fe3c28c2f)
-    (property "Reference" "#PWR056" (id 0) (at 77.47 38.1 0)
+    (property "Reference" "#PWR057" (id 0) (at 77.47 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+V_{BATT(FUSED)}" (id 1) (at 77.472 29.21 0))
@@ -285,7 +285,7 @@
   (symbol (lib_id "AT-Supplies:+V_{BATT(RAW)}") (at 22.86 34.29 0) (unit 1)
     (in_bom no) (on_board no) (fields_autoplaced)
     (uuid b9bc4a09-fe6e-43a3-9ded-b34ff86ce89e)
-    (property "Reference" "#PWR055" (id 0) (at 22.86 38.1 0)
+    (property "Reference" "#PWR056" (id 0) (at 22.86 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+V_{BATT(RAW)}" (id 1) (at 22.862 29.21 0))

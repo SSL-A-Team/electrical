@@ -1501,8 +1501,8 @@
       (net 2 "+3V3") (pinfunction "Pin_9") (pintype "passive") (tstamp 0cc094e7-c1c0-457d-bd94-3db91c23be55))
     (pad "10" smd roundrect (at 4.5 -2 180) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "+5V") (pinfunction "Pin_10") (pintype "passive") (tstamp be030c62-e776-405f-97d8-4a4c1aa2e428))
-    (pad "MP" smd roundrect (at 5.8 1.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 9c0314b1-f82f-432d-95a0-65e191202552))
-    (pad "MP" smd roundrect (at -5.8 1.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp b632afec-1444-4246-8afb-cc14a57567e7))
+    (pad "MP" smd roundrect (at 5.8 1.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 9c0314b1-f82f-432d-95a0-65e191202552))
+    (pad "MP" smd roundrect (at -5.8 1.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp b632afec-1444-4246-8afb-cc14a57567e7))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1732,7 +1732,7 @@
 
   (gr_rect locked (start 118.5 81.5) (end 183.5 116.5) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp 555e9f3a-a6c1-434b-bd7d-f116ba04f08f))
   (gr_rect (start 118.5 84.15) (end 183.5 114.95) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp f904578f-b9d0-4f3c-b909-00fadbc9974f))
-  (gr_text "The {dblquote}A{dblquote} Team - Radio 1.0.0" (at 131.8 87.3) (layer "F.SilkS") (tstamp e57eea1c-2b75-4f6c-8391-98bda9b66389)
+  (gr_text "SSL A-Team - Radio 1.0.0" (at 131.8 87.3) (layer "F.SilkS") (tstamp e57eea1c-2b75-4f6c-8391-98bda9b66389)
     (effects (font (size 1 1) (thickness 0.2)))
   )
 

@@ -4,7 +4,8 @@ Subfolders contain various versions of the kicker board. A summary is included b
 
 ## Kicker Version Summary
 
- - v1.1.0 - **In Progress**
+ - v1.1.0_fe - **In Progress**
+ - v1.1.0_ufd - **In Progress**
  - v1.0.0 - Nonviable, check errata
 
 ## KiCad Version Summary

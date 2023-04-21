@@ -20,7 +20,8 @@ C_out = 3000e-6
 # voltage of the primary bank (V)
 V_out = 200.0
 # selected primary side charging current (A)
-I_pk = 42.0
+# I_pk = 42.0
+I_pk = 10.0
 # charge voltage safety buffer
 V_out_buf = 5.0
 
@@ -29,9 +30,12 @@ V_out_buf = 5.0
 # transformer ratio of the selected transformer
 N = 10
 # inductance of the primary side of the selected transformer
-L_pri = 2.5e-6
+# L_pri = 2.5e-6
+L_pri = 10e-6
+
 # leakage inductance max
-L_pri_leak = 0.060e-6
+# L_pri_leak = 0.060e-6
+L_pri_leak = 0.25e-6
 
 ### Switching FET Properties
 # BSC0402NSATMA1

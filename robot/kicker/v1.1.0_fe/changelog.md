@@ -7,3 +7,4 @@
  - fix ESMQ201VSN102MQ35S horizontal mount footprint
  - fix 2157601002 mount hole diameter
  - remove internal layer return paths on HV operational side
+ - change lt3751 footprint to TSSOP "FE" variant (easier to handsolder + debug, worse availability)

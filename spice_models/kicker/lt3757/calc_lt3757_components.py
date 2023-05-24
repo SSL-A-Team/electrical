@@ -80,7 +80,7 @@ print("")
 
 V_fb_tgt = V_out - V_out_buf
 V_fb_ref = 1.6  # pg 12 of datasheet
-R_fb_lower = eseries.find_less_than_or_equal(eseries.E96, 2940)  # 3k as a starting point seems to make reasonable upper values
+R_fb_lower = eseries.find_less_than_or_equal(eseries.E96, 16200)  # 16k2 as recommended in datasheet (pg 32)
 R_tot_desired_upper = VoltageDivider.feedback_top_resistor(V_fb_tgt, R_fb_lower, V_fb_ref)
 # the voltage here can be really high for a single 0402/0603 so we'll half it and stack the values
 # to manage the potential across teh footprint

@@ -30,4 +30,4 @@ KiCAD version 6.99 (nightly) or newer should install the [KiCAD JLCPCB Tools](ht
 
 ## Soldering
 
-Our [soldering process](SOLDERING.md) is documented.
+Our [soldering process](SOLDERING.md) is documented. Advanced components like modern SMPS chips and current sense motor hardware proved sensitive to technique. The team's tries to PCBA as much as possible, but sometime it's too expensive to PCBA all chips, especially advanced ones not in stock at the fab house. 

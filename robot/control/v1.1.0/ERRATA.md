@@ -1,0 +1,23 @@
+# Errata for Control v1.1.0
+
+ - Silkscreen version reads "v1.0.0" when it should read "v1.1.0"
+ - U1 is damaged on battery connection. 
+   - Root Cause: inductive EOS. 
+   - Solution: bridge JP1, depopulate C3, C6, C7.
+   - Patch Notes: slow shutdown does not work after mod
+ - U1 UVLO/OVLO sometimes doesn't work.
+   - Root Cause: inductive EOS.
+   - Solution: bridge JP1, depopulate C3, C6, C7, depopulate R33
+   - Patch Notes: slow shutdown does not work after mod, OVLO/UVLO bypassed
+ - Robot ID Rotary Encoder doesn't work
+   - Root Cause: Pull Ups/Downs on the higher half of GPIOG (PG8-PG15) don't seem to work. Root cause unclear.
+   - Solution: use DIP switches for Robot ID
+   - Patch Notes: 
+ - Kicker detect doesn't work
+   - Root Cause: Pull Ups/Downs on the higher half of GPIOG (PG8-PG15) don't seem to work. Root cause unclear.
+   - Solution:
+   - Patch Notes: feature unavailable
+ - Radio UART flow control may not work
+   - Root Cause: Pull Ups/Downs on the higher half of GPIOG (PG8-PG15) don't seem to work. Root cause unclear.
+   - Solution:
+   - Patch Notes: untested, feature unavailable

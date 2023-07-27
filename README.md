@@ -1,12 +1,18 @@
 # Getting Started with A-Team Electrical
 
+All current board releases use KiCad 7.X. 
+
+See [releases](https://github.com/SSL-A-Team/electrical/releases) for competition production files. Our releases include known bug documentation, and the confirmed gerber, BoM, and CPL files sent to fab so you know you're looking and ordering what we did. Releases are accompanied by a tagged commit, for all editable project files used to generate the fab products.
+
+For complex boards like control and kicker, we include spice models and python files that compute any relevant values from datasheets, and including documented references and links to needed formulations. 
+
 ## Setting Up KiCAD
 
 ### Setting Up the KiCAD Library Path
 - Click `Preferences->Configure Paths`
 - Under `Environment Variables` click `+`
 - Set the name `LIB_DIR_AT`
-- Set the path to `<repository_location>/lib` where <repository_location> is the download location.
+- Set the path to `<repository_location>/lib` where \<repository_location\> is the download location.
 
 Example entry:
 - Name: `LIB_DIR_AT`
@@ -22,3 +28,6 @@ KiCAD version 6.99 (nightly) or newer should install the [KiCAD JLCPCB Tools](ht
  3. Run any python file with `poetry run python <python_file>`
  4. (Optional) Add dependencies with `poetry add <dependency>`
 
+## Soldering
+
+Our [soldering process](SOLDERING.md) is documented.

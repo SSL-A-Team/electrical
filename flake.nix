@@ -26,6 +26,8 @@
       in {
         devShells.default = pkgs.mkShell {
 
+          LD_LIBRARY_PATH = "${pkgs.zlib.outPath}/lib";
+
           shellHook = ''
             source $(realpath ./.)/nix-shell-setup.bash
           '';
@@ -35,10 +37,15 @@
             (pkgs.${python}.withPackages
               (ps: with ps; [ numpy matplotlib scipy ]))
             poetry
+
+            # Stuff PyPi packages need
+            zlib
           ];
         };
 
         devShells.cad = pkgs.mkShell {
+
+          LD_LIBRARY_PATH = "${pkgs.zlib.outPath}/lib";
 
           shellHook = ''
             source $(realpath ./.)/nix-shell-setup.bash
@@ -52,6 +59,9 @@
             (pkgs.${python}.withPackages
               (ps: with ps; [ numpy matplotlib scipy ]))
             poetry
+
+            # Stuff PyPi packages need
+            zlib
           ];
         };
       }

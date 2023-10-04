@@ -32,7 +32,7 @@ Idiode_f = 1.0
 Vdiode_standoff = 40.0
 
 # internal switching frequency
-f_sw_internal = 2e6
+f_sw_internal = 1.5e6
 
 
 def calc_feedback_resistor(desired_Vout: float) -> (float, float):

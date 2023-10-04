@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 63ab2e93-247e-4546-8726-bbef541787de)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CHARGE" (shape input) (at 31.75 33.02 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 16133b75-7b06-4005-9063-a740c0f4cf69)
+  )
+  (hierarchical_label "V_{gate}" (shape input) (at 31.75 27.94 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2a334ceb-3ffb-4cd5-8a6b-96ea318855ac)
+  )
+  (hierarchical_label "CHIP" (shape input) (at 31.75 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2fc9dd52-a8eb-4227-91ef-4bbd8c2c7c8c)
+  )
+  (hierarchical_label "KICK" (shape input) (at 31.75 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5101d5aa-bc65-40b8-ad3a-139e6c551fd7)
+  )
+  (hierarchical_label "V_{batt}" (shape input) (at 31.75 25.4 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 51529e29-cc60-4a92-abfc-200a77a69786)
+  )
+  (hierarchical_label "HV_MON" (shape output) (at 31.75 44.45 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 90837849-287f-43e8-96d3-2322a6642835)
+  )
+)

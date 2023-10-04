@@ -662,6 +662,23 @@
     )
   )
 
+  (sheet (at 76.2 88.9) (size 38.1 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 18b5a777-2ae2-444a-8013-2f46c3974bf2)
+    (property "Sheetname" "digital" (at 76.2 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "digital.kicad_sch" (at 76.2 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 139.7 31.75) (size 38.1 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -703,6 +720,23 @@
     )
   )
 
+  (sheet (at 165.1 88.9) (size 38.1 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7eb261a6-326a-4be1-a81a-5b1bf336a030)
+    (property "Sheetname" "hv_kicker" (at 165.1 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "hv_kicker.kicad_sch" (at 165.1 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 76.2 31.75) (size 38.1 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -740,6 +774,23 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 88.9) (size 12.7 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e73c114a-5122-4c9a-8f13-6961fcbca2c4)
+    (property "Sheetname" "isol" (at 41.91 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "isol.kicad_sch" (at 41.91 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516" (page "6"))
       )
     )
   )

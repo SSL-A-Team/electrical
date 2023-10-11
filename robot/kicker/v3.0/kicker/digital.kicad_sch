@@ -7,4 +7,21 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "SENSE_UART{UART}" (shape bidirectional) (at 39.37 27.94 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 01b919a1-d43b-441a-b727-d96c0dbc8123)
+  )
+  (hierarchical_label "BOOT_UART{UART}" (shape bidirectional) (at 39.37 22.86 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2dff6742-9b64-41e2-bfc8-efbe42800475)
+  )
+  (hierarchical_label "SYSCLK{DCLK}" (shape input) (at 39.37 34.29 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid dd74fd09-d8de-4a6e-87c6-d3fe10ec464f)
+  )
+  (hierarchical_label "DRIB_UART{UART}" (shape bidirectional) (at 39.37 25.4 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ed3df0a1-6284-4eae-ad68-d77dd93f2982)
+  )
 )

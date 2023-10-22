@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "BB_{TX}" (shape input) (at 33.02 26.67 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 15ca1251-8df5-4fe9-bb4b-ba1e4889d709)
+  )
+  (hierarchical_label "BB_{RX}" (shape output) (at 33.02 24.13 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 274c361d-909b-4fa2-9880-164b74a16ea7)
+  )
+  (hierarchical_label "BB_BUS{I2C}" (shape bidirectional) (at 33.02 32.385 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d2cbaef5-ed59-4c68-b5b1-b61f99b839ff)
+  )
 )

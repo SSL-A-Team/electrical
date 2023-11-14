@@ -1792,7 +1792,7 @@
     (uuid ffe30252-ef8b-4e41-8350-d9c12c976496)
   )
 
-  (text "DO NOT blindly copy and modify this schematic according to the datasheet.\n\nSpice simulation of this circuit with GA3459 and GA3460 inductors, with leakeage modeled, has shown very high sensitivty to\nsnubber values. Failure to model changes to any core component of the flyback system (transformer, switching FET, rectifier\ndiode, or snubber) will likely result in control instability or violation of V_{ds} MAX of the switching FET. Of particular\nnote, is that some control instability modes do not assert ~{FAULT} and instead show votlage runaway which will cause\ncapacitor bank explosion. This sensitivity seems to get better with higher inductance value transformers, which typically\nsupport lower charge current. If you do not need the charge performance, it is recommended that the designer willing impair\nperformance. Additionally, we have observed different control stability behavor with RC snubber values that produce the same\ntime constant, but have different R and C proportions. DO NOT assume that RC values with the same time constant are an \nacceptable replacement without spice simulation.\n\nThere are also many component suggested parameters and given contraints in the datasheet prose, rather than as equations.\n\nA python script to automatically derive and perform check on component values is provided with a Poetry environment seutp\nfile. Spice models with validated snubber values are also provided for some common configs."
+  (text "DO NOT blindly copy and modify this schematic according to the datasheet.\n\nSpice simulation of this circuit with GA3459 and GA3460 inductors, with leakeage modeled, has shown very high sensitivty to\nsnubber values. Failure to model changes to any core component of the flyback system (transformer, switching FET, rectifier\ndiode, or snubber) will likely result in control instability or violation of V_{ds} MAX of the switching FET. If you do not \nneed the charge performance, it is recommended that the designer willing impair performance. Additionally, we have observed \ndifferent control stability behavor with RC snubber values that produce the same time constant, but have different R and C \nproportions. DO NOT assume that RC values with the same time constant are an acceptable replacement without spice simulation.\n\nThere are also many component suggested parameters and given contraints in the datasheet prose, rather than as equations.\n\nA python script to automatically derive and perform check on component values is provided with a Poetry environment setup\nfile. Spice models with validated snubber values are also provided for some common configs."
     (at 97.155 59.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 20e96dda-5c34-41cf-8ee8-13260777b534)
@@ -1826,10 +1826,14 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 80ac768b-3ace-4bcc-9d05-8d5459ca1ed7)
   )
-  (text "LAYOUT NOTES\n\nThe datasheet provides recommended layouts for each LT3751 package, but overall might undersell\nthe degree to which that layout should be followed. The control loop stability seems particularly affected by\ncomponent choice, but also layout choice, impact leakage inductance and integrity of the current sensing. The\ndesign should followed the recommended layout as closely as possible.\n\nAdditionally, as noted below, ample local fast reponse decoupling should be located as close as possible to\nthe transformer primary. \n\nThere is a mandatory copper keep out under the transformer, R_{DCM} and R_{VOUT}."
-    (at 241.935 53.34 0)
+  (text "These might be optional?" (at 330.2 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9a29f5a1-0859-4ad8-abc9-0d30794b8a97)
+    (uuid 9811bed1-477e-4b3a-b91b-c26bb1233750)
+  )
+  (text "!!IMPORTANT!!: You must strictly power sequence INTV_{cc} AFTER V_{in}."
+    (at 135.89 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9ff0cdea-b25c-4cd4-b189-6550e80788e9)
   )
   (text "V_{logic} nominal, V_{cc} max\n100k pull down" (at 49.53 40.005 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3497,7 +3501,7 @@
     (property "Reference" "R56" (at 50.165 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100k" (at 50.165 100.3299 0)
+    (property "Value" "1k" (at 50.165 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 49.276 99.314 90)

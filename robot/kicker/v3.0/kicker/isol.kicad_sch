@@ -910,9 +910,18 @@
     (uuid a9b53999-29be-43da-be9c-f2d91d00408a)
   )
 
+  (text "\"MOSI\" pin 7, \"MISO\" pin 8" (at 72.39 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 116004a2-c0d2-469b-bae8-b2e976359572)
+  )
   (text "Control Board Connector" (at 19.05 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a148ca17-5fff-49b2-ade3-d6bc1a735df6)
+  )
+  (text "!!IMPORTANT!!: Use ISO672X \"F\" variants to ensure all output logic levels are \"false\" when the control board is unplugged"
+    (at 156.21 151.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b1fefbfd-f5da-45f5-8d97-704ae9ec2213)
   )
   (text "Control Isolation" (at 152.4 19.685 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

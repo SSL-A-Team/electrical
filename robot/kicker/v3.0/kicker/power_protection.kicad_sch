@@ -1727,6 +1727,11 @@
     (uuid b614b488-987f-4662-9314-599d18a46841)
   )
 
+  (label "V_{BATT}_FUSED" (at 67.31 43.18 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d5801e3b-7448-4d87-8221-7bc538e73d89)
+  )
+
   (hierarchical_label "V_{BATT(PROTECTED)}" (shape output) (at 335.28 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 013a18bd-5650-4866-ae8d-80b67bb35563)
@@ -2314,7 +2319,7 @@
     (property "Value" "15A" (at 53.34 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453" (at 53.34 44.958 90)
+    (property "Footprint" "AT-Fuses:3557-2" (at 53.34 44.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "0451015.MRL" (at 53.34 43.18 0)

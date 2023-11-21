@@ -660,7 +660,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HV",
+        "pattern": "HV_AC"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "CHIP_SW"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "KICK_SW"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "V_{trans}"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/flyback_charger/V_{solenoid}"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

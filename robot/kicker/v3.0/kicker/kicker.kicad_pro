@@ -663,23 +663,23 @@
     "netclass_patterns": [
       {
         "netclass": "HV",
-        "pattern": "HV_AC"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "CHIP_SW"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "KICK_SW"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "V_{trans}"
-      },
-      {
-        "netclass": "HV",
         "pattern": "/hv_kicker/flyback_charger/V_{solenoid}"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/solenoid_control/CHIP_SW"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/solenoid_control/KICK_SW"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/flyback_charger/V_{trans}"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/flyback_charger/HV_AC"
       }
     ]
   },

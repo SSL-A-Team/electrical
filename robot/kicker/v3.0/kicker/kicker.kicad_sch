@@ -400,7 +400,7 @@
     )
   )
 
-  (bus_alias "AT_UART" (members "TX" "RX" "BOOT0" "~{RST}" "~{DET}" "PWR_EN"))
+  (bus_alias "AT_UART" (members "TX" "RX" "BOOT0" "RST" "~{DET}" "PWR_EN"))
   (bus_alias "BB_I2C" (members "SDA" "SCL" "BB_{TX}" "BB_{RX}" "RST"))
   (bus_alias "SYSCLK" (members "8MHZ_CLK_REF" "32KHZ_CLK_REF"))
   (junction (at 55.88 36.83) (diameter 0) (color 0 0 0 0)

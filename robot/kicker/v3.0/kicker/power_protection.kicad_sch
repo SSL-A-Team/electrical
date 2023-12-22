@@ -1889,7 +1889,7 @@
     (property "Value" "VBatt Sys" (at 314.96 39.878 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 317.5 41.91 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 317.5 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 317.5 41.91 0)
@@ -1957,7 +1957,7 @@
           (reference "#PWR0121") (unit 1)
         )
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/966fab5a-ccd3-4169-a651-1134c1c683b9"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2002,7 +2002,7 @@
     (property "Value" "LTC4367 UV EOS" (at 191.77 66.548 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 194.31 68.58 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 194.31 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 68.58 0)
@@ -2077,7 +2077,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 311.15 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23804ce1-d35e-4f95-b4f8-a8c43c2b6e8f)
-    (property "Reference" "R76" (at 313.69 114.3 0)
+    (property "Reference" "R18" (at 313.69 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 313.69 116.84 0)
@@ -2094,7 +2094,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/966fab5a-ccd3-4169-a651-1134c1c683b9"
-          (reference "R76") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "control"
@@ -2679,7 +2679,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 322.58 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69793da4-1319-446e-9410-24572748b640)
-    (property "Reference" "R77" (at 325.12 114.3 0)
+    (property "Reference" "R19" (at 325.12 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 325.12 116.84 0)
@@ -2696,7 +2696,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/966fab5a-ccd3-4169-a651-1134c1c683b9"
-          (reference "R77") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "control"
@@ -2962,7 +2962,7 @@
     (property "Value" "VBatt EOS" (at 95.25 38.608 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 97.79 40.64 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 97.79 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 40.64 0)
@@ -3048,7 +3048,7 @@
     (property "Value" "Gate SS" (at 274.32 51.308 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 276.86 53.34 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 276.86 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 276.86 53.34 0)
@@ -3167,7 +3167,7 @@
   (symbol (lib_id "power:GND") (at 312.42 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af13c091-7400-4e06-943f-0117c26d805e)
-    (property "Reference" "#PWR023" (at 312.42 62.23 0)
+    (property "Reference" "#PWR024" (at 312.42 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 312.42 60.96 0)
@@ -3183,7 +3183,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/966fab5a-ccd3-4169-a651-1134c1c683b9"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "control"
@@ -3659,7 +3659,7 @@
     (property "Value" "LTC4367 OV EOS" (at 191.77 74.168 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 194.31 76.2 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 194.31 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 76.2 0)
@@ -3697,7 +3697,7 @@
           (reference "#PWR0121") (unit 1)
         )
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/966fab5a-ccd3-4169-a651-1134c1c683b9"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )

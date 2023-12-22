@@ -503,7 +503,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 106.68 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05649993-6ac2-4f75-b612-8b640ee08bac)
-    (property "Reference" "R70" (at 109.22 41.91 0)
+    (property "Reference" "R90" (at 109.22 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 109.22 44.45 0)
@@ -520,7 +520,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-          (reference "R70") (unit 1)
+          (reference "R90") (unit 1)
         )
       )
     )
@@ -529,7 +529,7 @@
   (symbol (lib_id "power:GND") (at 118.11 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 655c0424-73c3-4cb5-904f-9ef6e6fc4f99)
-    (property "Reference" "#PWR0117" (at 118.11 80.01 0)
+    (property "Reference" "#PWR0162" (at 118.11 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 78.74 0)
@@ -545,7 +545,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -554,7 +554,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 97.79 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d037889-ebe7-4ee2-b9cf-79e5f82e6e4a)
-    (property "Reference" "R71" (at 100.33 41.91 0)
+    (property "Reference" "R89" (at 100.33 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 100.33 44.45 0)
@@ -571,7 +571,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-          (reference "R71") (unit 1)
+          (reference "R89") (unit 1)
         )
       )
     )
@@ -580,7 +580,7 @@
   (symbol (lib_id "power:+3V3") (at 115.57 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7851020-3932-477a-a930-31b06943e4a4)
-    (property "Reference" "#PWR0116" (at 115.57 39.37 0)
+    (property "Reference" "#PWR0161" (at 115.57 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 115.57 30.48 0)
@@ -596,7 +596,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -633,7 +633,7 @@
           (reference "J4") (unit 1)
         )
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-          (reference "J10") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )

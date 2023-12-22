@@ -400,7 +400,15 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|482600|558800|647e164c-ed1a-42c6-ae95-9c9b9e9d24a6|f10127ff-38d8-4ad6-9870-dc1ab37cf7cd|||",
+      "multiple_net_names|482600|558800|c6dde205-65af-41de-84e6-d153493b70ae|f10127ff-38d8-4ad6-9870-dc1ab37cf7cd|||",
+      "pin_to_pin|1943100|419100|7d1e82bb-af55-4d58-a690-0eef150e5671|d2731f3b-64a0-442f-8e35-780fb93fe248|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85",
+      "pin_to_pin|1943100|990600|cc153976-ecf7-47e9-9514-e5e8b58f45a8|2a2ec16f-9533-4a0a-8670-04765603ec58|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/18b5a777-2ae2-444a-8013-2f46c3974bf2",
+      "pin_to_pin|1943100|990600|cc153976-ecf7-47e9-9514-e5e8b58f45a8|569f14d0-fd84-4142-8927-a24b5e4db0de|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/18b5a777-2ae2-444a-8013-2f46c3974bf2",
+      "pin_to_pin|1943100|990600|cc153976-ecf7-47e9-9514-e5e8b58f45a8|63b2d1df-a7aa-4fa6-8128-a3e08af8e1cd|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/18b5a777-2ae2-444a-8013-2f46c3974bf2",
+      "pin_to_pin|1943100|990600|cc153976-ecf7-47e9-9514-e5e8b58f45a8|d06902e1-001e-4067-9bea-8caeaf12fdaa|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb|/7c007fad-bfbf-4e78-a837-1f8089552516/18b5a777-2ae2-444a-8013-2f46c3974bf2"
+    ],
     "meta": {
       "version": 0
     },
@@ -680,6 +688,14 @@
       {
         "netclass": "HV",
         "pattern": "/hv_kicker/flyback_charger/HV_AC"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/DL2S"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/hv_kicker/DL1S"
       }
     ]
   },

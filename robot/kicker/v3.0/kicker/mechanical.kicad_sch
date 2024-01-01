@@ -61,6 +61,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 25.4 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3e359ed2-b753-4636-a1ea-9a3d83448bc8)
+    (property "Reference" "H6" (at 27.94 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2" (at 27.94 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 25.4 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 25.4 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516/4d5d86cd-ec95-402a-873b-72ed338f41dd"
+          (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 36.83 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4065dfee-d799-4a79-8c11-5ee422ccf41d)
@@ -80,6 +104,54 @@
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/4d5d86cd-ec95-402a-873b-72ed338f41dd"
           (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 25.4 46.99 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ddc0acb-1d7d-4c33-a359-70f11c279ed7)
+    (property "Reference" "H5" (at 27.94 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2" (at 27.94 48.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 25.4 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 25.4 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516/4d5d86cd-ec95-402a-873b-72ed338f41dd"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 36.83 46.99 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 84bdfd71-3c8d-46f5-8755-3d6b7edd21d6)
+    (property "Reference" "H7" (at 39.37 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "9774005243R " (at 39.37 48.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 36.83 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.83 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516/4d5d86cd-ec95-402a-873b-72ed338f41dd"
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -128,6 +200,30 @@
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/4d5d86cd-ec95-402a-873b-72ed338f41dd"
           (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 36.83 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f1024ce0-4e3a-427c-92ed-389739d49d38)
+    (property "Reference" "H8" (at 39.37 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "9774005243R " (at 39.37 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 36.83 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.83 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kicker"
+        (path "/7c007fad-bfbf-4e78-a837-1f8089552516/4d5d86cd-ec95-402a-873b-72ed338f41dd"
+          (reference "H8") (unit 1)
         )
       )
     )

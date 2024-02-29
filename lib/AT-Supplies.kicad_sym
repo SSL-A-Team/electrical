@@ -183,6 +183,52 @@
       )
     )
   )
+  (symbol "+V_{FAN}" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+V_{FAN}" (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+V_{FAN}_0_1"
+      (polyline
+        (pts
+          (xy -0.76 1.27)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 0)
+          (xy 0.002 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.002 2.54)
+          (xy 0.764 1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "+V_{FAN}_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+V_{FAN}" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "B0503S-1WR3" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))

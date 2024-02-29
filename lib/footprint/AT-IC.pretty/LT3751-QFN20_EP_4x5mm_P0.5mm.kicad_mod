@@ -63,4 +63,9 @@
   (pad "20" smd rect (at -0.75 -2.4) (size 0.25 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d5f4d798-57d3-493b-b57c-3b6e89508879))
   (pad "21" smd rect (at 0 0) (size 2.65 3.65) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin -0.75) (tstamp f08895dc-4dcb-4aef-a39b-5a08864cdaaf))
+  (model ":LIB_DIR_AT:3dmodels/cube_1x1x1mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 4.5 5.5 0.75))
+    (rotate (xyz 0 0 0))
+  )
 )

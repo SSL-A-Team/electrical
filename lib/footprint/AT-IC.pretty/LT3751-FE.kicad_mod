@@ -68,4 +68,9 @@
   (pad "20" smd rect (at -2.925 -2.775) (size 0.45 1.05) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 10a19224-b087-4842-8af6-b5f13664bbac))
   (pad "21" smd rect (at 0 0) (size 3.86 2.74) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e3bdae9c-1c4f-4e0b-9e8c-f2a273c14b11))
+  (model ":LIB_DIR_AT:3dmodels/cube_1x1x1mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 6.6 6.4 1.2))
+    (rotate (xyz 0 0 0))
+  )
 )

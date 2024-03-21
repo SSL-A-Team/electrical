@@ -1349,6 +1349,50 @@
     )
   )
 
+  (symbol (lib_id "AT-Transistors:Q_NMOS_SGD_PowerPAK") (at 173.99 50.8 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 23d7b39e-2e73-47b9-a4ce-f9820c985ea4)
+    (property "Reference" "Q14" (at 173.99 39.37 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "STL90N10F7" (at 173.99 41.91 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "AT-Discrete:PowerFLAT_5x6" (at 171.45 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 173.99 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e5652d02-a18e-445f-b9a6-f606b6a729e6))
+    (pin "2" (uuid 392f935b-acf9-4964-ae36-9fc901e47ef2))
+    (pin "3" (uuid 12b15a49-099c-474b-af3a-9371bcaadb41))
+    (pin "4" (uuid 17980639-6fcd-44cb-b74d-e202484251aa))
+    (pin "5" (uuid 3cd584d6-94fa-41d0-8cb0-3735debe70ce))
+    (instances
+      (project "control"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/b48e05f4-e3fe-4b6d-99db-b6d00b405149"
+          (reference "Q14") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/c444a231-b490-4b56-8fc8-1e882188a7e5"
+          (reference "Q8") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/c167575a-0142-4af1-89c7-1603756978c3"
+          (reference "Q26") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/87e24030-7873-433c-a389-4b2815947a82"
+          (reference "Q20") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/3d07cd7f-ec9d-4cb0-8ec7-2b3ae9045719"
+          (reference "Q32") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
+          (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 144.78 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e7f3aab-a755-41b0-994a-7e07f81b0e14)
@@ -1464,35 +1508,6 @@
     )
   )
 
-  (symbol (lib_id "AT-Transistors:Q_NMOS_SGD_PowerPAK") (at 194.31 50.8 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 36510709-d655-407e-92ac-5d7deed92cad)
-    (property "Reference" "Q2" (at 194.31 38.1 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SQJA80EP-T1_GE3" (at 194.31 40.64 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AT-Discrete:PowerPAK_SO-8L_Single" (at 196.85 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 194.31 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 759736d9-892e-4ba5-a1f0-891d12641bdd))
-    (pin "2" (uuid 344dff0e-94a2-46bc-9ed0-feb61e3073a9))
-    (pin "3" (uuid b2cf3cbf-6e07-4d4a-91ad-aace7136ae70))
-    (pin "4" (uuid 157de8e1-6203-4543-9f38-443e731ceb7d))
-    (pin "5" (uuid bbe63113-40e0-4c8e-9896-a28de2adb9f7))
-    (instances
-      (project "control"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
-          (reference "Q2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small_US") (at 156.21 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a99bbdf-1aa7-46d6-ae82-1606d760f27b)
@@ -1514,6 +1529,50 @@
       (project "control"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
           (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "AT-Transistors:Q_NMOS_SGD_PowerPAK") (at 194.31 50.8 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3fd7f0b5-0b1b-4aed-bd67-58f826c39dc8)
+    (property "Reference" "Q14" (at 194.31 39.37 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "STL90N10F7" (at 194.31 41.91 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "AT-Discrete:PowerFLAT_5x6" (at 196.85 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 80a96757-4a4d-4abe-9dbc-8ff2b3b00a54))
+    (pin "2" (uuid 225f695b-2803-4ee6-8195-8d2a6117ad2c))
+    (pin "3" (uuid e8ab1ece-f34c-42d3-a6e0-6ed9876410c2))
+    (pin "4" (uuid 5b443086-4a6e-4756-85e7-d0a02ee7f8f9))
+    (pin "5" (uuid 57f315eb-d88a-4700-91f5-13ccc8483f7a))
+    (instances
+      (project "control"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/b48e05f4-e3fe-4b6d-99db-b6d00b405149"
+          (reference "Q14") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/c444a231-b490-4b56-8fc8-1e882188a7e5"
+          (reference "Q8") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/c167575a-0142-4af1-89c7-1603756978c3"
+          (reference "Q26") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/87e24030-7873-433c-a389-4b2815947a82"
+          (reference "Q20") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b652e806-2d00-41c9-9687-f0dbcef3cd66/3d07cd7f-ec9d-4cb0-8ec7-2b3ae9045719"
+          (reference "Q32") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -1545,35 +1604,6 @@
     )
   )
 
-  (symbol (lib_id "AT-Transistors:Q_NMOS_SGD_PowerPAK") (at 173.99 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 50e3ba53-6819-4b0b-a9e6-65465c230df4)
-    (property "Reference" "Q1" (at 173.99 38.1 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SQJA80EP-T1_GE3" (at 173.99 40.64 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AT-Discrete:PowerPAK_SO-8L_Single" (at 171.45 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 173.99 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ebf13acd-2865-4019-be83-2983a215b26b))
-    (pin "2" (uuid 20b5bab2-6bbe-4db8-bacc-3d9484068214))
-    (pin "3" (uuid a6d3192e-9a21-403c-b6bd-24f558196784))
-    (pin "4" (uuid b007fb04-bc69-485e-8feb-3ea8105fa08d))
-    (pin "5" (uuid 95e0e677-d4ef-405f-af68-c3b556fc99f6))
-    (instances
-      (project "control"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
-          (reference "Q1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small_US") (at 92.71 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63740919-3dc1-400c-88f1-f5b8b6882314)
@@ -1600,6 +1630,32 @@
       (project "control"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
           (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 156.21 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ccfed96-a0a4-4a77-b602-4e0d1f744704)
+    (property "Reference" "R6" (at 158.75 85.725 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "232k" (at 158.75 88.265 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 156.21 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 156.21 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5827f2e2-6f91-4190-8299-41802b92d8b0))
+    (pin "2" (uuid 3b70715c-dcd2-4302-92da-057477e54bbe))
+    (instances
+      (project "control"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2169,32 +2225,6 @@
       (project "control"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
           (reference "#PWR012") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 156.21 86.36 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fc73eb89-87a9-47fb-9188-6b996b1914ce)
-    (property "Reference" "R6" (at 158.75 85.0899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "232k" (at 158.75 87.6299 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 156.21 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 156.21 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5113040a-3dcc-4232-a39d-4497d3699ae6))
-    (pin "2" (uuid b00ff580-deee-4c41-afba-938e2f19c0e0))
-    (instances
-      (project "control"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fff34b63-f9ca-49b5-8ad5-f92410864411"
-          (reference "R6") (unit 1)
         )
       )
     )

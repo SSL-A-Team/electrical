@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (company "The A-Team (RC SSL)")
+    (comment 1 "W. Stuckey & R. Osawa")
+  )
+
   (lib_symbols
     (symbol "AT-Supplies:+V_{FAN}" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (at 0 -3.81 0)

@@ -400,8 +400,8 @@
     )
   )
 
-  (bus_alias "BB_I2C" (members "SDA" "SCL" "RST" "~{DET}" "INT" "AGPIO"))
   (bus_alias "AT_UART" (members "TX" "RX" "BOOT0" "RST" "~{DET}" "PWR_EN"))
+  (bus_alias "BB_I2C" (members "SDA" "SCL" "RST" "~{DET}" "INT" "AGPIO"))
   (bus_alias "SYSCLK" (members "8MHZ_CLK_REF" "32KHZ_CLK_REF"))
   (junction (at 55.88 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 810c9c36-005c-4dfc-8232-9ca961d19232)

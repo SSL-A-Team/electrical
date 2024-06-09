@@ -962,7 +962,7 @@
   (symbol (lib_id "Device:D") (at 194.31 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 177b8e02-e8df-470e-b059-3f46bd52385d)
-    (property "Reference" "D17" (at 188.595 118.11 90)
+    (property "Reference" "D18" (at 188.595 118.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MURS460" (at 182.88 120.65 90)
@@ -985,7 +985,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "D17") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
       (project "kicker"
@@ -1030,7 +1030,7 @@
   (symbol (lib_id "power:GND") (at 124.46 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33392f81-8e6a-4a7e-9afc-74f340f1dc57)
-    (property "Reference" "#PWR0116" (at 124.46 152.4 0)
+    (property "Reference" "#PWR0128" (at 124.46 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 151.13 0)
@@ -1046,7 +1046,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
       (project "kicker"
@@ -1060,7 +1060,7 @@
   (symbol (lib_id "power:GND") (at 107.95 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a70d286-cc39-4ff8-ad12-1643a238dfd6)
-    (property "Reference" "#PWR0112" (at 107.95 48.26 0)
+    (property "Reference" "#PWR0124" (at 107.95 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 46.99 0)
@@ -1076,7 +1076,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
       (project "kicker"
@@ -1090,7 +1090,7 @@
   (symbol (lib_id "Device:Q_NIGBT_GCE") (at 191.77 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c911682-8159-4458-8994-27b1b6e301e1)
-    (property "Reference" "Q6" (at 197.485 134.6199 0)
+    (property "Reference" "Q7" (at 197.485 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IXGA48N60A3" (at 197.485 137.1599 0)
@@ -1108,7 +1108,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "Q6") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
       (project "kicker"
@@ -1122,7 +1122,7 @@
   (symbol (lib_id "power:GND") (at 138.43 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 698326bd-344d-4571-a8d2-609d16388c4f)
-    (property "Reference" "#PWR0117" (at 138.43 81.28 0)
+    (property "Reference" "#PWR0129" (at 138.43 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 80.01 0)
@@ -1138,7 +1138,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
       (project "kicker"
@@ -1152,7 +1152,7 @@
   (symbol (lib_id "Device:R_US") (at 111.76 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 834a2c3f-6e66-4a3a-8995-ed910145f62b)
-    (property "Reference" "R64" (at 114.3 64.7699 0)
+    (property "Reference" "R77" (at 114.3 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 114.3 67.3099 0)
@@ -1169,7 +1169,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "R64") (unit 1)
+          (reference "R77") (unit 1)
         )
       )
       (project "kicker"
@@ -1183,7 +1183,7 @@
   (symbol (lib_id "power:GND") (at 173.99 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96f34ee7-ad5e-440b-8bd7-d30cf806bb1a)
-    (property "Reference" "#PWR0119" (at 173.99 81.28 0)
+    (property "Reference" "#PWR0131" (at 173.99 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 80.01 0)
@@ -1199,7 +1199,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
       (project "kicker"
@@ -1213,7 +1213,7 @@
   (symbol (lib_id "Device:Q_NIGBT_GCE") (at 121.92 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f435790-3828-46a3-bf1d-de7fd389bc78)
-    (property "Reference" "Q5" (at 127.635 134.6199 0)
+    (property "Reference" "Q6" (at 127.635 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IXGA48N60A3" (at 127.635 137.1599 0)
@@ -1231,7 +1231,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "Q5") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
       (project "kicker"
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "Device:R_US") (at 163.83 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acf7d261-4a34-4129-bded-1423f8faa687)
-    (property "Reference" "R66" (at 166.37 64.7699 0)
+    (property "Reference" "R79" (at 166.37 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 166.37 67.3099 0)
@@ -1262,7 +1262,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "R66") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
       (project "kicker"
@@ -1276,7 +1276,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af262610-7dc0-4b88-80a5-7492377cb47d)
-    (property "Reference" "R68" (at 186.69 54.61 90)
+    (property "Reference" "R81" (at 186.69 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 182.88 50.8 90)
@@ -1293,7 +1293,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "R68") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
       (project "kicker"
@@ -1307,7 +1307,7 @@
   (symbol (lib_id "power:GND") (at 194.31 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b442888c-4f56-41b4-9d6d-81a9d58b4f55)
-    (property "Reference" "#PWR0120" (at 194.31 152.4 0)
+    (property "Reference" "#PWR0132" (at 194.31 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 151.13 0)
@@ -1323,7 +1323,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
       (project "kicker"
@@ -1337,7 +1337,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5cc2f35-1757-44dd-bf84-d4a6055f80f5)
-    (property "Reference" "R69" (at 186.69 59.69 90)
+    (property "Reference" "R82" (at 186.69 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 182.88 55.88 90)
@@ -1354,7 +1354,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "R69") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
       (project "kicker"
@@ -1368,7 +1368,7 @@
   (symbol (lib_id "Device:C") (at 123.19 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6dc1980-4e65-4749-aa9e-96ce89c252a6)
-    (property "Reference" "C53" (at 126.365 34.2899 0)
+    (property "Reference" "C61" (at 126.365 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n 50V" (at 126.365 36.8299 0)
@@ -1385,7 +1385,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "C53") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
       (project "kicker"
@@ -1399,7 +1399,7 @@
   (symbol (lib_id "AT-PowerIC:IX4427") (at 138.43 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b85bf854-5d20-43d2-8cc3-005a9e04b3b9)
-    (property "Reference" "U12" (at 140.4494 42.545 0)
+    (property "Reference" "U13" (at 140.4494 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IX4427" (at 140.4494 45.085 0)
@@ -1422,7 +1422,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "U12") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
       (project "kicker"
@@ -1436,7 +1436,7 @@
   (symbol (lib_id "Device:C") (at 107.95 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3bc012-78b1-4722-a931-b7ce01abbd2f)
-    (property "Reference" "C52" (at 111.76 34.2899 0)
+    (property "Reference" "C60" (at 111.76 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 50V" (at 111.76 36.8299 0)
@@ -1453,7 +1453,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "C52") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
       (project "kicker"
@@ -1467,7 +1467,7 @@
   (symbol (lib_id "power:GND") (at 163.83 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c61a1f12-31d9-412f-82ab-604a51e0c697)
-    (property "Reference" "#PWR0118" (at 163.83 81.28 0)
+    (property "Reference" "#PWR0130" (at 163.83 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 80.01 0)
@@ -1483,7 +1483,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
       (project "kicker"
@@ -1497,7 +1497,7 @@
   (symbol (lib_id "Device:R_US") (at 123.19 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0527cef-f906-4254-b802-21f3b24655db)
-    (property "Reference" "R65" (at 125.73 64.7699 0)
+    (property "Reference" "R78" (at 125.73 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 125.73 67.3099 0)
@@ -1514,7 +1514,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "R65") (unit 1)
+          (reference "R78") (unit 1)
         )
       )
       (project "kicker"
@@ -1528,7 +1528,7 @@
   (symbol (lib_id "power:GND") (at 123.19 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2a31fdc-0874-4795-bcdb-373e666b3539)
-    (property "Reference" "#PWR0115" (at 123.19 81.28 0)
+    (property "Reference" "#PWR0127" (at 123.19 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 80.01 0)
@@ -1544,7 +1544,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
       (project "kicker"
@@ -1558,7 +1558,7 @@
   (symbol (lib_id "Device:R_US") (at 173.99 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dabe4e6d-37e0-4e02-9785-1be5d62fabfb)
-    (property "Reference" "R67" (at 176.53 64.7699 0)
+    (property "Reference" "R80" (at 176.53 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 176.53 67.3099 0)
@@ -1575,7 +1575,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "R67") (unit 1)
+          (reference "R80") (unit 1)
         )
       )
       (project "kicker"
@@ -1589,7 +1589,7 @@
   (symbol (lib_id "Device:D") (at 124.46 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef377972-aac8-4158-99cd-580010af496e)
-    (property "Reference" "D16" (at 118.745 118.11 90)
+    (property "Reference" "D17" (at 118.745 118.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MURS460" (at 113.03 120.65 90)
@@ -1612,7 +1612,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "D16") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
       (project "kicker"
@@ -1626,7 +1626,7 @@
   (symbol (lib_id "power:GND") (at 111.76 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb3036c0-5af7-4aa8-8527-a0cc0eacb0a5)
-    (property "Reference" "#PWR0113" (at 111.76 81.28 0)
+    (property "Reference" "#PWR0125" (at 111.76 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 80.01 0)
@@ -1642,7 +1642,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
       (project "kicker"
@@ -1656,7 +1656,7 @@
   (symbol (lib_id "power:GND") (at 123.19 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdb7aa95-a759-4611-b522-dde588d870cc)
-    (property "Reference" "#PWR0114" (at 123.19 48.26 0)
+    (property "Reference" "#PWR0126" (at 123.19 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 46.99 0)
@@ -1672,7 +1672,7 @@
     (instances
       (project "kicker"
         (path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
       (project "kicker"

@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kicker")
-    (date "2024-05-23")
+    (date "2024-06-10")
     (rev "3.1")
     (company "The A-Team (RC SSL)")
     (comment 1 "W. Stuckey")
@@ -2248,7 +2248,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 312.42 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 08ee693b-171a-41e8-b6a4-976f11b0c602)
     (property "Reference" "TP5" (at 314.96 37.338 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2366,7 +2366,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 16a63fce-c8cc-40c1-a455-3f308790a6fc)
     (property "Reference" "TP2" (at 191.77 64.008 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2486,7 +2486,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 256.54 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24c1f0de-dea1-4b17-b1d3-9a283443decd)
     (property "Reference" "JP1" (at 259.08 99.06 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2548,13 +2548,13 @@
     (property "Reference" "Q1" (at 184.15 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (at 184.15 152.4 0)
+    (property "Value" "BSS138K" (at 184.15 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 182.88 153.035 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 177.8 151.13 0)
+    (property "Datasheet" "~" (at 177.8 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 34faef46-17b1-4289-a99b-8ba97ebfe4bb))
@@ -2631,7 +2631,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 92.71 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 38f1278a-832a-4c8e-9e4e-7310d9310860)
     (property "Reference" "R2" (at 95.25 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2660,7 +2660,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 299.72 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ca8ab88-a3bd-46c2-b331-4a94a5ece4bc)
     (property "Reference" "JP2" (at 299.72 76.2 0)
       (effects (font (size 1.27 1.27)))
@@ -3186,7 +3186,7 @@
     (property "Reference" "R91" (at 349.25 46.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "23.2k 1%" (at 349.25 49.53 0)
+    (property "Value" "23.2k" (at 349.25 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 346.71 48.26 0)
@@ -3244,12 +3244,12 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 114.3 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 72ece68c-3dfb-4110-8d16-25e3cae9a6f6)
     (property "Reference" "C2" (at 116.84 49.5363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u 63V" (at 118.11 52.07 0)
+    (property "Value" "10u 100V" (at 118.11 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 114.3 50.8 0)
@@ -3459,7 +3459,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 92.71 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9330f2a9-c200-45b1-86e7-203aa7b495d8)
     (property "Reference" "TP1" (at 95.25 36.068 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3545,7 +3545,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 271.78 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a20aa148-a876-45ce-a302-212904ee1695)
     (property "Reference" "TP4" (at 274.32 48.768 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3734,7 +3734,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 92.71 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid aff27a16-43aa-4677-be97-6c09179b8214)
     (property "Reference" "C1" (at 95.25 58.4263 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4113,7 +4113,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 82.55 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid d88331f2-fd8f-47b9-90fc-5325c62b3557)
     (property "Reference" "R1" (at 85.09 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4198,7 +4198,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid df408cea-14b3-4cca-a0f1-83f0dd3aaa2e)
     (property "Reference" "TP3" (at 191.77 71.628 0)
       (effects (font (size 1.27 1.27)) (justify left))

@@ -2128,8 +2128,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 101.6)
-		(size 12.7 25.4)
+		(at 114.3 25.4)
+		(size 26.67 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2140,7 +2140,7 @@
 		)
 		(uuid "1fec5463-8912-483c-b44e-100b30634a16")
 		(property "Sheetname" "power_protection"
-			(at 50.8 100.8884 0)
+			(at 114.3 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,13 +2149,63 @@
 			)
 		)
 		(property "Sheetfile" "power_protection.kicad_sch"
-			(at 50.8 127.5846 0)
+			(at 114.3 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "V_{BATT(PROTECTED)}" output
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6697f86-fb48-4365-8bbd-8daf5ca521c7")
+		)
+		(pin "PGOOD" input
+			(at 140.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b10f25fc-ffcd-48dc-a280-efac77136c0b")
+		)
+		(pin "~{KILL}_{PWR}" input
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a90bc466-764b-4365-a999-73b256a6524b")
+		)
+		(pin "~{INT}_{PWRBTN}" output
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "432b0b4b-6962-4db5-ac22-37029b88e069")
+		)
+		(pin "V_{BATT}" input
+			(at 114.3 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f48526d9-6444-4164-a89f-ddbac0f8acb8")
 		)
 		(instances
 			(project "power"
@@ -2166,7 +2216,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 101.6)
+		(at 152.4 101.6)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -2178,7 +2228,7 @@
 		)
 		(uuid "642bb91d-49c0-4cf8-873a-5f48d8e3ffef")
 		(property "Sheetname" "mcu"
-			(at 101.6 100.8884 0)
+			(at 152.4 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2237,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 101.6 127.5846 0)
+			(at 152.4 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,6 +2249,44 @@
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 25.4)
+		(size 24.13 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d574928d-1cb2-417b-bb85-eff98bc19326")
+		(property "Sheetname" "power_regulation"
+			(at 165.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_regulation.kicad_sch"
+			(at 165.1 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c"
+					(page "4")
 				)
 			)
 		)

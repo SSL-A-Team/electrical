@@ -61,6 +61,10 @@ for cell in range(1, lipo_battery_model.get_num_cells() + 1):
 
 # assume we have an independent measurement of vbatt which would match cell 6 params
 total_resistances.append(total_resistances[lipo_battery_model.get_num_cells() - 1])
+# update from OVLO/UVLO in schematic, and cross check with TI provided .xlsx files since current sources are involved
+total_resistances.append(47.5e3 + 9.53e3)
+total_resistances.append(95.3e3 + 8.66e3)
+
 print(total_resistances)
 
 def calc_parallel_resistance(res_arr):

@@ -1351,17 +1351,6 @@
 		)
 		(uuid "c9ff5a38-c73f-49bf-8427-7e5254d26497")
 	)
-	(label "{VMON}"
-		(at 207.01 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e765e3b6-98a9-44bb-b635-39e3fe6dd2af")
-	)
 	(label "CELL1"
 		(at 54.61 91.44 180)
 		(fields_autoplaced yes)
@@ -1373,8 +1362,8 @@
 		)
 		(uuid "fb86ffe7-459e-4793-9745-abe2b3f182e7")
 	)
-	(global_label "{BATT_BALANCE}"
-		(shape input)
+	(hierarchical_label "{BATT_BALANCE}"
+		(shape bidirectional)
 		(at 39.37 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1383,17 +1372,19 @@
 			)
 			(justify right)
 		)
-		(uuid "17f556a0-6453-46a8-8217-9a54f8da1804")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2052 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "0e28e318-10a2-4876-b5b3-8678cc40fd19")
+	)
+	(hierarchical_label "{VMON}"
+		(shape output)
+		(at 207.01 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "871d34b4-5f97-4e29-b8e7-8fddb9292a0c")
 	)
 	(symbol
 		(lib_id "power:GND")

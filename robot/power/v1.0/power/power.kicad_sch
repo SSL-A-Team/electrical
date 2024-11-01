@@ -237,6 +237,18 @@
 			)
 		)
 	)
+	(junction
+		(at 77.47 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a9ef23-4e48-448e-b7dc-e08c9a40f937")
+	)
+	(junction
+		(at 115.57 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64141043-b0fd-4762-80c6-914908282b14")
+	)
 	(wire
 		(pts
 			(xy 123.19 64.77) (xy 115.57 64.77)
@@ -297,6 +309,36 @@
 		)
 		(uuid "25e0b885-0d70-4dd5-92f9-b8458a6ee17f")
 	)
+	(bus
+		(pts
+			(xy 45.72 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312a4c0b-a10b-4c5e-b383-c47909e33bf6")
+	)
+	(bus
+		(pts
+			(xy 161.29 72.39) (xy 243.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc9b8e7-8a9d-43c5-b033-dcc40ef0f394")
+	)
+	(bus
+		(pts
+			(xy 107.95 66.04) (xy 107.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec9ea6d-85d2-49d2-8a29-068dbeceb414")
+	)
 	(wire
 		(pts
 			(xy 161.29 62.23) (xy 167.64 62.23)
@@ -326,16 +368,6 @@
 			(type default)
 		)
 		(uuid "5c9f96f6-2303-44b9-8002-67cf554a282d")
-	)
-	(wire
-		(pts
-			(xy 173.99 27.94) (xy 173.99 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "654f2ee0-8710-4508-91fa-fe0487ca3867")
 	)
 	(wire
 		(pts
@@ -379,6 +411,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 27.94) (xy 77.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ebae62-2299-431b-8181-8ee2c98ca5e4")
+	)
+	(wire
+		(pts
 			(xy 118.11 62.23) (xy 123.19 62.23)
 		)
 		(stroke
@@ -397,6 +439,16 @@
 		)
 		(uuid "97ada8b7-2f94-4f28-9eeb-748f9a174047")
 	)
+	(bus
+		(pts
+			(xy 55.88 33.02) (xy 55.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a1b3d6-1ade-4915-87aa-ea1734588200")
+	)
 	(wire
 		(pts
 			(xy 172.72 67.31) (xy 172.72 35.56)
@@ -409,7 +461,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 27.94) (xy 173.99 27.94)
+			(xy 115.57 27.94) (xy 179.07 27.94)
 		)
 		(stroke
 			(width 0)
@@ -437,6 +489,16 @@
 		)
 		(uuid "d17daf2a-81bd-4c14-9071-ba0fa0485a83")
 	)
+	(bus
+		(pts
+			(xy 161.29 77.47) (xy 243.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f917ee-5c9f-484d-9c67-7e01a0739496")
+	)
 	(wire
 		(pts
 			(xy 167.64 30.48) (xy 179.07 30.48)
@@ -447,6 +509,16 @@
 		)
 		(uuid "e7adecc8-caee-4f6d-b928-c5d7728fbf99")
 	)
+	(bus
+		(pts
+			(xy 101.6 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dbbb5b-cae5-41d6-8f21-4530cc1b7efd")
+	)
 	(wire
 		(pts
 			(xy 109.22 27.94) (xy 115.57 27.94)
@@ -456,6 +528,26 @@
 			(type default)
 		)
 		(uuid "e9edde9f-f26d-4d11-939f-502e6621bf26")
+	)
+	(bus
+		(pts
+			(xy 55.88 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f338a464-8b2a-40a3-b427-35be4ff2dbe7")
+	)
+	(bus
+		(pts
+			(xy 161.29 74.93) (xy 243.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8578dda-9e96-4074-9383-6ff0cef62b65")
 	)
 	(wire
 		(pts
@@ -477,6 +569,16 @@
 		)
 		(uuid "fca54b22-7b99-41be-9cda-57b7420e57a1")
 	)
+	(bus
+		(pts
+			(xy 107.95 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe17c454-9e54-4829-a7f7-509f644afefc")
+	)
 	(symbol
 		(lib_id "AT-Supplies:+V_{BATT(FUSED)}")
 		(at 77.47 24.13 0)
@@ -496,7 +598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+V_{BATT(FUSED)}"
+		(property "Value" "+V_{batt_fused}"
 			(at 77.472 19.05 0)
 			(effects
 				(font
@@ -609,76 +711,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 173.99 24.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7150b08-9853-41f0-bce8-1684f3ac084e")
-		(property "Reference" "#PWR059"
-			(at 173.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 173.99 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 173.99 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "756a0c5f-480f-4ba4-884a-84707f23e307")
-		)
-		(instances
-			(project "power"
-				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 254 25.4)
-		(size 12.7 25.4)
+		(at 243.84 69.85)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -689,7 +724,7 @@
 		)
 		(uuid "19922bfd-d7fb-4b45-8d98-869d2e01df92")
 		(property "Sheetname" "output_connectors"
-			(at 254 24.6884 0)
+			(at 243.84 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,13 +733,43 @@
 			)
 		)
 		(property "Sheetfile" "output_connectors.kicad_sch"
-			(at 254 51.3846 0)
+			(at 243.84 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "{STATUS_UART}" bidirectional
+			(at 243.84 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe903c8f-db03-44dd-b9e9-8e164a6659e6")
+		)
+		(pin "{STATUS_I2C}" bidirectional
+			(at 243.84 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b61bb35-3dad-40a2-93f3-b5f0bfdc9c4e")
+		)
+		(pin "{STATUS_SPI}" bidirectional
+			(at 243.84 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0297c032-6e71-46a3-9877-3cc14d8551a5")
 		)
 		(instances
 			(project "power"
@@ -784,7 +849,7 @@
 			)
 			(uuid "432b0b4b-6962-4db5-ac22-37029b88e069")
 		)
-		(pin "V_{BATT}" input
+		(pin "V_{batt}" input
 			(at 82.55 27.94 180)
 			(effects
 				(font
@@ -792,7 +857,7 @@
 				)
 				(justify left)
 			)
-			(uuid "f48526d9-6444-4164-a89f-ddbac0f8acb8")
+			(uuid "d9095843-86d3-4ba0-a9bb-a68b56bc5826")
 		)
 		(instances
 			(project "power"
@@ -832,26 +897,6 @@
 				(justify left top)
 			)
 		)
-		(pin "12v0_EN" output
-			(at 161.29 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fa58d5e4-fa75-487e-99e8-fc2e48bd0303")
-		)
-		(pin "5v0_EN" output
-			(at 161.29 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e680727e-bde9-4a9b-9d2f-e738a75a9b70")
-		)
 		(pin "PWR_~{KILL}" output
 			(at 123.19 67.31 180)
 			(effects
@@ -861,26 +906,6 @@
 				(justify left)
 			)
 			(uuid "72d0e06d-4130-422f-8a26-3b59e093bda5")
-		)
-		(pin "3v3_EN" output
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dd624acb-3afd-4420-8be2-d140c920c2ee")
-		)
-		(pin "PWN_BTN_~{INT}" input
-			(at 123.19 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b98b636e-0cc4-4064-b897-408af85b17b1")
 		)
 		(pin "LOAD_SW_PGOOD" input
 			(at 123.19 64.77 180)
@@ -892,6 +917,86 @@
 			)
 			(uuid "4b39444b-c370-402b-97d5-5bd44ba40955")
 		)
+		(pin "PWR_3v3_EN" output
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d23d06b4-4220-4fbd-baa4-b26ce6174e0c")
+		)
+		(pin "PWR_5v0_EN" output
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87e75605-29a7-4c6f-95f8-64f1a0df9e25")
+		)
+		(pin "PWR_12v0_EN" output
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7aba8f6c-cc13-4cef-b036-49d0198438c1")
+		)
+		(pin "{STATUS_UART}" bidirectional
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a97e1ac7-e2c1-4def-8cf3-d6ce8c50763c")
+		)
+		(pin "{STATUS_SPI}" bidirectional
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e54c7793-5b0d-4d36-a472-d5c4796998f7")
+		)
+		(pin "{STATUS_I2C}" bidirectional
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "baab895d-826f-4094-8d28-0f9096e1cde1")
+		)
+		(pin "PWR_BTN_~{INT}" input
+			(at 123.19 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f63d5ff4-2b76-41fd-ac19-d4dd7d14e629")
+		)
+		(pin "{VMON}" bidirectional
+			(at 123.19 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61ca3613-cd54-4e0d-98c7-c2d18c30402f")
+		)
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c"
@@ -901,8 +1006,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
-		(size 12.7 25.4)
+		(at 20.32 25.4)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -913,7 +1018,7 @@
 		)
 		(uuid "696b16f9-d9b9-4cb7-88ff-5b8233394079")
 		(property "Sheetname" "input_connectors"
-			(at 25.4 24.6884 0)
+			(at 20.32 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,13 +1027,33 @@
 			)
 		)
 		(property "Sheetfile" "input_connectors.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 20.32 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "{BATT_BALANCE}" bidirectional
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a36e7c4-410b-40bd-b0ca-2f20e606787b")
+		)
+		(pin "V_{batt_fused}" bidirectional
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3dd191c-1433-4783-91a6-70e4ee14f200")
 		)
 		(instances
 			(project "power"
@@ -1018,7 +1143,7 @@
 	)
 	(sheet
 		(at 63.5 63.5)
-		(size 25.4 25.4)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1045,6 +1170,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "{BATT_BALANCE}" bidirectional
+			(at 63.5 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ebe35273-a6b1-4dcf-8652-13bbaeeeed2e")
+		)
+		(pin "{VMON}" output
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76fb6489-f199-4208-9e35-f4ad95493b3c")
 		)
 		(instances
 			(project "power"

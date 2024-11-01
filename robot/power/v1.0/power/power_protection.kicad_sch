@@ -4388,7 +4388,19 @@
 		)
 		(uuid "40650784-20da-4bcf-865f-d3331cb37c89")
 	)
-	(hierarchical_label "V_{BATT}"
+	(hierarchical_label "V_{batt}"
+		(shape input)
+		(at 52.07 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6664bbc0-fed2-42a4-b7f4-90ac303f5edf")
+	)
+	(hierarchical_label "V_{batt}"
 		(shape input)
 		(at 30.48 64.77 180)
 		(fields_autoplaced yes)
@@ -4411,18 +4423,6 @@
 			(justify left)
 		)
 		(uuid "a1ecf75f-1360-4710-87e1-ccb49aa45785")
-	)
-	(hierarchical_label "V_{BATT}"
-		(shape input)
-		(at 52.07 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aabedbb1-b524-46bc-9c81-2fcea5dd9c85")
 	)
 	(hierarchical_label "V_{BATT(PROTECTED)}"
 		(shape output)
@@ -7232,7 +7232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 82.55 213.36 0)
 			(effects
 				(font

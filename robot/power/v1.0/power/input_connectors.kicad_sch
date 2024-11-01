@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "fae93a6a-c6f3-4eec-89a3-06efd0c52e74")
 	(paper "A4")
+	(title_block
+		(title "Power Board")
+		(date "2024-11-01")
+		(rev "1.0")
+		(company "SSL A-Team")
+		(comment 1 "Will Stuckey")
+	)
 	(lib_symbols
 		(symbol "AT-Supplies:+V_{BATT(RAW)}"
 			(power)
@@ -1367,7 +1374,7 @@
 	)
 	(text "Power Input"
 		(exclude_from_sim no)
-		(at 21.59 25.4 0)
+		(at 19.05 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1476,7 +1483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a31de69-1f77-42d5-9a23-abd8a3e5ea4c")
-		(property "Reference" "J1"
+		(property "Reference" "J10"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -1528,7 +1535,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "J1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1544,7 +1551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7c9c5a-afd1-48c9-bf4d-c824602e662b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0107"
 			(at 46.99 82.55 0)
 			(effects
 				(font
@@ -1594,7 +1601,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "#PWR03")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a375bfe-9fdb-415e-825e-b4216c68a0fa")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0106"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -1660,7 +1667,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "#PWR02")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -1675,7 +1682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54b414c1-aaaa-4f09-87e7-034d4a1e80a4")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG011"
 			(at 49.53 27.305 0)
 			(effects
 				(font
@@ -1725,7 +1732,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "#FLG01")
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)
@@ -1740,7 +1747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c396596-dbcb-4ea2-9dfc-f03ff11a3bf5")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG013"
 			(at 74.93 27.305 0)
 			(effects
 				(font
@@ -1790,7 +1797,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "#FLG03")
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -1806,7 +1813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "893a5317-4921-45ff-a3d3-e1d696e7e1cc")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0105"
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -1856,7 +1863,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "#PWR01")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -1873,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a375a7cb-385c-4173-b8ee-a91b236f20bf")
-		(property "Reference" "J2"
+		(property "Reference" "J11"
 			(at 39.37 50.8 0)
 			(effects
 				(font
@@ -1949,7 +1956,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "J2")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1965,7 +1972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a59d7994-2c25-468b-8a96-1b2dd78966ae")
-		(property "Reference" "F1"
+		(property "Reference" "F6"
 			(at 66.04 25.4 90)
 			(effects
 				(font
@@ -2017,7 +2024,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "F1")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -2032,7 +2039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1935fc2-28c2-43b1-ab77-bbb6929581b6")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG012"
 			(at 49.53 38.735 0)
 			(effects
 				(font
@@ -2082,7 +2089,7 @@
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/696b16f9-d9b9-4cb7-88ff-5b8233394079"
-					(reference "#FLG02")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)

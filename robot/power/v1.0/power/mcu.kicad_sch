@@ -4207,9 +4207,6 @@
 			)
 		)
 	)
-	(bus_alias "BATT_BALANCE"
-		(members "CELL1" "CELL2" "CELL3" "CELL4" "CELL5" "CELL6")
-	)
 	(bus_alias "STATUS_I2C"
 		(members "SDA" "SCL")
 	)
@@ -4220,8 +4217,8 @@
 		(members "RX" "TX")
 	)
 	(bus_alias "VMON"
-		(members "CELL1" "CELL2" "CELL3" "CELL4" "CELL5" "CELL6" "12v0" "5v0" "3v3"
-			"BATT_PRE" "BATT_POST" "BATT_TEMP"
+		(members "CELL_1" "CELL_2" "CELL_3" "CELL_4" "CELL_5" "CELL_6" "BATT_PRE"
+			"BATT_POST" "BATT_TEMP" "12v0" "5v0" "3v3"
 		)
 	)
 	(junction
@@ -6568,6 +6565,16 @@
 	)
 	(bus
 		(pts
+			(xy 49.53 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa956dc-97d3-4c1c-aea2-c5b15662ffe2")
+	)
+	(bus
+		(pts
 			(xy 260.35 90.17) (xy 256.54 90.17)
 		)
 		(stroke
@@ -6775,16 +6782,6 @@
 			(type default)
 		)
 		(uuid "f203b674-6a47-4feb-b702-ec6c32933a33")
-	)
-	(bus
-		(pts
-			(xy 49.53 52.07) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f203ec5f-601d-4399-bc56-7879406624e9")
 	)
 	(wire
 		(pts
@@ -7055,7 +7052,7 @@
 		)
 		(uuid "db94eaf1-d9b5-43de-815f-4d39c8106205")
 	)
-	(label "LED_SHUTDOWN_ACK"
+	(label "~{LED_SHUTDOWN_ACK}"
 		(at 229.87 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7099,7 +7096,7 @@
 		)
 		(uuid "0a3c3c6f-8f7f-4892-87ad-ba8e1f95128b")
 	)
-	(label "CELL4"
+	(label "CELL_2"
 		(at 360.68 132.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7143,7 +7140,7 @@
 		)
 		(uuid "10f1eab8-7735-4875-850e-864897be147c")
 	)
-	(label "CELL5"
+	(label "CELL_5"
 		(at 360.68 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7198,7 +7195,7 @@
 		)
 		(uuid "1e5171b0-21ae-45ae-b79a-0996b2ff02a6")
 	)
-	(label "CELL4"
+	(label "CELL_4"
 		(at 360.68 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7308,7 +7305,7 @@
 		)
 		(uuid "40c0866e-d97f-46a0-aeb5-ebec260413ca")
 	)
-	(label "CELL5"
+	(label "CELL_5"
 		(at 229.87 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7352,7 +7349,7 @@
 		)
 		(uuid "458d1bf8-b19e-4ac2-8c0a-e321494847a5")
 	)
-	(label "CELL3"
+	(label "CELL_3"
 		(at 229.87 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7396,7 +7393,7 @@
 		)
 		(uuid "497c6b9b-cd2b-4c0a-98f3-c154a67c6674")
 	)
-	(label "LED_SHUTDOWN_ACK"
+	(label "~{LED_SHUTDOWN_ACK}"
 		(at 200.66 238.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7407,7 +7404,7 @@
 		)
 		(uuid "55285383-230c-4ad9-8072-c49c0af05871")
 	)
-	(label "CELL3"
+	(label "CELL_3"
 		(at 360.68 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7627,7 +7624,7 @@
 		)
 		(uuid "8d2f9182-5204-4eb3-b072-150ebbf0d135")
 	)
-	(label "CELL2"
+	(label "CELL_2"
 		(at 229.87 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7638,7 +7635,7 @@
 		)
 		(uuid "91beedc5-4e5a-4d0d-9221-37213a08dbf1")
 	)
-	(label "CELL6"
+	(label "CELL_6"
 		(at 360.68 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7649,7 +7646,7 @@
 		)
 		(uuid "9544f6e0-c640-4a53-938b-5474f9ece93f")
 	)
-	(label "CELL1"
+	(label "CELL_1"
 		(at 360.68 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7702,7 +7699,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a83d4b9b-35b1-465a-8640-4caaa10f2eec")
+		(uuid "a631d77f-84fc-4568-96d2-a9b4345810ac")
 	)
 	(label "PWR_5v0_EN"
 		(at 58.42 26.67 0)
@@ -7803,7 +7800,7 @@
 		)
 		(uuid "c86869fb-454a-4271-82e0-1db5fa051338")
 	)
-	(label "CELL1"
+	(label "CELL_1"
 		(at 229.87 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7847,7 +7844,7 @@
 		)
 		(uuid "da58c593-2202-4573-b360-fce000707375")
 	)
-	(label "CELL6"
+	(label "CELL_6"
 		(at 229.87 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7979,7 +7976,7 @@
 		)
 		(uuid "f22042ae-15c2-4da4-bcb3-fd1398c79e9c")
 	)
-	(label "CELL4"
+	(label "CELL_4"
 		(at 229.87 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8012,7 +8009,7 @@
 		)
 		(uuid "f6ee0aac-e3cb-43fa-b8f5-a64e81e42d8a")
 	)
-	(label "LED_SHUTDOWN_ACK"
+	(label "LED_SHUTDOWN_ACK_PWR"
 		(at 360.68 214.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8117,7 +8114,7 @@
 			)
 			(justify right)
 		)
-		(uuid "de827538-63bf-43ec-b6ec-3cb8083310b2")
+		(uuid "ec6956e9-3872-45fe-840b-be6389da3d9e")
 	)
 	(hierarchical_label "PWR_BTN_~{INT}"
 		(shape input)
@@ -9901,15 +9898,15 @@
 	(symbol
 		(lib_id "Transistor_FET:BSS84")
 		(at 208.28 238.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "587cd6b3-1c99-4421-8129-0f271c840c99")
 		(property "Reference" "Q1"
-			(at 214.63 237.4899 0)
+			(at 214.63 240.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9915,7 @@
 			)
 		)
 		(property "Value" "BSS84"
-			(at 214.63 240.0299 0)
+			(at 214.63 237.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,7 +9924,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 213.36 240.665 0)
+			(at 213.36 236.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,7 +9935,7 @@
 			)
 		)
 		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 213.36 242.57 0)
+			(at 213.36 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

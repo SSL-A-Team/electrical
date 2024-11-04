@@ -529,6 +529,179 @@
 				)
 			)
 		)
+		(symbol "Device:D_AAK"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_AAK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, anode on pins 1 and 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_AAK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_AAK_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
@@ -2333,6 +2506,12 @@
 		(uuid "84f53e19-8a97-4920-a5ea-e83adbc260d0")
 	)
 	(junction
+		(at 144.78 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e5a57b5-378f-45fe-9eb2-3ad20f7f18fc")
+	)
+	(junction
 		(at 116.84 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2379,6 +2558,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b17127db-7159-46a8-89f5-04a3e9bbb2ec")
+	)
+	(junction
+		(at 144.78 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5460841-b983-40ab-a098-379ac94332ac")
 	)
 	(junction
 		(at 144.78 223.52)
@@ -2463,6 +2648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7fa9175-6d21-4886-8df8-88c623b2fc00")
+	)
+	(junction
+		(at 144.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e924698c-ea8f-4c44-9fbb-ff47053b006f")
 	)
 	(junction
 		(at 165.1 160.02)
@@ -2738,6 +2929,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 66.04) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b0c91e-9575-47a8-a4c8-771046856802")
+	)
+	(wire
+		(pts
 			(xy 295.91 114.3) (xy 304.8 114.3)
 		)
 		(stroke
@@ -2855,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "222da517-c7bf-4f73-93f5-f291c62d6ccc")
+	)
+	(wire
+		(pts
+			(xy 144.78 234.95) (xy 144.78 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231e226e-6085-48c7-99b2-c54afe30086e")
 	)
 	(wire
 		(pts
@@ -3038,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 148.59) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c68ef85-2f44-43fc-b52c-69da9b7e27e2")
+	)
+	(wire
+		(pts
 			(xy 92.71 144.78) (xy 92.71 152.4)
 		)
 		(stroke
@@ -3065,16 +3286,6 @@
 			(type default)
 		)
 		(uuid "3dac79a0-c721-4d1b-a28e-1ef64e045da8")
-	)
-	(wire
-		(pts
-			(xy 144.78 62.23) (xy 144.78 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2d9417-95e4-4650-a834-ef832d6c520c")
 	)
 	(wire
 		(pts
@@ -3345,6 +3556,16 @@
 			(type default)
 		)
 		(uuid "5d3f40cf-6bee-4c9b-9f8d-0f238f48b3ca")
+	)
+	(wire
+		(pts
+			(xy 144.78 237.49) (xy 147.32 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecae785-38e5-406f-a519-67c85ddb6133")
 	)
 	(wire
 		(pts
@@ -3658,16 +3879,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 147.32) (xy 144.78 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbdb2ef-7dae-42f5-9945-61a68d5bb242")
-	)
-	(wire
-		(pts
 			(xy 165.1 160.02) (xy 165.1 162.56)
 		)
 		(stroke
@@ -3898,6 +4109,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 148.59) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6aa39b-3e1d-4e06-8052-583023427bbc")
+	)
+	(wire
+		(pts
 			(xy 80.01 223.52) (xy 101.6 223.52)
 		)
 		(stroke
@@ -3935,6 +4156,16 @@
 			(type default)
 		)
 		(uuid "a36d366d-9160-412a-9436-f5c3f0de21d1")
+	)
+	(wire
+		(pts
+			(xy 144.78 151.13) (xy 144.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68a74db-2d95-4372-8d55-f104e36733a0")
 	)
 	(wire
 		(pts
@@ -4118,6 +4349,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 66.04) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4d5c5d-0279-4777-9553-291e2a4fb9e8")
+	)
+	(wire
+		(pts
 			(xy 144.78 52.07) (xy 144.78 54.61)
 		)
 		(stroke
@@ -4125,6 +4366,16 @@
 			(type default)
 		)
 		(uuid "bcde631f-a9c6-401a-bf5e-ef0b5a6987d6")
+	)
+	(wire
+		(pts
+			(xy 147.32 234.95) (xy 147.32 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4628fa-3e0f-4537-817f-ed05d849feb8")
 	)
 	(wire
 		(pts
@@ -4348,6 +4599,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 151.13) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d73e4e-3782-4c9d-a4cc-92ba08439d86")
+	)
+	(wire
+		(pts
 			(xy 60.96 142.24) (xy 68.58 142.24)
 		)
 		(stroke
@@ -4418,6 +4679,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 63.5) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd60a375-3d8e-4b22-a918-2aade31e1934")
+	)
+	(wire
+		(pts
 			(xy 80.01 238.76) (xy 80.01 223.52)
 		)
 		(stroke
@@ -4448,6 +4719,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 63.5) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa3d0c1-22a2-454c-abae-e5591c347ec0")
+	)
+	(wire
+		(pts
 			(xy 68.58 67.31) (xy 60.96 67.31)
 		)
 		(stroke
@@ -4465,16 +4746,6 @@
 			(type default)
 		)
 		(uuid "e482d223-5398-405b-a49d-c4c7d99b11a2")
-	)
-	(wire
-		(pts
-			(xy 144.78 233.68) (xy 144.78 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67fb1f0-c0d9-4ecd-821c-edeb710e50e0")
 	)
 	(wire
 		(pts
@@ -4705,6 +4976,16 @@
 			(type default)
 		)
 		(uuid "f736aade-aa1d-48ae-b572-c154867599e5")
+	)
+	(wire
+		(pts
+			(xy 144.78 237.49) (xy 144.78 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76ce8ea-1b32-4adf-bf44-56f0694cbcbc")
 	)
 	(wire
 		(pts
@@ -5183,72 +5464,6 @@
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bee4e19-58b8-4871-b66a-378057c23d75")
-		(property "Reference" "#PWR063"
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c21c7f6-8b68-45a0-94cd-8fafad9367dc")
-		)
-		(instances
-			(project "power"
-				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5798,6 +6013,79 @@
 			(project ""
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_AAK")
+		(at 144.78 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "209957ee-1763-47ed-8210-4dcd08901ad6")
+		(property "Reference" "D12"
+			(at 148.59 143.4464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V25PN60"
+			(at 148.59 145.9864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, anode on pins 1 and 2"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82c2e6fc-daae-43d0-89f0-21a8ac509d1f")
+		)
+		(pin "3"
+			(uuid "003ec07d-3d8c-4415-983c-fe3eca76d8cd")
+		)
+		(pin "2"
+			(uuid "067e0a45-d5c8-45a5-a3bd-8e09d62145c6")
+		)
+		(instances
+			(project "power"
+				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -6920,75 +7208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 144.78 229.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ed2d7d5-5289-467a-948f-8aad806565ed")
-		(property "Reference" "D14"
-			(at 147.32 228.2824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V25PN60"
-			(at 147.574 230.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
-			(at 144.78 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 144.78 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c323aad0-f8fd-4109-8f0e-1e4f110c711c")
-		)
-		(pin "2"
-			(uuid "aa02dd8b-f8d2-4b96-b0e4-4614f9df8937")
-		)
-		(instances
-			(project "power"
-				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 189.23 223.52 0)
 		(unit 1)
@@ -7327,6 +7546,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_AAK")
+		(at 144.78 229.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c46848f-943d-472b-ac73-532d0533a291")
+		(property "Reference" "D13"
+			(at 148.59 229.8064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V25PN60"
+			(at 148.59 232.3464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 144.78 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, anode on pins 1 and 2"
+			(at 144.78 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5419605-ae6d-4662-88ff-2742261453e4")
+		)
+		(pin "3"
+			(uuid "f9e5e7b4-ac0a-4be1-ab2d-1bab89cb0e69")
+		)
+		(pin "2"
+			(uuid "4afeaee4-0a86-4af4-b7a2-be899161f399")
+		)
+		(instances
+			(project "power"
+				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d54f9a4-d5ee-4823-981e-d7a4e2a06707")
+		(property "Reference" "#PWR064"
+			(at 144.78 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf65aa9-efd6-4252-bcf3-6d71cb9bddb2")
+		)
+		(instances
+			(project "power"
+				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 295.91 134.62 0)
 		(mirror y)
@@ -7601,7 +7959,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 64.77 0)
+		(at 144.78 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7610,7 +7968,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a3b4fa0-0231-4545-815b-e722bb07ce1f")
 		(property "Reference" "#PWR062"
-			(at 144.78 71.12 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 69.85 0)
+			(at 144.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 64.77 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 64.77 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +8003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 64.77 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,16 +8672,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 236.22 0)
+		(at 144.78 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a2e0fa2-7b44-4c40-9941-fc99832e436a")
-		(property "Reference" "#PWR064"
-			(at 144.78 242.57 0)
+		(uuid "6ad1b1b5-7459-41d5-b6dc-29eea29e74f4")
+		(property "Reference" "#PWR063"
+			(at 144.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 241.3 0)
+			(at 144.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 236.22 0)
+			(at 144.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 236.22 0)
+			(at 144.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 236.22 0)
+			(at 144.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,12 +8725,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "57855674-babd-4d09-9228-ddc7a112e092")
+			(uuid "7b8ec3b4-78f8-4326-83f8-342b0bda765e")
 		)
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10318,75 +10676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 144.78 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b48c740a-2ddb-43a6-a45b-e3fb4fd9a87c")
-		(property "Reference" "D13"
-			(at 147.32 141.9224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V25PN60"
-			(at 147.574 144.526 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb829e0f-8ef6-4e0d-a5fe-24d4bce017e7")
-		)
-		(pin "2"
-			(uuid "b4d65268-f561-4865-96ba-3c4c62e095d7")
-		)
-		(instances
-			(project "power"
-				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 294.64 66.04 0)
 		(unit 1)
@@ -10899,6 +11188,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_AAK")
+		(at 144.78 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5eb0f52-c8a1-405e-b7b0-35b6d2041bea")
+		(property "Reference" "D17"
+			(at 148.59 58.3564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V25PN60"
+			(at 148.59 60.8964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, anode on pins 1 and 2"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11d82c56-577f-4a6c-bf95-d8440d844b81")
+		)
+		(pin "3"
+			(uuid "3254bd86-d71c-4030-b767-1916e8dd167f")
+		)
+		(pin "2"
+			(uuid "ede5da7d-a4ef-44a2-bca1-e0c625d9b2db")
+		)
+		(instances
+			(project ""
+				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 85.09 0)
 		(unit 1)
@@ -10959,75 +11321,6 @@
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 144.78 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c877bba7-8617-44d1-8eea-dad9e1b07900")
-		(property "Reference" "D12"
-			(at 147.32 56.8324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V25PN60"
-			(at 147.574 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
-			(at 144.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 144.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ed579d9-32e3-49ee-8c3c-a8e6b80fd237")
-		)
-		(pin "2"
-			(uuid "67b9ca32-2b9e-4ffc-8f15-c3ccb2462c52")
-		)
-		(instances
-			(project "power"
-				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c/d574928d-1cb2-417b-bb85-eff98bc19326"
-					(reference "D12")
 					(unit 1)
 				)
 			)

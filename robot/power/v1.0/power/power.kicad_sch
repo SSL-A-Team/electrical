@@ -847,6 +847,44 @@
 		)
 	)
 	(sheet
+		(at 25.4 165.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d24fb73-b54c-4b30-96ad-860a8fcc97a9")
+		(property "Sheetname" "mechanical"
+			(at 25.4 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical.kicad_sch"
+			(at 25.4 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 43.18)
 		(size 49.53 19.05)
 		(fields_autoplaced yes)

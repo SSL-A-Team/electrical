@@ -348,16 +348,6 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 88.9) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29544bde-9af2-432c-a936-93b0c41053ea")
-	)
-	(bus
-		(pts
 			(xy 127 83.82) (xy 132.08 83.82)
 		)
 		(stroke
@@ -365,16 +355,6 @@
 			(type default)
 		)
 		(uuid "3641bb2f-b1aa-4c31-9264-a6703159e231")
-	)
-	(bus
-		(pts
-			(xy 212.09 99.06) (xy 189.23 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aee493e-57bb-426f-8941-13e25ae0449a")
 	)
 	(bus
 		(pts
@@ -575,16 +555,6 @@
 			(type default)
 		)
 		(uuid "d5b48b3e-a6b9-4838-9311-6dc296d941ad")
-	)
-	(bus
-		(pts
-			(xy 212.09 88.9) (xy 214.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f917ee-5c9f-484d-9c67-7e01a0739496")
 	)
 	(wire
 		(pts
@@ -817,16 +787,6 @@
 				(justify left)
 			)
 			(uuid "fe903c8f-db03-44dd-b9e9-8e164a6659e6")
-		)
-		(pin "{STATUS_I2C}" bidirectional
-			(at 214.63 88.9 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3b61bb35-3dad-40a2-93f3-b5f0bfdc9c4e")
 		)
 		(pin "{STATUS_SPI}" bidirectional
 			(at 214.63 86.36 180)
@@ -1071,16 +1031,6 @@
 				(justify right)
 			)
 			(uuid "e54c7793-5b0d-4d36-a472-d5c4796998f7")
-		)
-		(pin "{STATUS_I2C}" bidirectional
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "baab895d-826f-4094-8d28-0f9096e1cde1")
 		)
 		(pin "PWR_BTN_~{INT}" input
 			(at 151.13 86.36 180)

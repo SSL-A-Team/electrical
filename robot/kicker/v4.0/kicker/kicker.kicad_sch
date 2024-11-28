@@ -578,7 +578,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3VADC"
+		(symbol "power:+3V0"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -587,7 +587,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 3.81 -1.27 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -595,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VADC"
+			(property "Value" "+3V0"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -621,7 +621,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
+			(property "Description" "Power symbol creates a global label with name \"+3V0\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -639,27 +639,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VADC_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "+3.3VADC_0_1"
+			(symbol "+3V0_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -694,6 +674,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "+3V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2387,72 +2387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VADC")
-		(at 139.7 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cd4feb7-a829-4b79-8b5d-28a3bf8f1d02")
-		(property "Reference" "#PWR021"
-			(at 143.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VADC"
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
-			(at 139.7 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "520cf50e-6cd3-4ae1-a55f-fd5b2345ac0e")
-		)
-		(instances
-			(project ""
-				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 41.91 119.38 0)
 		(mirror y)
@@ -2738,6 +2672,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d32c359b-76af-46c7-981c-a0b5d6236afe")
+		(property "Reference" "#PWR013"
+			(at 139.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V0"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33891594-a805-47a9-9fa9-61ae73c6def0")
+		)
+		(instances
+			(project ""
+				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 294.64 99.06)
 		(size 38.1 19.05)
@@ -2876,26 +2876,6 @@
 			)
 			(uuid "c52c22f0-bf51-4c6e-a59a-d5ee5f604ea6")
 		)
-		(pin "V_{sense}_12v0" input
-			(at 194.31 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "26c7c7e8-ff3e-4f3e-913e-cb68fed90a47")
-		)
-		(pin "V_{sense}_5v0" input
-			(at 194.31 116.84 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b8545cd1-60e5-4412-be10-9810e1807bc4")
-		)
 		(pin "V_{sense}_HV" input
 			(at 194.31 124.46 180)
 			(effects
@@ -2905,16 +2885,6 @@
 				(justify left)
 			)
 			(uuid "f1e59cd0-cec0-4062-a419-b439bf33e4a7")
-		)
-		(pin "V_{sense}_SERVO" input
-			(at 194.31 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0705fe0d-cbff-4d55-98ef-9a6a6aa372ee")
 		)
 		(pin "BB_RIGHT{BB_I2C}" bidirectional
 			(at 242.57 119.38 0)
@@ -2945,26 +2915,6 @@
 				(justify right)
 			)
 			(uuid "df41d953-b8a6-40f2-8ce7-d8d947cd2b04")
-		)
-		(pin "V_{sense}_3v3" input
-			(at 194.31 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "60037cf9-3f0a-487c-affe-fa246181b0ba")
-		)
-		(pin "V_{sense}_V_{batt}" input
-			(at 194.31 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6f011fff-2ec4-4862-af7c-51d1596e7f8c")
 		)
 		(instances
 			(project "kicker"
@@ -3082,17 +3032,7 @@
 			)
 			(uuid "a568d0a1-65b0-4ee8-b5e6-c5c28672489e")
 		)
-		(pin "19v0_EN" input
-			(at 63.5 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "24760410-3560-4508-8e83-754c079fccd6")
-		)
-		(pin "3v3_VDDA" output
+		(pin "3v0_VDDA" output
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -3100,7 +3040,17 @@
 				)
 				(justify right)
 			)
-			(uuid "e431817e-837a-4d45-b857-d06c1276e8c6")
+			(uuid "345a2afc-d862-4ddd-9ca5-c06c02341fb0")
+		)
+		(pin "18v0_EN" input
+			(at 63.5 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bdd7c35c-b613-4b5f-84f3-1c92f5c8522d")
 		)
 		(instances
 			(project "kicker"

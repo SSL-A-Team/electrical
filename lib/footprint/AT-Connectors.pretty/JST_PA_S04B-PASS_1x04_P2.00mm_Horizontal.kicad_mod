@@ -1,12 +1,12 @@
-(footprint "JST_PA_S06B-PASS_1x06_P2.00mm_Horizontal"
+(footprint "JST_PA_S04B-PASS_1x04_P2.00mm_Horizontal"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "JST PA series connector, S06B-PASS (https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf)")
+	(descr "JST PA series connector, S04B-PASS (https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf)")
 	(tags "connector JST PA side entry")
 	(property "Reference" "J"
-		(at 9.5 2.5 90)
+		(at 7.25 2.5 90)
 		(layer "F.SilkS")
 		(uuid "0bc6e54a-1ae1-4f19-9349-4e3557cfb30e")
 		(effects
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_PA_S06B-PASS_1x06_P2.00mm_Horizontal"
+	(property "Value" "JST_PA_S04B-PASS_1x04_P2.00mm_Horizontal"
 		(at 0 7.5 0)
 		(layer "F.Fab")
 		(uuid "12147077-136a-4df8-b42b-4cf0857efaae")
@@ -65,8 +65,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -8 -2)
-		(end -8 -4)
+		(start -6 -2)
+		(end -6 -4)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "5d2b766d-dce0-4e59-a35d-a96971f50b13")
 	)
 	(fp_line
-		(start -8 4.5)
-		(end -8 2.5)
+		(start -6 4.5)
+		(end -6 2.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "4f27730f-5bdd-48ce-9d41-41f9f6a321d5")
 	)
 	(fp_line
-		(start -8 4.5)
-		(end -6.5 4.5)
+		(start -6 4.5)
+		(end -4.5 4.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -95,8 +95,8 @@
 		(uuid "05339fc7-dc72-4cd2-90c6-6271b1aa234a")
 	)
 	(fp_line
-		(start 6.5 4.5)
-		(end 8 4.5)
+		(start 4.5 4.5)
+		(end 6 4.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -105,8 +105,8 @@
 		(uuid "86e0b537-7fdf-4e8f-b5a5-7d0406558e47")
 	)
 	(fp_line
-		(start 8 -2)
-		(end 8 -4)
+		(start 6 -2)
+		(end 6 -4)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -115,8 +115,8 @@
 		(uuid "b2bb62b1-1b50-4692-b11a-055e686f2a07")
 	)
 	(fp_line
-		(start 8 4.5)
-		(end 8 2.5)
+		(start 6 4.5)
+		(end 6 2.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -125,8 +125,8 @@
 		(uuid "c1ea71e8-d2eb-4bc9-bed2-6de3d0ea3b26")
 	)
 	(fp_line
-		(start 8 -4.45)
-		(end -8 -4.45)
+		(start 6 -4.45)
+		(end -6 -4.45)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -135,8 +135,8 @@
 		(uuid "e31c1c85-605b-464e-90ba-21ca3b0ef38d")
 	)
 	(fp_line
-		(start -8.5 -5)
-		(end -8.5 6.5)
+		(start -6.5 -5)
+		(end -6.5 6.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "837cc214-24fd-4665-badf-f7e32c9424b9")
 	)
 	(fp_line
-		(start -8.5 6.5)
-		(end 8.5 6.5)
+		(start -6.5 6.5)
+		(end 6.5 6.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "d9e7e641-c987-464a-8e5c-d1d2cc64477a")
 	)
 	(fp_line
-		(start 8.5 -5)
-		(end -8.5 -5)
+		(start 6.5 -5)
+		(end -6.5 -5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "8e061ed8-5341-43ca-b38c-005a7e4ab0b1")
 	)
 	(fp_line
-		(start 8.5 6.5)
-		(end 8.5 -5)
+		(start 6.5 6.5)
+		(end 6.5 -5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "55661e77-6302-4c08-b73c-48024a2e2b54")
 	)
 	(fp_line
-		(start 4.5 2.5)
-		(end 5 3)
+		(start 2.5 2.5)
+		(end 3 3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -185,8 +185,8 @@
 		(uuid "72983c39-09fe-4f46-bf01-c963479a7892")
 	)
 	(fp_line
-		(start 5 3)
-		(end 5.5 2.5)
+		(start 3 3)
+		(end 3.5 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -195,8 +195,8 @@
 		(uuid "3dc9ad0c-1d6f-43ee-9d4a-20f4c8b0efd5")
 	)
 	(fp_line
-		(start 5.5 2.5)
-		(end 4.5 2.5)
+		(start 3.5 2.5)
+		(end 2.5 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -216,59 +216,47 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 5 4.7)
+		(at 3 4.7)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4405b3e0-2c0b-47d6-8ae9-2eb33f7a3762")
 	)
 	(pad "2" smd rect
-		(at 3 4.7)
+		(at 1 4.7)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d2319d8d-49a4-4a30-9860-2674710c83e1")
 	)
 	(pad "3" smd rect
-		(at 1 4.7)
+		(at -1 4.7)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bfd568c9-62b0-4824-a224-5982eea3117f")
 	)
 	(pad "4" smd rect
-		(at -1 4.7)
+		(at -3 4.7)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5b5c4714-f7ce-42a6-baca-af6e08905aac")
 	)
-	(pad "5" smd rect
-		(at -3 4.7)
-		(size 1 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "ed2bd9b5-16a9-42dd-bbc6-6678f03dae48")
-	)
-	(pad "6" smd rect
-		(at -5 4.7)
-		(size 1 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "0a439fa0-8f3c-4c5a-b874-dd183cc87144")
-	)
 	(pad "MP" smd rect
-		(at -7.35 0.25)
+		(at -5.35 0.25)
 		(size 1.8 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4eca31e3-6874-4843-ad3e-65fff21c30da")
 	)
 	(pad "MP" smd rect
-		(at 7.35 0.25)
+		(at 5.35 0.25)
 		(size 1.8 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "adf50b30-a92b-49ed-9b8d-72bcef29803e")
 	)
 	(model "${LIB_DIR_AT}/3dmodels/cube_1x1x1mm.step"
 		(offset
-			(xyz 0.125 -0.25 0)
+			(xyz 0.15 -0.25 0)
 		)
 		(scale
-			(xyz 13.6 7.3 5.7)
+			(xyz 9.5 7.3 5.7)
 		)
 		(rotate
 			(xyz 0 0 0)

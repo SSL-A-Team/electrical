@@ -308,16 +308,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 191.77 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c831d0-7968-46c5-9f86-58fcad235711")
-	)
-	(wire
-		(pts
 			(xy 139.7 88.9) (xy 151.13 88.9)
 		)
 		(stroke
@@ -375,16 +365,6 @@
 			(type default)
 		)
 		(uuid "3ec9ea6d-85d2-49d2-8a29-068dbeceb414")
-	)
-	(wire
-		(pts
-			(xy 189.23 83.82) (xy 191.77 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cda812b-f3f2-4c5c-816d-d207d089a013")
 	)
 	(wire
 		(pts
@@ -575,16 +555,6 @@
 			(type default)
 		)
 		(uuid "e3949f02-21c6-4dee-8812-48bb8f941d7a")
-	)
-	(wire
-		(pts
-			(xy 191.77 48.26) (xy 214.63 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7adecc8-caee-4f6d-b928-c5d7728fbf99")
 	)
 	(bus
 		(pts
@@ -1002,16 +972,6 @@
 			)
 			(uuid "87e75605-29a7-4c6f-95f8-64f1a0df9e25")
 		)
-		(pin "PWR_12v0_EN" output
-			(at 189.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7aba8f6c-cc13-4cef-b036-49d0198438c1")
-		)
 		(pin "{STATUS_UART}" bidirectional
 			(at 189.23 93.98 0)
 			(effects
@@ -1177,16 +1137,6 @@
 				(justify left)
 			)
 			(uuid "b340b245-8a38-4009-a054-519048670c53")
-		)
-		(pin "12v0_EN" input
-			(at 214.63 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8ffeda0e-df7c-49f3-83a5-4560cbaaebd9")
 		)
 		(instances
 			(project "power"

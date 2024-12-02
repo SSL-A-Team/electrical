@@ -4858,6 +4858,28 @@
 			)
 		)
 	)
+	(global_label "~{PB}"
+		(shape input)
+		(at 85.09 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f86588b-5cd9-40b2-8926-10bd40fbfbce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.5648 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3.3V_LOCAL_ALWAYS_ON"
 		(shape input)
 		(at 194.31 190.5 0)
@@ -8195,7 +8217,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "JST_SH"
+		(property "Value" "SM02B_GHS"
 			(at 86.36 214.63 90)
 			(effects
 				(font

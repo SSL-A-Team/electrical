@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Kicker")
-		(date "2024-06-10")
-		(rev "3.1")
+		(date "2024-12-04")
+		(rev "4.0")
 		(company "The A-Team (RC SSL)")
 		(comment 1 "W. Stuckey")
 	)
@@ -2067,17 +2067,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U14"
-				(at 1.9559 14.605 0)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "LT3757EMSE"
-				(at 1.9559 12.065 0)
+				(at 1.27 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2307,7 +2306,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "INTVCC"
@@ -2347,9 +2346,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2423,8 +2422,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2459,12 +2458,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "088703b1-2085-4a61-8b1f-8d1a575da991")
-	)
-	(junction
-		(at 341.63 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "130789e5-9946-4161-962a-14635017aa82")
 	)
 	(junction
 		(at 201.93 201.93)
@@ -2513,6 +2506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "337e6856-a695-4b7f-ae74-4c7745cdb2a2")
+	)
+	(junction
+		(at 335.28 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40538521-81b1-4b47-a577-5ac8482b4986")
 	)
 	(junction
 		(at 179.07 93.98)
@@ -2579,18 +2578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a259d8f5-f25c-4fb9-8438-dc1d4b9ed6aa")
-	)
-	(junction
-		(at 350.52 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3346d89-bd8c-40ff-be26-62dae24e3425")
-	)
-	(junction
-		(at 332.74 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a68bba9d-a36c-4555-811d-b82887bda34b")
 	)
 	(junction
 		(at 168.91 201.93)
@@ -2730,16 +2717,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 105.41) (xy 341.63 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d958688-5095-40c2-bde1-f1a8a48a26c0")
-	)
-	(wire
-		(pts
 			(xy 175.26 201.93) (xy 168.91 201.93)
 		)
 		(stroke
@@ -2830,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 115.57) (xy 332.74 129.54)
+			(xy 335.28 115.57) (xy 335.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 105.41) (xy 332.74 105.41)
+			(xy 327.66 105.41) (xy 335.28 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2907,16 +2884,6 @@
 			(type default)
 		)
 		(uuid "298e5f23-361e-4df0-9904-a059a21d6321")
-	)
-	(wire
-		(pts
-			(xy 341.63 105.41) (xy 341.63 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2de41354-7de7-4d3f-9b2c-6d3fb83d934b")
 	)
 	(wire
 		(pts
@@ -3140,16 +3107,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 105.41) (xy 350.52 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fb137e8-c978-477a-af90-79353ec71cee")
-	)
-	(wire
-		(pts
 			(xy 43.18 91.44) (xy 48.26 91.44)
 		)
 		(stroke
@@ -3367,6 +3324,16 @@
 			(type default)
 		)
 		(uuid "7180cdd7-64ed-448b-863b-7a50ae5453b2")
+	)
+	(wire
+		(pts
+			(xy 335.28 105.41) (xy 359.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b4549a-2e52-4116-b564-09fcc4ca96be")
 	)
 	(wire
 		(pts
@@ -3627,26 +3594,6 @@
 			(type default)
 		)
 		(uuid "a863d3e5-714d-4029-9a0a-a22c77c867e4")
-	)
-	(wire
-		(pts
-			(xy 341.63 115.57) (xy 341.63 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9078774-8132-4802-b595-3665c414fa0e")
-	)
-	(wire
-		(pts
-			(xy 350.52 105.41) (xy 359.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95e6c9b-05ff-43da-afe7-698b0d2d870e")
 	)
 	(wire
 		(pts
@@ -4040,16 +3987,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 105.41) (xy 350.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e469d314-b1a7-4a85-bd1d-e38b8a43929d")
-	)
-	(wire
-		(pts
 			(xy 152.4 208.28) (xy 152.4 201.93)
 		)
 		(stroke
@@ -4087,16 +4024,6 @@
 			(type default)
 		)
 		(uuid "ebd3b41a-b541-411a-a57e-10765f711ffd")
-	)
-	(wire
-		(pts
-			(xy 350.52 115.57) (xy 350.52 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efafc644-ce57-4d80-b656-e490df500dce")
 	)
 	(wire
 		(pts
@@ -4180,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 105.41) (xy 332.74 110.49)
+			(xy 335.28 105.41) (xy 335.28 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4306,17 +4233,6 @@
 			(justify left bottom)
 		)
 		(uuid "80ac768b-3ace-4bcc-9d05-8d5459ca1ed7")
-	)
-	(text "These might be optional?"
-		(exclude_from_sim no)
-		(at 330.2 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9811bed1-477e-4b3a-b91b-c26bb1233750")
 	)
 	(text "!!IMPORTANT!!: You must strictly power sequence INTV_{cc} AFTER V_{in}."
 		(exclude_from_sim no)
@@ -4642,7 +4558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -4658,75 +4574,6 @@
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 350.52 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bd0184c-f7a1-4bf9-acbb-ff521a7f873b")
-		(property "Reference" "C77"
-			(at 353.695 111.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470n 500V"
-			(at 353.695 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 350.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44fb9ef3-bd46-4d15-ac7b-b2b724635174")
-		)
-		(pin "2"
-			(uuid "d2397e10-a878-4f38-8741-1a8c72ac7199")
-		)
-		(instances
-			(project "kicker"
-				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
-					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 54.61 87.63 0)
 			(effects
 				(font
@@ -4794,72 +4641,6 @@
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 350.52 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16d91f7a-1406-4d5b-9093-219454885183")
-		(property "Reference" "#PWR0151"
-			(at 350.52 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e3b4edf-0fc1-4ee5-b940-7bba094c1167")
-		)
-		(instances
-			(project "kicker"
-				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -4911,7 +4692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -4937,7 +4718,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 332.74 113.03 0)
+		(at 335.28 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4945,7 +4726,7 @@
 		(dnp no)
 		(uuid "1f15216c-d5dc-48ec-a0ae-79b524f893ac")
 		(property "Reference" "C75"
-			(at 335.915 111.7662 0)
+			(at 338.455 111.7662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4735,7 @@
 			)
 		)
 		(property "Value" "100n 500V"
-			(at 335.915 123.825 90)
+			(at 338.455 123.825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4744,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 332.74 113.03 0)
+			(at 335.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 113.03 0)
+			(at 335.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,8 +4761,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 332.74 113.03 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 335.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 314.96 139.7 0)
 			(effects
 				(font
@@ -5113,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 215.9 120.65 0)
 			(effects
 				(font
@@ -5183,7 +4964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
 			(at 247.65 172.72 0)
 			(effects
 				(font
@@ -5261,7 +5042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 220.98 0)
 			(effects
 				(font
@@ -5326,7 +5107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 323.85 105.41 0)
 			(effects
 				(font
@@ -5413,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -5480,7 +5261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 262.89 152.4 0)
 			(effects
 				(font
@@ -5546,7 +5327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 157.48 172.72 0)
 			(effects
 				(font
@@ -5613,7 +5394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 127 210.82 0)
 			(effects
 				(font
@@ -5683,7 +5464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 342.9 205.74 0)
 			(effects
 				(font
@@ -5804,72 +5585,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4272933a-9b39-431a-ae48-2498072ed237")
-		(property "Reference" "#PWR0150"
-			(at 341.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0df738c-dbaa-4885-a1dd-d2cd7c08d34d")
-		)
-		(instances
-			(project "kicker"
-				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
-					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 229.87 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5913,7 +5628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 220.98 0)
 			(effects
 				(font
@@ -5980,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -6049,7 +5764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 250.19 220.98 0)
 			(effects
 				(font
@@ -6115,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -6185,7 +5900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 168.91 220.98 0)
 			(effects
 				(font
@@ -6252,7 +5967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 168.91 210.82 0)
 			(effects
 				(font
@@ -6321,7 +6036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 220.98 0)
 			(effects
 				(font
@@ -6388,7 +6103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -6455,7 +6170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 359.41 189.23 0)
 			(effects
 				(font
@@ -6524,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 220.98 0)
 			(effects
 				(font
@@ -6588,7 +6303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 227.33 120.65 0)
 			(effects
 				(font
@@ -6658,7 +6373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 149.86 100.33 0)
 			(effects
 				(font
@@ -6727,7 +6442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 177.8 0)
 			(effects
 				(font
@@ -6793,7 +6508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 359.41 220.98 0)
 			(effects
 				(font
@@ -6857,7 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 359.41 214.63 0)
 			(effects
 				(font
@@ -6924,7 +6639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 236.22 172.72 0)
 			(effects
 				(font
@@ -6993,7 +6708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 227.33 0)
 			(effects
 				(font
@@ -7057,7 +6772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 257.81 199.39 0)
 			(effects
 				(font
@@ -7126,7 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 120.65 100.33 0)
 			(effects
 				(font
@@ -7195,7 +6910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 220.98 0)
 			(effects
 				(font
@@ -7261,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 109.22 0)
 			(effects
 				(font
@@ -7284,7 +6999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 129.54 0)
+		(at 335.28 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7293,7 +7008,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a8ea683-5b22-465b-ae70-1fa21d058a7a")
 		(property "Reference" "#PWR0149"
-			(at 332.74 135.89 0)
+			(at 335.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 134.62 0)
+			(at 335.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 129.54 0)
+			(at 335.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 129.54 0)
+			(at 335.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,8 +7042,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 332.74 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 335.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boost, flyback, SEPIC and inverting regulator. MSOP-10"
 			(at 185.42 191.77 0)
 			(effects
 				(font
@@ -7491,7 +7206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -7555,7 +7270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 229.87 180.34 0)
 			(effects
 				(font
@@ -7624,7 +7339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 185.42 220.98 0)
 			(effects
 				(font
@@ -7691,7 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -7760,7 +7475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 137.16 210.82 0)
 			(effects
 				(font
@@ -7779,75 +7494,6 @@
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
 					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 341.63 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbc71205-e65b-4bc0-a3d7-be488823ec2f")
-		(property "Reference" "C76"
-			(at 344.805 111.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470n 500V"
-			(at 344.805 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 341.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 341.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d817d56b-b7c7-4546-8f2e-db1cb56d76f1")
-		)
-		(pin "2"
-			(uuid "3d8c84d8-1045-4430-83bd-2303a6ecea07")
-		)
-		(instances
-			(project "kicker"
-				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85"
-					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -7899,7 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 201.93 213.36 0)
 			(effects
 				(font
@@ -7969,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 48.26 99.06 0)
 			(effects
 				(font
@@ -8038,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 220.98 0)
 			(effects
 				(font
@@ -8105,7 +7751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 152.4 210.82 0)
 			(effects
 				(font
@@ -8174,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -8241,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 359.41 101.6 0)
 			(effects
 				(font
@@ -8305,7 +7951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 359.41 201.93 0)
 			(effects
 				(font
@@ -8372,7 +8018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 250.19 199.39 0)
 			(effects
 				(font

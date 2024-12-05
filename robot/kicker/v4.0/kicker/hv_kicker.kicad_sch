@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Kicker")
-		(date "2024-06-10")
-		(rev "3.1")
+		(date "2024-12-04")
+		(rev "4.0")
 		(company "The A-Team (RC SSL)")
 		(comment 1 "W. Stuckey")
 	)
@@ -511,9 +511,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -587,8 +587,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1196,9 +1196,9 @@
 		)
 		(uuid "fee4d744-5d40-4a0d-85a2-4fac450b49ab")
 	)
-	(text "0.995V ref at 200V rail"
+	(text "0.995V ref at 200V rail\n1.990V ref at 200V rail, G_{amp}=2.0\n1.890V ref at 190V rail, G_{amp}=2.0\n1.792V ref at 180V rail, G_{amp}=2.0"
 		(exclude_from_sim no)
-		(at 196.85 78.74 0)
+		(at 199.39 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 105.41 54.61 0)
 			(effects
 				(font
@@ -1472,7 +1472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -1515,7 +1515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "475k"
+		(property "Value" "1.47M"
 			(at 181.61 69.215 0)
 			(effects
 				(font
@@ -1542,7 +1542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 179.07 67.31 0)
 			(effects
 				(font
@@ -1611,7 +1611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 86.36 0)
 			(effects
 				(font
@@ -1651,7 +1651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.75k"
+		(property "Value" "14.7k"
 			(at 181.61 90.805 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -1748,7 +1748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 148.59 67.31 0)
 			(effects
 				(font
@@ -1791,7 +1791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "475k"
+		(property "Value" "1.47M"
 			(at 181.61 59.055 0)
 			(effects
 				(font
@@ -1818,7 +1818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 179.07 57.15 0)
 			(effects
 				(font
@@ -1887,7 +1887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105.41 74.93 0)
 			(effects
 				(font
@@ -1953,7 +1953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -2019,7 +2019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 74.93 0)
 			(effects
 				(font
@@ -2086,7 +2086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 148.59 57.15 0)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -2290,7 +2290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -2425,7 +2425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 115.57 54.61 0)
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 148.59 77.47 0)
 			(effects
 				(font

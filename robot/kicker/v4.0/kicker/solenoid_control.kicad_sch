@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Kicker")
-		(date "2024-06-10")
-		(rev "3.1")
+		(date "2024-12-04")
+		(rev "4.0")
 		(company "The A-Team (RC SSL)")
 		(comment 1 "W. Stuckey")
 	)
@@ -1087,9 +1087,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1163,8 +1163,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2315,7 +2315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 137.16 118.11 0)
 			(effects
 				(font
@@ -2384,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 194.31 119.38 0)
 			(effects
 				(font
@@ -2471,7 +2471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 207.01 120.65 0)
 			(effects
 				(font
@@ -2540,7 +2540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 146.05 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 41.91 0)
 			(effects
 				(font
@@ -2673,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
 			(at 191.77 135.89 0)
 			(effects
 				(font
@@ -2745,7 +2745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -2812,7 +2812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -2948,7 +2948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
 			(at 121.92 135.89 0)
 			(effects
 				(font
@@ -3021,7 +3021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 163.83 66.04 0)
 			(effects
 				(font
@@ -3088,7 +3088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 182.88 53.34 0)
 			(effects
 				(font
@@ -3157,7 +3157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 194.31 146.05 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 182.88 58.42 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 35.56 0)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual 1.5A-Peak Low-Side MOSFET Driver, SOIC-8/DFN-8"
 			(at 138.43 55.88 0)
 			(effects
 				(font
@@ -3449,7 +3449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 163.83 74.93 0)
 			(effects
 				(font
@@ -3585,7 +3585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 123.19 66.04 0)
 			(effects
 				(font
@@ -3654,7 +3654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 173.99 66.04 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 124.46 119.38 0)
 			(effects
 				(font
@@ -3877,7 +3877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 41.91 0)
 			(effects
 				(font

@@ -7478,7 +7478,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 214.63) (xy 360.68 214.63)
+			(xy 367.03 224.79) (xy 360.68 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7578,7 +7578,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 224.79) (xy 360.68 224.79)
+			(xy 367.03 214.63) (xy 360.68 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7950,7 +7950,7 @@
 		(uuid "0007a2ea-5b51-4197-9926-b63d71f4f948")
 	)
 	(label "BATT_POST"
-		(at 360.68 175.26 180)
+		(at 360.68 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7971,7 +7971,7 @@
 		)
 		(uuid "0b4d533c-1143-4b65-92a0-465b0330b0aa")
 	)
-	(label "3v3"
+	(label "BATT_PRE"
 		(at 229.87 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8004,7 +8004,7 @@
 		)
 		(uuid "10f1eab8-7735-4875-850e-864897be147c")
 	)
-	(label "CELL_5"
+	(label "CELL_6"
 		(at 360.68 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8048,7 +8048,7 @@
 		)
 		(uuid "1a6e83a1-7a1a-4278-9abb-975a3a26a4d4")
 	)
-	(label "RCC_OSC_OUT"
+	(label "RCC_OSC_N"
 		(at 184.15 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8059,7 +8059,7 @@
 		)
 		(uuid "1e5171b0-21ae-45ae-b79a-0996b2ff02a6")
 	)
-	(label "CELL_4"
+	(label "CELL_5"
 		(at 360.68 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8114,7 +8114,7 @@
 		)
 		(uuid "2e3425dc-71c0-4b51-bac5-600ad7a79c31")
 	)
-	(label "BATT_POST"
+	(label "5v0"
 		(at 229.87 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8125,7 +8125,7 @@
 		)
 		(uuid "3745c44e-22a2-4a9b-b5b5-cace719a67cb")
 	)
-	(label "RCC_OSC32_OUT"
+	(label "RCC_OSC32_N"
 		(at 63.5 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8147,7 +8147,7 @@
 		)
 		(uuid "40c0866e-d97f-46a0-aeb5-ebec260413ca")
 	)
-	(label "CELL_5"
+	(label "CELL_2"
 		(at 229.87 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8158,7 +8158,7 @@
 		)
 		(uuid "44ddcec5-2b32-481d-a0c4-551db687450a")
 	)
-	(label "RCC_OSC32_IN"
+	(label "RCC_OSC32_P"
 		(at 63.5 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8191,7 +8191,7 @@
 		)
 		(uuid "456c1abe-b008-4552-b2e8-671c0cb69f66")
 	)
-	(label "CELL_3"
+	(label "CELL_4"
 		(at 229.87 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8203,7 +8203,8 @@
 		(uuid "45d6c936-c7bf-41e6-9fff-df75b1d2327f")
 	)
 	(label "3v3"
-		(at 360.68 185.42 180)
+		(at 360.68 180.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8245,7 +8246,7 @@
 		)
 		(uuid "55285383-230c-4ad9-8072-c49c0af05871")
 	)
-	(label "CELL_3"
+	(label "CELL_4"
 		(at 360.68 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8389,7 +8390,7 @@
 		(uuid "7d2c89f4-e8fc-45de-992d-2a19e626733b")
 	)
 	(label "SWCLK"
-		(at 360.68 214.63 180)
+		(at 360.68 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8432,7 +8433,7 @@
 		)
 		(uuid "8d2f9182-5204-4eb3-b072-150ebbf0d135")
 	)
-	(label "CELL_2"
+	(label "CELL_5"
 		(at 229.87 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8454,8 +8455,8 @@
 		)
 		(uuid "92c92602-025a-4ea7-bfb5-b47130847340")
 	)
-	(label "CELL_6"
-		(at 360.68 165.1 180)
+	(label "CELL_1"
+		(at 360.68 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8465,7 +8466,7 @@
 		)
 		(uuid "9544f6e0-c640-4a53-938b-5474f9ece93f")
 	)
-	(label "CELL_1"
+	(label "CELL_3"
 		(at 360.68 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8476,7 +8477,7 @@
 		)
 		(uuid "96a475b2-5b32-414c-a528-261b25badc97")
 	)
-	(label "BATT_PRE"
+	(label "3v3"
 		(at 229.87 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8531,7 +8532,7 @@
 		)
 		(uuid "ab0623ee-00d0-4d5b-bc9d-1b5dd340f7b6")
 	)
-	(label "RCC_OSC_OUT"
+	(label "RCC_OSC_N"
 		(at 63.5 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8586,7 +8587,7 @@
 		)
 		(uuid "bce18cbd-c53a-4a42-9dd1-667791a0071d")
 	)
-	(label "RCC_OSC32_OUT"
+	(label "RCC_OSC32_N"
 		(at 184.15 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8598,7 +8599,7 @@
 		(uuid "c462cefa-cb25-48cb-9558-af80c4c5958f")
 	)
 	(label "NRST"
-		(at 360.68 224.79 180)
+		(at 360.68 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8608,7 +8609,7 @@
 		)
 		(uuid "c86869fb-454a-4271-82e0-1db5fa051338")
 	)
-	(label "CELL_1"
+	(label "CELL_6"
 		(at 229.87 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8630,7 +8631,7 @@
 		)
 		(uuid "d2f67263-8c2b-4444-b297-4bf59ebadf93")
 	)
-	(label "RCC_OSC_IN"
+	(label "RCC_OSC_P"
 		(at 63.5 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8653,7 +8654,8 @@
 		(uuid "da58c593-2202-4573-b360-fce000707375")
 	)
 	(label "5v0"
-		(at 360.68 180.34 180)
+		(at 360.68 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8673,7 +8675,7 @@
 		)
 		(uuid "e1482cfc-ebdb-4863-9cd8-998393a04b5f")
 	)
-	(label "CELL_6"
+	(label "CELL_1"
 		(at 229.87 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8684,7 +8686,7 @@
 		)
 		(uuid "e241fe65-8d7e-4610-bf7c-a8e45288e79a")
 	)
-	(label "RCC_OSC32_IN"
+	(label "RCC_OSC32_P"
 		(at 184.15 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8717,7 +8719,7 @@
 		)
 		(uuid "ea90a003-5aa6-4416-a466-e99e261a7aa8")
 	)
-	(label "5v0"
+	(label "BATT_POST"
 		(at 229.87 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8761,7 +8763,7 @@
 		)
 		(uuid "efd2e1db-43e6-4617-b4c6-6dd67905129e")
 	)
-	(label "CELL_4"
+	(label "CELL_3"
 		(at 229.87 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8772,7 +8774,7 @@
 		)
 		(uuid "f2490880-7c94-4e5b-9259-7de91f9d8db9")
 	)
-	(label "RCC_OSC_IN"
+	(label "RCC_OSC_P"
 		(at 184.15 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11125,8 +11127,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 74.93 155.575 0)
+		(property "Value" "FTSH-105-01-L-DV-K-TR"
+			(at 80.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1632,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 59.69) (xy 171.45 64.77)
+			(xy 171.45 36.83) (xy 171.45 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2384,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 64.77 0)
+		(at 171.45 31.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2393,7 +2394,7 @@
 		(fields_autoplaced yes)
 		(uuid "467bc6ed-6194-43b7-9d3e-c9c3e71f9575")
 		(property "Reference" "#PWR035"
-			(at 171.45 71.12 0)
+			(at 171.45 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 69.85 0)
+			(at 171.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 64.77 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 64.77 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 64.77 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,8 +3520,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
-		(at 171.45 46.99 0)
-		(mirror y)
+		(at 171.45 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3528,7 +3528,7 @@
 		(dnp yes)
 		(uuid "e0276b97-ce73-45a3-852c-dbc5dba7af04")
 		(property "Reference" "J3"
-			(at 171.45 35.56 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3536,7 @@
 			)
 		)
 		(property "Value" "SM06B-SRSS-TB"
-			(at 171.45 38.1 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3544,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
-			(at 171.45 46.99 0)
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 46.99 0)
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 46.99 0)
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

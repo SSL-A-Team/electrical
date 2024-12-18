@@ -1,0 +1,136 @@
+(footprint "2512_CS_ADI-TypeC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2512 Current Sense Resistor, Analog Devices High Current Sensing Accuracy")
+	(property "Reference" "R"
+		(at 0 -4.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4cf8bb9e-cbc2-4fb9-a8a5-0f901ac653fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2512_CS_ADI-TypeC"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0decd956-be75-47e0-afca-4cdf2bf2b49f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "486f39a6-19a1-46a4-a570-28ba76069dda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/en/resources/analog-dialogue/articles/optimize-high-current-sensing-accuracy.html"
+		(at 0 7.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f4525a3-e1bf-417c-8855-c428e45df0d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b195ef13-be0a-4a3f-803e-ca3f484df619")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.3 -2.1)
+		(end 4.3 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7ee70c72-9cd8-4d86-ae79-d4c5593d5ad7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db6b363c-108f-44b4-ba3b-607ad2e44498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4ecd3ac1-7c04-441e-84e8-94925a031b24")
+	)
+	(pad "1" smd rect
+		(at -2.5 1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "32cff1fe-a4ad-45c7-b376-f43863729c6d")
+	)
+	(pad "2" smd rect
+		(at -2.5 0)
+		(size 3.4 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5dc94bb2-b6ec-442d-9434-8fa4ac04cfa4")
+	)
+	(pad "3" smd rect
+		(at 2.5 0)
+		(size 3.4 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5165bec9-15e4-495d-abb8-602a9ec27f0a")
+	)
+	(pad "4" smd rect
+		(at 2.5 -1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b3e68b3a-c2eb-4235-87fd-140a537c8f53")
+	)
+	(pad "4" smd rect
+		(at 2.5 1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "824e34d7-a46e-4c66-b363-77cbb557bafc")
+	)
+)

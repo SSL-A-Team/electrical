@@ -33,6 +33,57 @@ nanotec_df45_65W_Irated = 3.3
 nanotec_df45_65W_Ipeak = 9.5
 nanotec_df45_65W_Istall = 14.8
 
+# analog supply parameters
+Vdda = 3.0
+
+# motor parameters
 Irated = nanotec_df45_65W_Irated
 Ipeak = nanotec_df45_65W_Ipeak
 Istall = nanotec_df45_65W_Istall
+Imax = 10.0
+
+# OpAmp user parameters
+Vdynrng_guard = 0.25
+
+# user component selections
+Rsense = 0.050
+Rb = 2.37e3
+
+Ra = 140e3
+R2 = 40e3
+R1 = 10e3
+
+Vdynrng_opamp = Vdda - (0.2 * 2)
+Vdynrng_opamp_selected = Vdda - (Vdynrng_guard * 2)
+Vdynrng_opamp_lo = Vdynrng_guard
+Vdynrng_opamp_hi = Vdda - Vdynrng_guard
+
+print("OpAmp Contraints")
+
+Gmax = Vdynrng_opamp / (Imax * Rsense)
+
+print(f"\tMax Gain: {Gmax}")
+
+Gmax_guard = Vdynrng_opamp_selected / (Imax * Rsense)
+
+print(f"\tMax Gain: {Gmax_guard}")
+
+G = 1 + (R2 / R1)
+
+print(f"\tSelected Gain: {G}")
+
+Vibias_desired = Vdynrng_guard / G
+
+print(f"\tDesired Raw Input Bias: {Vibias_desired}")
+
+Vibias_selected_raw = (Vdda * Rb) / (Ra + Rb)
+
+print(f"\tSelected Raw Bias: {Vibias_selected_raw}")
+
+Vibias_selected_op = Vibias_selected_raw * G
+
+print(f"\tSelected Bias: {Vibias_selected_op}")
+
+Vdynrng_guard_error = abs(Vibias_selected_op - Vdynrng_guard)
+
+print(f"\tDyn Rng Guard Error: {Vdynrng_guard_error}")

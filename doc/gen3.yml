@@ -1,0 +1,40 @@
+connectors:
+  POWER-J1:
+    type: XT-60
+    subtype: female
+    pinlabels: [VBATT, GND]
+  CTRL-J1:
+    type: XT-30
+    subtype: male
+    pinlabels: [VBATT, GND]
+  BALL-J1:
+    type: XT-30
+    subtype: male
+    pinlabels: [VBATT, GND]
+
+
+cables:
+  W1:
+    gauge: 16 AWG
+    length: 50 mm
+    color_code: DIN
+    wirecount: 2
+    shield: false
+    colors: [RD, BK]
+  W2:
+    gauge: 16 AWG
+    length: 150 mm
+    color_code: DIN
+    wirecount: 2
+    shield: false
+    colors: [RD, BK]
+
+connections:
+  -
+    - POWER-J1: [1,2]
+    - W1: [1,2]
+    - CTRL-J1: [1,2]
+  -
+    - POWER-J1: [1,2]
+    - W2: [1,2]
+    - BALL-J1: [1,2]

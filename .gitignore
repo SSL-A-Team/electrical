@@ -1,9 +1,23 @@
-spice_models/**/*.net
-spice_models/**/*.log
-spice_models/**/*.raw
+# ignore Python env files
+__pycache__/
+venv/
 
+##########################
+#  Simulation Artifacts  #
+##########################
+
+# ignore LT Spice generated files
+*.net
+*.log
+*.raw
+*.plt
+
+##########################
+#  PCB Design Artifacts  #
+##########################
+
+# ignore termorary KiCad files
 **/*-backups/
-
 *.000
 *.bak
 *.bck
@@ -22,15 +36,19 @@ fp-info-cache
 .idea/
 kicad_netlist_reader.py
 kicad_utils.py
-__pycache__/
+
+##########################
+#  PCB Production Files  #
+##########################
+
+# ignore gerbers/drills
+**/gerber/
+**/production_files/
 *.gbr
 *.gbrjob
 *.drl
-venv/
+
+# ignore BoM artifacts, this has some overlap with TI spreadsheets, so force add those if needed
 *.xls
 *.xlsx
 *.xml
-
-gerber/
-production_files/
-

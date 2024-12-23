@@ -1,0 +1,721 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "847d0bbe-37dc-4895-9fde-3757dcb8f4e8")
+	(paper "A4")
+	(title_block
+		(title "Control")
+		(date "2024-12-21")
+		(rev "v3.0")
+		(company "SSL A-Team")
+		(comment 1 "Author: Will Stuckey")
+	)
+	(lib_symbols)
+	(bus_alias "AT_UART"
+		(members "TX" "RX" "CTS" "RTS" "BOOT0" "RST")
+	)
+	(bus_alias "DOTSTAR"
+		(members "MOSI" "SCK")
+	)
+	(bus_alias "IMU"
+		(members "~{SS}1" "~{SS}2" "~{SS}3" "MOSI" "MISO" "SCK" "INT1" "INT2" "~{DET}"
+			"~{SS}0"
+		)
+	)
+	(bus_alias "LEDS"
+		(members "1" "2" "3" "4")
+	)
+	(bus_alias "RADIO"
+		(members "~{RST}" "BOOT0" "TX" "RX" "CTS" "RTS" "~{DET}")
+	)
+	(sheet
+		(at 190.5 101.6)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "094ebf11-4c7f-418e-bec0-1d3bfbd66b5f")
+		(property "Sheetname" "back_right_drive_motor"
+			(at 190.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drive_motor.kicad_sch"
+			(at 190.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR{AT_UART}" bidirectional
+			(at 190.5 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "002721c6-4e44-49f5-b238-9ae8d3ca7c2a")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 25.4)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "215bdbb2-f8f5-4b00-bef9-057f1c66091d")
+		(property "Sheetname" "front_right_drive_motor"
+			(at 190.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drive_motor.kicad_sch"
+			(at 190.5 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR{AT_UART}" bidirectional
+			(at 190.5 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f9c549d-883f-47e3-a129-9cf1b99ebb84")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47185b2f-effb-4e6a-b4d6-0a2d0dfcdbc6")
+		(property "Sheetname" "power"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v0_VDDA" output
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6c7491a-87ef-4d1d-9a2b-11da7eb5f99a")
+		)
+		(pin "3v3" output
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a911c77-f8f0-4a9a-9054-54dbb439930e")
+		)
+		(pin "5v0" output
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5036bdd-1b8e-449d-b7aa-dbbe98c2c6a1")
+		)
+		(pin "V_{batt}_PROTECTED" output
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba30e339-fc85-4665-9db9-e6d9573a0735")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 101.6)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e63cda1-7855-4b2b-bca0-d9e4c3dc9e26")
+		(property "Sheetname" "back_left_drive_motor"
+			(at 88.9 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drive_motor.kicad_sch"
+			(at 88.9 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR{AT_UART}" bidirectional
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9bef87d2-ab07-4c00-9493-7c2b0fb5aa94")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 50.8)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a66aa10-d273-4a66-9c0b-55f92fb813c0")
+		(property "Sheetname" "optical_flow"
+			(at 88.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "optical_flow.kicad_sch"
+			(at 88.9 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OPTICAL{AT_UART}" bidirectional
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f28a5830-e460-4f07-b5c9-e7d715698d7b")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69e9d423-5d43-4f6a-9490-973746c2ec4f")
+		(property "Sheetname" "imu"
+			(at 133.35 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 133.35 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{IMU}" bidirectional
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6be96458-8090-49cb-a6de-1d633beeb10d")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9acf690d-87c3-4705-a3b0-e4743d3f2673")
+		(property "Sheetname" "mechanical"
+			(at 241.3 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical.kicad_sch"
+			(at 241.3 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 50.8)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa6ae7b8-b080-439c-bac1-016699af5b15")
+		(property "Sheetname" "mcu"
+			(at 139.7 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 139.7 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 50.8)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab2297a5-2868-482e-b71f-6e1ed7d3cd9d")
+		(property "Sheetname" "kicker"
+			(at 190.5 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "kicker.kicad_sch"
+			(at 190.5 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "KICKER{AT_UART}" bidirectional
+			(at 190.5 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "318ee8f8-7065-4f16-a03b-9dbcfde58c3f")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 101.6)
+		(size 19.05 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af6fef33-e7df-46d4-8215-381c7984a1d6")
+		(property "Sheetname" "user_io"
+			(at 158.75 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_io.kicad_sch"
+			(at 158.75 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{BTNS}" output
+			(at 158.75 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "432d651e-5c1e-4600-bf2f-e2824fdc86d6")
+		)
+		(pin "BUZZER" input
+			(at 158.75 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e49ac504-44f9-41ea-923b-315a4ab3f67d")
+		)
+		(pin "{DIP}" output
+			(at 158.75 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3774c4d-dcc2-48a2-beb4-a5f9cd9e5a34")
+		)
+		(pin "{LEDS}" input
+			(at 158.75 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e654f7a2-1d2f-4448-84ac-77dcd04ec415")
+		)
+		(pin "{DOTSTAR}" input
+			(at 158.75 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7aa2954f-7a51-4390-8aae-f51123a6cbcb")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afb26760-b20a-4d90-b3ee-d9bb5cf37d03")
+		(property "Sheetname" "radio"
+			(at 158.75 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 158.75 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{RADIO}" bidirectional
+			(at 158.75 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c19469e0-58a2-445f-836c-887c3c46506f")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc7fb5f6-0037-485a-9b6e-40f6e35dc214")
+		(property "Sheetname" "front_left_drive_motor"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drive_motor.kicad_sch"
+			(at 88.9 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR{AT_UART}" bidirectional
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73ad33b1-a19f-4690-8c9b-0e4cdea2d400")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 19.05 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf23b5a2-8e38-4612-9e9c-16577faab1da")
+		(property "Sheetname" "robot_id"
+			(at 127 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "robot_id.kicad_sch"
+			(at 127 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ID_{SW}}" output
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "967cc8c9-1d3e-40ac-8566-0dfc5705ed57")
+		)
+		(pin "{ROBOTID_{DISP}}" input
+			(at 146.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d04ae305-960d-41b8-b2f4-503a97e4a0e1")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

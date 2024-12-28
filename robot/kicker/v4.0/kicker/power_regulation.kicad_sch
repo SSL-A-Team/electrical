@@ -2414,12 +2414,6 @@
 		(uuid "d01c6831-3019-457d-bf4e-cb0c0493ea8b")
 	)
 	(junction
-		(at 316.23 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9b83000-b0ed-45ad-843b-1cae015b413e")
-	)
-	(junction
 		(at 243.84 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2879,16 +2873,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 205.74) (xy 118.11 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65157a67-2120-442d-9d67-66b15f5f0ea7")
-	)
-	(wire
-		(pts
 			(xy 302.26 76.2) (xy 316.23 76.2)
 		)
 		(stroke
@@ -2996,16 +2980,6 @@
 			(type default)
 		)
 		(uuid "8e093ccf-c897-4347-b6a9-08dd8afed6f3")
-	)
-	(wire
-		(pts
-			(xy 118.11 205.74) (xy 118.11 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e448695-a37a-46a4-bbe1-6c1df3d25176")
 	)
 	(wire
 		(pts
@@ -3199,16 +3173,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 76.2) (xy 316.23 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af9a0874-aff2-45ab-bd9f-946f3c7543b1")
-	)
-	(wire
-		(pts
 			(xy 198.12 213.36) (xy 198.12 217.17)
 		)
 		(stroke
@@ -3216,16 +3180,6 @@
 			(type default)
 		)
 		(uuid "b48f074b-61c3-40d5-9d8a-3422de9010ff")
-	)
-	(wire
-		(pts
-			(xy 137.16 205.74) (xy 146.05 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b603b87e-0516-4b60-be50-864e3075ffc2")
 	)
 	(wire
 		(pts
@@ -3366,16 +3320,6 @@
 			(type default)
 		)
 		(uuid "d0d8cc68-8ae3-44d4-acfb-aac38a0eabdc")
-	)
-	(wire
-		(pts
-			(xy 146.05 205.74) (xy 146.05 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a9bd68-896e-44cc-bf78-89134c12399c")
 	)
 	(wire
 		(pts
@@ -4388,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Value" "0467.250NRHF"
+		(property "Value" "06F-0200L1"
 			(at 186.69 213.36 90)
 			(effects
 				(font
@@ -4423,7 +4367,7 @@
 				(hide yes)
 			)
 		)
-		(property "I_{rated}" "250m"
+		(property "I_{rated}" "200m"
 			(at 186.69 219.71 90)
 			(show_name yes)
 			(effects
@@ -5198,74 +5142,6 @@
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 133.35 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c7c875a-b1d5-4221-852e-12d17711f199")
-		(property "Reference" "D3"
-			(at 133.0325 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 133.0325 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 133.35 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 133.35 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96e4acbc-64a4-4e38-8241-58448a3dbdbf")
-		)
-		(pin "2"
-			(uuid "b92eb684-59d0-4371-b0f4-438c4f1d29c8")
-		)
-		(instances
-			(project "kicker"
-				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/70276a8f-3b08-4e9b-906b-ee3937a21cfb"
-					(reference "D3")
 					(unit 1)
 				)
 			)

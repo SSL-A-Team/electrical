@@ -1448,16 +1448,6 @@
 	)
 	(bus
 		(pts
-			(xy 281.94 83.82) (xy 281.94 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c589418-fbe1-4c76-a7f1-78a7bcfe6a73")
-	)
-	(bus
-		(pts
 			(xy 284.48 81.28) (xy 284.48 102.87)
 		)
 		(stroke
@@ -1575,16 +1565,6 @@
 			(type default)
 		)
 		(uuid "54a3e394-d916-4a1e-bd3e-5a29a9521f0b")
-	)
-	(bus
-		(pts
-			(xy 214.63 54.61) (xy 214.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3ec279-9f95-44f9-becf-02f2b33d476e")
 	)
 	(wire
 		(pts
@@ -1706,16 +1686,6 @@
 		)
 		(uuid "8af652c2-c55d-46b0-90e1-0e076e077aae")
 	)
-	(bus
-		(pts
-			(xy 281.94 105.41) (xy 290.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d5e1264-c5d9-4805-a5b1-1935b37aa0b9")
-	)
 	(wire
 		(pts
 			(xy 217.17 102.87) (xy 233.68 102.87)
@@ -1765,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "ab1f088f-aaa4-473a-a350-7930088637c8")
-	)
-	(bus
-		(pts
-			(xy 201.93 54.61) (xy 214.63 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae85c7bc-56de-4cc5-be82-faf9a063c60d")
 	)
 	(wire
 		(pts
@@ -1895,16 +1855,6 @@
 			(type default)
 		)
 		(uuid "c74c33f1-48e2-431e-9499-18297a501f86")
-	)
-	(bus
-		(pts
-			(xy 214.63 83.82) (xy 281.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7e28cd-5f8f-4bec-afe1-c155a809ad4a")
 	)
 	(bus
 		(pts
@@ -2174,6 +2124,7 @@
 	)
 	(label "COMS.BOOT0"
 		(at 53.34 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2184,6 +2135,7 @@
 	)
 	(label "COMS.RX"
 		(at 53.34 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2227,6 +2179,7 @@
 	)
 	(label "COMS.~{DET}"
 		(at 53.34 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2237,6 +2190,7 @@
 	)
 	(label "COMS.TX"
 		(at 53.34 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2247,6 +2201,7 @@
 	)
 	(label "COMS.RST"
 		(at 53.34 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2813,7 +2768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical"
 			(at 38.1 96.52 0)
 			(effects
 				(font
@@ -3443,16 +3398,6 @@
 			)
 			(uuid "441654ca-6fe0-4b10-808b-e857c80d3174")
 		)
-		(pin "BB_CENTER{BB_I2C}" bidirectional
-			(at 201.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "df41d953-b8a6-40f2-8ce7-d8d947cd2b04")
-		)
 		(pin "VSW_EN" output
 			(at 153.67 60.96 180)
 			(effects
@@ -3676,16 +3621,6 @@
 				(justify left)
 			)
 			(uuid "eefa949d-a9f1-445c-9780-0a84f297281a")
-		)
-		(pin "BB_CENTER{BB_I2C}" bidirectional
-			(at 290.83 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "414661da-5e80-4659-8a3f-38de304d56ce")
 		)
 		(instances
 			(project "kicker"

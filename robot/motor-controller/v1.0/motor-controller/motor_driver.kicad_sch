@@ -8979,9 +8979,9 @@
 		)
 		(uuid "5aba22ec-9fcf-46f0-8dc0-aa4d78b073e9")
 	)
-	(text "V_{drop}@9.5A = 0.285V\nP_{diss}@9.5A = 2.708W"
+	(text "10A Motor Current, 5A per resistor\nV_{drop}@5A = 0.500V\nP_{diss}@5A = 2.5W"
 		(exclude_from_sim no)
-		(at 67.31 256.54 0)
+		(at 67.31 255.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12948,7 +12948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "0.1uF 63V"
 			(at 252.095 101.5999 0)
 			(effects
 				(font

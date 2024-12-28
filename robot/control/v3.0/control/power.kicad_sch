@@ -594,151 +594,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D_TVS"
 			(pin_numbers hide)
 			(pin_names
@@ -2297,16 +2152,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 144.78 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17a917ef-33d8-48a1-a7a7-1ba10fa44d0f")
-	)
-	(wire
-		(pts
 			(xy 77.47 39.37) (xy 77.47 35.56)
 		)
 		(stroke
@@ -2314,16 +2159,6 @@
 			(type default)
 		)
 		(uuid "1a6da5e8-f6ba-4d81-aa93-66652279fc10")
-	)
-	(wire
-		(pts
-			(xy 144.78 125.73) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f367b14-877e-4b55-9a07-f20f1c855c1b")
 	)
 	(wire
 		(pts
@@ -2594,16 +2429,6 @@
 			(type default)
 		)
 		(uuid "8f299a4d-464e-426e-92ac-bd2761e9af87")
-	)
-	(wire
-		(pts
-			(xy 128.27 125.73) (xy 116.84 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "944d2576-767e-4972-a66d-31b7005a879b")
 	)
 	(wire
 		(pts
@@ -2914,16 +2739,6 @@
 			(type default)
 		)
 		(uuid "f7942a18-07ab-4a7e-99fe-c9bebadbeba4")
-	)
-	(wire
-		(pts
-			(xy 116.84 125.73) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5f508c-aca9-4d2e-80e8-f87dd69e700d")
 	)
 	(rectangle
 		(start 80.01 111.76)
@@ -4847,74 +4662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 132.08 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee32f430-17b9-42ee-8642-92e36cf3079d")
-		(property "Reference" "D2"
-			(at 131.7625 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 131.7625 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 132.08 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 132.08 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1d08e7e-5583-4966-84f8-8e0cf9f68aef")
-		)
-		(pin "2"
-			(uuid "21292bc3-d070-4374-a75b-d4f647a0d840")
-		)
-		(instances
-			(project "control"
-				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/47185b2f-effb-4e6a-b4d6-0a2d0dfcdbc6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 58.42 86.36 90)
 		(unit 1)
@@ -5007,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Value" "0467.250NRHF"
+		(property "Value" "06F-0200L1"
 			(at 185.42 133.35 90)
 			(effects
 				(font
@@ -5042,7 +4789,7 @@
 				(hide yes)
 			)
 		)
-		(property "I_{rated}" "250m"
+		(property "I_{rated}" "200m"
 			(at 185.42 139.7 90)
 			(show_name yes)
 			(effects

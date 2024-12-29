@@ -2409,10 +2409,16 @@
 		(members "UP" "DOWN" "LEFT" "RIGHT" "ENTER" "BACK")
 	)
 	(bus_alias "DIP"
-		(members "1" "2" "3" "4" "5" "6" "7" "8")
+		(members "TX" "RX" "CTS" "RTS" "BOOT0" "RST")
 	)
 	(junction
-		(at 24.13 158.75)
+		(at 97.79 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014df31e-613a-499a-bb00-5115111f590e")
+	)
+	(junction
+		(at 25.4 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03282c45-e41d-43c5-b013-9371f827ed6d")
@@ -2436,6 +2442,24 @@
 		(uuid "14346ea9-3574-4e75-9e9c-d151f4585db8")
 	)
 	(junction
+		(at 97.79 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21d0ddf2-8461-4a1f-a54e-6c87bbf2550b")
+	)
+	(junction
+		(at 204.47 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a99b4a8-ab76-4b47-8c43-5e8e794465e3")
+	)
+	(junction
+		(at 186.69 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ecc948b-45df-40ee-92bd-b5a51b807ce6")
+	)
+	(junction
 		(at 62.23 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2448,7 +2472,13 @@
 		(uuid "3423c3bb-b602-47b9-8612-3b8691a8490e")
 	)
 	(junction
-		(at 78.74 158.75)
+		(at 133.35 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "359b6d01-42be-497b-a453-57c7cdd56e83")
+	)
+	(junction
+		(at 80.01 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39a3bcd5-e7c2-4058-928e-eed423865033")
@@ -2460,10 +2490,28 @@
 		(uuid "4118d095-ae5a-462a-80cb-e23bb65caa96")
 	)
 	(junction
+		(at 222.25 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58af41e3-ad9f-48a3-9583-7ca86f40b447")
+	)
+	(junction
+		(at 168.91 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59480855-0028-4f7e-b3f8-6572a562ba96")
+	)
+	(junction
 		(at 161.29 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aac11a8-5d2b-4229-b364-d2db0b2cd413")
+	)
+	(junction
+		(at 240.03 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5baa0e05-9425-47f4-9e6a-6ecf2b6680b4")
 	)
 	(junction
 		(at 205.74 162.56)
@@ -2472,7 +2520,7 @@
 		(uuid "5e337328-5c36-44ff-8ec0-598c398d23fb")
 	)
 	(junction
-		(at 78.74 179.07)
+		(at 80.01 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64568f4e-6483-4f59-8a94-55c7f8a1fcb2")
@@ -2490,6 +2538,18 @@
 		(uuid "693c2220-6208-49a3-8811-c73d3aff9f49")
 	)
 	(junction
+		(at 186.69 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b819b43-3b7a-4001-87fb-e1ebd5b2d7f3")
+	)
+	(junction
+		(at 240.03 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b421f1-a91b-43e3-9543-ed557b22c523")
+	)
+	(junction
 		(at 82.55 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2500,6 +2560,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "737635b2-9f0f-4d73-ade4-0f0f58d07539")
+	)
+	(junction
+		(at 133.35 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c6c38a-d1df-49af-8168-f2a9efdf7f4d")
 	)
 	(junction
 		(at 350.52 36.83)
@@ -2514,10 +2580,22 @@
 		(uuid "801ff8b8-6db8-424f-9aa1-f9fc0e02b5e9")
 	)
 	(junction
+		(at 168.91 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ad75e8-f1e5-44e7-a0d8-71f8cc873aff")
+	)
+	(junction
 		(at 161.29 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85807200-b47e-4823-b716-3a5fecfaafd1")
+	)
+	(junction
+		(at 151.13 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881812c1-badc-4069-9e63-f515dec6cf66")
 	)
 	(junction
 		(at 250.19 48.26)
@@ -2574,6 +2652,18 @@
 		(uuid "c0386017-ee63-4fa3-b236-5b905f82b1c4")
 	)
 	(junction
+		(at 115.57 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1b1ec48-7d90-4b77-8e75-45de5e258b11")
+	)
+	(junction
+		(at 204.47 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c240582c-fb59-48b0-9c5e-d8bfde72675e")
+	)
+	(junction
 		(at 24.13 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2592,6 +2682,12 @@
 		(uuid "c99fa910-0097-453d-b8fd-ee1a1fe9f4d7")
 	)
 	(junction
+		(at 222.25 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbc820f9-6279-48ca-a095-abd40a888ab5")
+	)
+	(junction
 		(at 350.52 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,20 +2700,36 @@
 		(uuid "e024e51c-1db9-46d1-a18e-17b6b99a311b")
 	)
 	(junction
+		(at 115.57 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef9da1ed-48dc-4fed-80f6-b102419c6c93")
+	)
+	(junction
 		(at 24.13 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f816f124-71b8-4e58-80d1-cf592a6b0353")
 	)
 	(junction
-		(at 64.77 170.18)
+		(at 66.04 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa1d1812-1a1d-4043-820e-a2426e4674c1")
 	)
+	(junction
+		(at 151.13 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa84ab9f-2e7e-48bd-abb8-74e175e9ad02")
+	)
 	(no_connect
 		(at 223.52 91.44)
 		(uuid "23af8dfa-dd19-4fe5-aed0-bf47388ffc02")
+	)
+	(no_connect
+		(at 265.43 222.25)
+		(uuid "46d0c890-6bd1-449b-8c2f-09628816f0a9")
 	)
 	(no_connect
 		(at 179.07 129.54)
@@ -2632,16 +2744,12 @@
 		(uuid "6be543e0-49d0-44ca-80d9-40122977de2a")
 	)
 	(no_connect
-		(at 104.14 167.64)
-		(uuid "8621de7b-4a9b-4cca-ba13-b25ef08b0c94")
+		(at 265.43 219.71)
+		(uuid "72332540-3fb3-4cd7-889d-8e16f5e2bd61")
 	)
 	(no_connect
 		(at 179.07 53.34)
 		(uuid "a0605105-0e0a-420c-9479-9896f57214c4")
-	)
-	(no_connect
-		(at 104.14 170.18)
-		(uuid "ecb3cab4-a09e-4e14-95dd-590db3938741")
 	)
 	(no_connect
 		(at 223.52 167.64)
@@ -2684,7 +2792,7 @@
 		(uuid "51909afd-908d-4d44-a480-b425baeac197")
 	)
 	(bus_entry
-		(at 53.34 167.64)
+		(at 54.61 219.71)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2765,7 +2873,7 @@
 		(uuid "beb8a38f-8d70-4106-a1a5-0b3a76bacc09")
 	)
 	(bus_entry
-		(at 53.34 165.1)
+		(at 54.61 217.17)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2879,13 +2987,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 176.53) (xy 78.74 179.07)
+			(xy 80.01 228.6) (xy 80.01 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a717118-f60d-4bfc-8b40-e21667f73c5d")
+	)
+	(wire
+		(pts
+			(xy 222.25 231.14) (xy 240.03 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad5417b-9138-4df5-9b48-3112050f15b5")
 	)
 	(wire
 		(pts
@@ -2909,6 +3027,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 231.14) (xy 186.69 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1275cd3b-6662-41a8-86fd-f6440e47612d")
+	)
+	(wire
+		(pts
 			(xy 67.31 44.45) (xy 67.31 59.69)
 		)
 		(stroke
@@ -2926,6 +3054,26 @@
 			(type default)
 		)
 		(uuid "12e1b87a-b2e7-4775-b9ca-110ba27c2250")
+	)
+	(wire
+		(pts
+			(xy 222.25 210.82) (xy 222.25 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13229c7b-0046-41d1-bfdb-ab2c033bd477")
+	)
+	(wire
+		(pts
+			(xy 250.19 222.25) (xy 247.65 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136cef33-f5a2-494b-8c0c-fd7fc8bed003")
 	)
 	(wire
 		(pts
@@ -2999,6 +3147,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 210.82) (xy 240.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2037f574-a4ba-4e84-9692-de674d09e2ea")
+	)
+	(wire
+		(pts
 			(xy 267.97 48.26) (xy 270.51 48.26)
 		)
 		(stroke
@@ -3009,13 +3167,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 170.18) (xy 64.77 170.18)
+			(xy 57.15 222.25) (xy 66.04 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22298b21-ec19-4858-8031-842a2e03157b")
+	)
+	(wire
+		(pts
+			(xy 133.35 228.6) (xy 133.35 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253ea00b-8ef2-418c-896e-974cbc8e3f39")
 	)
 	(bus
 		(pts
@@ -3027,6 +3195,16 @@
 		)
 		(uuid "27070e3c-41f6-47fa-8b70-e1b0ebed7d8f")
 	)
+	(wire
+		(pts
+			(xy 97.79 210.82) (xy 115.57 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270c7a98-6f9b-406c-8f56-a05251f6f090")
+	)
 	(bus
 		(pts
 			(xy 203.2 44.45) (xy 203.2 45.72)
@@ -3036,6 +3214,16 @@
 			(type default)
 		)
 		(uuid "277fb7f4-84cc-4934-bbc4-3ed9b892a04c")
+	)
+	(wire
+		(pts
+			(xy 186.69 231.14) (xy 204.47 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c71690-bd2b-4a5a-afd1-449beecc6335")
 	)
 	(wire
 		(pts
@@ -3059,7 +3247,17 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 158.75) (xy 78.74 158.75)
+			(xy 143.51 222.25) (xy 140.97 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba369e2-1054-4c28-88d9-f947cb467fe0")
+	)
+	(wire
+		(pts
+			(xy 25.4 210.82) (xy 80.01 210.82)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 170.18) (xy 86.36 170.18)
+			(xy 90.17 222.25) (xy 87.63 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3129,13 +3327,23 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 165.1) (xy 53.34 167.64)
+			(xy 54.61 217.17) (xy 54.61 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3185ee72-f8c6-465a-973d-369abdba500b")
+	)
+	(wire
+		(pts
+			(xy 125.73 219.71) (xy 123.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33978246-6d6f-42c8-89d0-10bf1ce3dcad")
 	)
 	(wire
 		(pts
@@ -3159,7 +3367,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 158.75) (xy 96.52 158.75)
+			(xy 80.01 210.82) (xy 97.79 210.82)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3387,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 170.18) (xy 24.13 181.61)
+			(xy 25.4 222.25) (xy 25.4 233.68)
 		)
 		(stroke
 			(width 0)
@@ -3196,6 +3404,26 @@
 			(type default)
 		)
 		(uuid "3db60142-e26a-43eb-a9bc-cbf698d7f8d1")
+	)
+	(wire
+		(pts
+			(xy 257.81 228.6) (xy 257.81 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef80492-42d1-4545-8c9d-490820a3e112")
+	)
+	(wire
+		(pts
+			(xy 240.03 210.82) (xy 257.81 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4363e371-5e31-405a-a24e-40221a0e4edb")
 	)
 	(wire
 		(pts
@@ -3239,6 +3467,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 222.25) (xy 194.31 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47015b43-dd42-4dca-ab58-285574ff5b90")
+	)
+	(wire
+		(pts
 			(xy 161.29 119.38) (xy 161.29 124.46)
 		)
 		(stroke
@@ -3267,6 +3505,26 @@
 		)
 		(uuid "4a560495-3f69-43aa-9d44-2a7cd7dbca36")
 	)
+	(wire
+		(pts
+			(xy 107.95 219.71) (xy 105.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a95803d-0280-4959-af04-ed30e7bcfca6")
+	)
+	(wire
+		(pts
+			(xy 186.69 210.82) (xy 186.69 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1adb6d-7bf1-41d9-aeb7-5889f902f751")
+	)
 	(bus
 		(pts
 			(xy 247.65 158.75) (xy 248.92 158.75)
@@ -3286,6 +3544,16 @@
 			(type default)
 		)
 		(uuid "4e5bc242-c33a-41d0-93dc-e99166ba5690")
+	)
+	(wire
+		(pts
+			(xy 232.41 222.25) (xy 229.87 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6526b1-55af-4381-9442-f5eb4161e251")
 	)
 	(wire
 		(pts
@@ -3339,6 +3607,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 228.6) (xy 115.57 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568f60e2-6299-4c37-afee-683917396c3d")
+	)
+	(wire
+		(pts
+			(xy 115.57 231.14) (xy 133.35 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58786464-09eb-4c67-9b19-f4592ded4478")
+	)
+	(wire
+		(pts
 			(xy 24.13 44.45) (xy 24.13 46.99)
 		)
 		(stroke
@@ -3346,6 +3634,16 @@
 			(type default)
 		)
 		(uuid "5a77e407-6ee7-4c98-8120-701a42ec0af7")
+	)
+	(wire
+		(pts
+			(xy 151.13 210.82) (xy 151.13 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b816c4b-163e-447b-ae8a-397b1c257724")
 	)
 	(bus
 		(pts
@@ -3366,6 +3664,16 @@
 			(type default)
 		)
 		(uuid "5c9d7415-5a7a-4dde-bc82-2541f3a0c536")
+	)
+	(wire
+		(pts
+			(xy 257.81 210.82) (xy 257.81 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fba836d-5770-4c80-beb3-69659f81d187")
 	)
 	(wire
 		(pts
@@ -3427,6 +3735,26 @@
 		)
 		(uuid "68fadcea-9115-4abb-ad42-dfd10f6f96f5")
 	)
+	(wire
+		(pts
+			(xy 204.47 228.6) (xy 204.47 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69242b34-5a20-4170-b14c-2bc0ea0d9be6")
+	)
+	(wire
+		(pts
+			(xy 240.03 228.6) (xy 240.03 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699ef1ea-e2cc-4fa3-a349-33f6d18d02b4")
+	)
 	(bus
 		(pts
 			(xy 111.76 41.91) (xy 111.76 44.45)
@@ -3437,9 +3765,19 @@
 		)
 		(uuid "6b7df976-1a6b-4c38-b62b-68ea04cb9df4")
 	)
+	(wire
+		(pts
+			(xy 151.13 231.14) (xy 168.91 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdc343f-7111-41ea-8917-a2ecb3375b62")
+	)
 	(bus
 		(pts
-			(xy 53.34 163.83) (xy 53.34 165.1)
+			(xy 54.61 215.9) (xy 54.61 217.17)
 		)
 		(stroke
 			(width 0)
@@ -3456,6 +3794,16 @@
 			(type default)
 		)
 		(uuid "6ea9c3a8-23cb-4201-afca-0462e7b2789f")
+	)
+	(wire
+		(pts
+			(xy 133.35 210.82) (xy 151.13 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee21ded-197f-461d-a041-136d7ccbc3a3")
 	)
 	(bus
 		(pts
@@ -3479,6 +3827,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 219.71) (xy 247.65 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71889991-6613-40b7-88ee-bfdd938ccef0")
+	)
+	(wire
+		(pts
 			(xy 96.52 44.45) (xy 109.22 44.45)
 		)
 		(stroke
@@ -3499,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 167.64) (xy 71.12 167.64)
+			(xy 57.15 219.71) (xy 72.39 219.71)
 		)
 		(stroke
 			(width 0)
@@ -3529,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 231.14) (xy 151.13 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74853aa5-0362-417e-a9d8-61ff80f52282")
+	)
+	(wire
+		(pts
 			(xy 332.74 52.07) (xy 332.74 54.61)
 		)
 		(stroke
@@ -3549,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 156.21) (xy 24.13 158.75)
+			(xy 25.4 208.28) (xy 25.4 210.82)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3927,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 167.64) (xy 86.36 167.64)
+			(xy 90.17 219.71) (xy 87.63 219.71)
 		)
 		(stroke
 			(width 0)
@@ -3577,9 +3945,19 @@
 		)
 		(uuid "788a57fd-6d61-4ef7-9037-10882008ea40")
 	)
+	(wire
+		(pts
+			(xy 232.41 219.71) (xy 229.87 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f49e23-7b0c-4fdf-9001-81921aab652b")
+	)
 	(bus
 		(pts
-			(xy 50.8 163.83) (xy 53.34 163.83)
+			(xy 52.07 215.9) (xy 54.61 215.9)
 		)
 		(stroke
 			(width 0)
@@ -3679,6 +4057,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 222.25) (xy 212.09 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bce2b5-adb7-49f9-843d-ccc1e037ef22")
+	)
+	(wire
+		(pts
+			(xy 204.47 210.82) (xy 222.25 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2a1472-a9c7-40ad-b0dc-026ec44a7b89")
+	)
+	(wire
+		(pts
 			(xy 57.15 39.37) (xy 91.44 39.37)
 		)
 		(stroke
@@ -3699,6 +4097,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 231.14) (xy 257.81 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d88dc61-8a41-4cf2-b3fe-08bb5b2d6241")
+	)
+	(wire
+		(pts
 			(xy 62.23 64.77) (xy 62.23 69.85)
 		)
 		(stroke
@@ -3706,6 +4114,36 @@
 			(type default)
 		)
 		(uuid "8e3f2845-0445-41b7-86eb-43c0950f96dc")
+	)
+	(wire
+		(pts
+			(xy 179.07 222.25) (xy 176.53 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9007c99e-9da9-40c2-8fe6-64c4a6e358c8")
+	)
+	(wire
+		(pts
+			(xy 214.63 219.71) (xy 212.09 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b2d0e8-22f3-47e9-abae-d37bd810797d")
+	)
+	(wire
+		(pts
+			(xy 179.07 219.71) (xy 176.53 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ad5e0b-1f9c-4eb2-9c4a-50e946d0b942")
 	)
 	(wire
 		(pts
@@ -3817,6 +4255,16 @@
 		)
 		(uuid "9dd82160-6ddf-4e57-9446-e9e2938acc08")
 	)
+	(wire
+		(pts
+			(xy 115.57 210.82) (xy 115.57 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e58ea43-2290-454c-a94e-09f3b91de3e1")
+	)
 	(bus
 		(pts
 			(xy 34.29 93.98) (xy 31.75 93.98)
@@ -3856,6 +4304,16 @@
 			(type default)
 		)
 		(uuid "a17eac10-5a7a-4fa3-8df7-a9d587efd5be")
+	)
+	(wire
+		(pts
+			(xy 168.91 210.82) (xy 186.69 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d7df39-e852-4590-9f02-adae57216c07")
 	)
 	(wire
 		(pts
@@ -3969,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 179.07) (xy 78.74 181.61)
+			(xy 80.01 231.14) (xy 80.01 233.68)
 		)
 		(stroke
 			(width 0)
@@ -4006,6 +4464,26 @@
 			(type default)
 		)
 		(uuid "ad4580d0-958e-4899-8155-0820b4b2fd7d")
+	)
+	(wire
+		(pts
+			(xy 222.25 228.6) (xy 222.25 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad950daf-d160-4562-b5f1-15f117b23612")
+	)
+	(wire
+		(pts
+			(xy 107.95 222.25) (xy 105.41 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4a76f6-9ca2-4b3b-b3ae-6b95c4bfa7b2")
 	)
 	(wire
 		(pts
@@ -4069,6 +4547,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 219.71) (xy 158.75 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b763634f-10e7-4ddd-96d6-fb2039f4bc33")
+	)
+	(wire
+		(pts
+			(xy 186.69 210.82) (xy 204.47 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ffc4d2-7e8d-44c6-8d96-446dabf2b56d")
+	)
+	(wire
+		(pts
 			(xy 330.2 44.45) (xy 332.74 44.45)
 		)
 		(stroke
@@ -4089,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 170.18) (xy 64.77 172.72)
+			(xy 66.04 222.25) (xy 66.04 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4109,6 +4607,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 222.25) (xy 123.19 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd94a6c7-de8d-4c8e-b30e-61cfcc00a6ed")
+	)
+	(wire
+		(pts
+			(xy 133.35 210.82) (xy 133.35 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd0fe08-9018-4055-8364-71c7ec7c7314")
+	)
+	(wire
+		(pts
 			(xy 67.31 44.45) (xy 91.44 44.45)
 		)
 		(stroke
@@ -4119,13 +4637,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 176.53) (xy 96.52 179.07)
+			(xy 97.79 228.6) (xy 97.79 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf86234c-d59a-4efb-86b3-55ef37dcc4b5")
+	)
+	(wire
+		(pts
+			(xy 151.13 210.82) (xy 168.91 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12646ad-a038-4fd7-a9d7-3914aca1be04")
 	)
 	(bus
 		(pts
@@ -4146,6 +4674,16 @@
 			(type default)
 		)
 		(uuid "c3e1bf30-1499-43e0-892a-dcdf3acf3a45")
+	)
+	(wire
+		(pts
+			(xy 168.91 210.82) (xy 168.91 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eec53f-922a-48e2-be0e-0a8c5fe4bae7")
 	)
 	(bus
 		(pts
@@ -4199,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 222.25) (xy 158.75 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4d82c0-c3a7-4017-8f3e-9557ca1b9987")
+	)
+	(wire
+		(pts
 			(xy 186.69 48.26) (xy 200.66 48.26)
 		)
 		(stroke
@@ -4209,13 +4757,53 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 158.75) (xy 96.52 161.29)
+			(xy 196.85 219.71) (xy 194.31 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1b8804-2cc8-4e41-9539-6c7affc4b156")
+	)
+	(wire
+		(pts
+			(xy 143.51 219.71) (xy 140.97 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc981c0-d531-45f4-aa40-9bdde9f7eb80")
+	)
+	(wire
+		(pts
+			(xy 97.79 210.82) (xy 97.79 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0bb32f4-6da1-49f6-83ab-3f7b53b86982")
+	)
+	(wire
+		(pts
+			(xy 151.13 228.6) (xy 151.13 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16ebe0e-4fc8-4b66-a98b-9f941d731526")
+	)
+	(wire
+		(pts
+			(xy 97.79 231.14) (xy 115.57 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6891068-05c1-4f12-b038-bdeea22cc7c7")
 	)
 	(wire
 		(pts
@@ -4226,6 +4814,16 @@
 			(type default)
 		)
 		(uuid "d78b3216-425f-4944-91b1-c7ac744affff")
+	)
+	(wire
+		(pts
+			(xy 204.47 231.14) (xy 222.25 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78cf082-bd1d-4552-b870-f1ea7442e49c")
 	)
 	(wire
 		(pts
@@ -4289,7 +4887,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 170.18) (xy 71.12 170.18)
+			(xy 66.04 222.25) (xy 72.39 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4319,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 179.07) (xy 96.52 179.07)
+			(xy 80.01 231.14) (xy 97.79 231.14)
 		)
 		(stroke
 			(width 0)
@@ -4339,6 +4937,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 210.82) (xy 204.47 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a0b526-8ca0-480f-9380-b60e64070d34")
+	)
+	(wire
+		(pts
+			(xy 186.69 228.6) (xy 186.69 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e802da2c-7f23-49e8-8e00-055edd80508c")
+	)
+	(wire
+		(pts
 			(xy 72.39 107.95) (xy 72.39 100.33)
 		)
 		(stroke
@@ -4349,6 +4967,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 210.82) (xy 133.35 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c5ce1c-34dd-44e7-9940-ce3e15a46a85")
+	)
+	(wire
+		(pts
 			(xy 250.19 48.26) (xy 252.73 48.26)
 		)
 		(stroke
@@ -4356,6 +4984,16 @@
 			(type default)
 		)
 		(uuid "e9d7f0ea-c5c3-4278-af42-5d925d9dddb3")
+	)
+	(wire
+		(pts
+			(xy 168.91 228.6) (xy 168.91 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb191bd-59b1-4e04-93d4-fd368c7b8ce1")
 	)
 	(wire
 		(pts
@@ -4386,6 +5024,16 @@
 			(type default)
 		)
 		(uuid "ec67e01e-eb13-4dae-a79d-ae34993f6000")
+	)
+	(wire
+		(pts
+			(xy 222.25 210.82) (xy 240.03 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4a9d3f-805c-46a6-a845-ff6589121ff3")
 	)
 	(wire
 		(pts
@@ -4439,7 +5087,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 158.75) (xy 78.74 161.29)
+			(xy 80.01 210.82) (xy 80.01 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4479,7 +5127,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 158.75) (xy 24.13 165.1)
+			(xy 25.4 210.82) (xy 25.4 217.17)
 		)
 		(stroke
 			(width 0)
@@ -4529,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 177.8) (xy 64.77 181.61)
+			(xy 66.04 229.87) (xy 66.04 233.68)
 		)
 		(stroke
 			(width 0)
@@ -4574,8 +5222,8 @@
 		(uuid 7158ca37-5e0e-4df0-bbc2-e20729e22257)
 	)
 	(rectangle
-		(start 17.78 143.51)
-		(end 114.3 194.31)
+		(start 19.05 195.58)
+		(end 311.15 246.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -4599,7 +5247,7 @@
 	)
 	(text "Dotstars"
 		(exclude_from_sim no)
-		(at 24.13 146.05 0)
+		(at 25.4 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4684,7 +5332,7 @@
 		(uuid "3c9b1585-f724-4a92-82ad-0acb7b34fd17")
 	)
 	(label "MOSI"
-		(at 57.15 167.64 0)
+		(at 58.42 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4816,7 +5464,7 @@
 		(uuid "c8adabeb-99d7-4a52-8f07-53feaa4f2950")
 	)
 	(label "SCK"
-		(at 57.15 170.18 0)
+		(at 58.42 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,7 +5580,7 @@
 	)
 	(hierarchical_label "{DOTSTAR}"
 		(shape input)
-		(at 50.8 163.83 180)
+		(at 52.07 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5125,6 +5773,87 @@
 		)
 	)
 	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 257.81 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06b46010-edd1-40fb-87ae-6215206d5a3c")
+		(property "Reference" "U14"
+			(at 259.08 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 259.08 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 257.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 257.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc09fb8-550c-4b5f-93d5-74e879a1ac07")
+		)
+		(pin "2"
+			(uuid "00fe91ad-5bd1-460b-b3cf-399f39c1b1ff")
+		)
+		(pin "3"
+			(uuid "ea9f3683-d5af-4380-8fa4-e27c28803ea2")
+		)
+		(pin "4"
+			(uuid "fd61e07a-c91d-40ec-a961-391887af5e7a")
+		)
+		(pin "5"
+			(uuid "82d9ced9-947c-496b-9552-958bb6894103")
+		)
+		(pin "6"
+			(uuid "bd30e512-2aa6-42c1-9fa9-3b7f40719da6")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 250.19 137.16 0)
 		(unit 1)
@@ -5192,7 +5921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 181.61 0)
+		(at 25.4 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5201,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f3f3b65-443a-4aa7-98f8-02988befaac0")
 		(property "Reference" "#PWR0105"
-			(at 24.13 187.96 0)
+			(at 25.4 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 186.69 0)
+			(at 25.4 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 181.61 0)
+			(at 25.4 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 181.61 0)
+			(at 25.4 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 181.61 0)
+			(at 25.4 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +6123,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 24.13 156.21 0)
+		(at 25.4 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +6132,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ae00a0c-1a4e-4e2f-8322-9e444d0b3575")
 		(property "Reference" "#PWR0104"
-			(at 24.13 160.02 0)
+			(at 25.4 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +6141,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 24.13 151.13 0)
+			(at 25.4 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +6149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 156.21 0)
+			(at 25.4 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +6158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 156.21 0)
+			(at 25.4 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +6167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 156.21 0)
+			(at 25.4 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,6 +6385,87 @@
 			(project "control"
 				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
 					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 240.03 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2504349a-5b2e-40f9-b603-0565f6cf364c")
+		(property "Reference" "U13"
+			(at 241.3 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 241.3 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 240.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 240.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52ed91c8-ef84-4407-a95b-8e3f8fef7c4b")
+		)
+		(pin "2"
+			(uuid "7080800a-ed39-4d25-ad48-93d270c50936")
+		)
+		(pin "3"
+			(uuid "f1b185d9-3b64-4127-b9a3-26483777c71a")
+		)
+		(pin "4"
+			(uuid "5e552556-7811-4b89-b593-ffcb4ccc706d")
+		)
+		(pin "5"
+			(uuid "c1b2a8de-e43c-4106-b538-21513a4b905e")
+		)
+		(pin "6"
+			(uuid "8efcda7a-c051-44c4-8521-81bde7d17841")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 64.77 175.26 0)
+		(at 66.04 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6010,7 +6820,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f07135d-1673-439f-b8ed-911a590e0c28")
 		(property "Reference" "R100"
-			(at 67.31 173.9899 0)
+			(at 68.58 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6829,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 67.31 176.5299 0)
+			(at 68.58 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +6838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 175.26 0)
+			(at 66.04 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 175.26 0)
+			(at 66.04 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 175.26 0)
+			(at 66.04 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,6 +6874,87 @@
 			(project "control"
 				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
 					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 186.69 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f700d8e-2ef6-4a36-897b-39f0437cf047")
+		(property "Reference" "U10"
+			(at 187.96 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 187.96 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 186.69 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 186.69 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "397b14b7-6a85-4b1e-8f54-36ba66cafc92")
+		)
+		(pin "2"
+			(uuid "1f9ca174-3754-43b0-bf22-54b8c63d6d05")
+		)
+		(pin "3"
+			(uuid "5ff1a613-8c19-4ba3-a25e-a24db56e16c6")
+		)
+		(pin "4"
+			(uuid "d7782a7e-7242-48c1-867f-0baa6a1bebaa")
+		)
+		(pin "5"
+			(uuid "0a1b94f5-f8af-4e23-bc10-26cb3e0f0586")
+		)
+		(pin "6"
+			(uuid "b4584f97-b8f5-4a99-9eb7-04fe288b228e")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -6141,7 +7032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 181.61 0)
+		(at 66.04 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6150,7 +7041,7 @@
 		(fields_autoplaced yes)
 		(uuid "32e19e05-cf72-4752-831e-f57dc8a3d1a3")
 		(property "Reference" "#PWR0106"
-			(at 64.77 187.96 0)
+			(at 66.04 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +7050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 186.69 0)
+			(at 66.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +7058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 181.61 0)
+			(at 66.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +7067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 181.61 0)
+			(at 66.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +7076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 181.61 0)
+			(at 66.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +7583,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 181.61 0)
+		(at 80.01 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6701,7 +7592,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e39b6fa-4f75-4091-aa3c-936105625d2d")
 		(property "Reference" "#PWR0107"
-			(at 78.74 187.96 0)
+			(at 80.01 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +7601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 186.69 0)
+			(at 80.01 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +7609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 181.61 0)
+			(at 80.01 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +7618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 181.61 0)
+			(at 80.01 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +7627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 181.61 0)
+			(at 80.01 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,6 +8128,87 @@
 			(project "control"
 				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
 					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 168.91 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "581420ff-58e7-495f-b030-65d9c19e00a5")
+		(property "Reference" "U9"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "798ecd90-3f0a-45dd-a6ab-2dfffbc31b68")
+		)
+		(pin "2"
+			(uuid "dce527ac-c103-4b32-90d1-bb78585fb659")
+		)
+		(pin "3"
+			(uuid "04648103-3dac-4715-aa7d-6d932c99f197")
+		)
+		(pin "4"
+			(uuid "d5a3c407-9874-4dbc-a27f-3b5546637d2d")
+		)
+		(pin "5"
+			(uuid "f8a7b114-f28f-45ec-93d0-e3c7d476e9a9")
+		)
+		(pin "6"
+			(uuid "b3729b65-a594-4079-9521-3265e2092390")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7861,7 +8833,7 @@
 	)
 	(symbol
 		(lib_id "AT-LED:SK9822")
-		(at 78.74 168.91 0)
+		(at 80.01 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7869,7 +8841,7 @@
 		(dnp no)
 		(uuid "699d9d5c-0c17-4bcf-823f-3c11fd2c98ec")
 		(property "Reference" "U4"
-			(at 80.01 162.56 0)
+			(at 81.28 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8850,7 @@
 			)
 		)
 		(property "Value" "SK9822"
-			(at 80.01 175.26 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8859,7 @@
 			)
 		)
 		(property "Footprint" "AT-LED:SK9822"
-			(at 78.74 168.91 0)
+			(at 80.01 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +8868,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
-			(at 78.74 168.91 0)
+			(at 80.01 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +8877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 168.91 0)
+			(at 80.01 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8914,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 24.13 167.64 180)
+		(at 25.4 219.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7951,7 +8923,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a586c7d-49f2-4522-865e-bec6a6299dde")
 		(property "Reference" "C11"
-			(at 27.94 166.3699 0)
+			(at 29.21 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +8932,7 @@
 			)
 		)
 		(property "Value" "4.7uF 25V"
-			(at 27.94 168.9099 0)
+			(at 29.21 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +8941,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 24.13 167.64 0)
+			(at 25.4 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 167.64 0)
+			(at 25.4 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 167.64 0)
+			(at 25.4 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +9120,7 @@
 	)
 	(symbol
 		(lib_id "AT-LED:SK9822")
-		(at 96.52 168.91 0)
+		(at 97.79 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8156,7 +9128,7 @@
 		(dnp no)
 		(uuid "70bb668c-53c9-4f8b-b964-67ec9525af45")
 		(property "Reference" "U5"
-			(at 97.79 162.56 0)
+			(at 99.06 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +9137,7 @@
 			)
 		)
 		(property "Value" "SK9822"
-			(at 97.79 175.26 0)
+			(at 99.06 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +9146,7 @@
 			)
 		)
 		(property "Footprint" "AT-LED:SK9822"
-			(at 96.52 168.91 0)
+			(at 97.79 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +9155,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
-			(at 96.52 168.91 0)
+			(at 97.79 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +9164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 168.91 0)
+			(at 97.79 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,6 +10020,87 @@
 		)
 	)
 	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 222.25 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98ba4bad-184c-4c1e-a19b-a609efc5c728")
+		(property "Reference" "U12"
+			(at 223.52 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 223.52 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 222.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 222.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "278df42c-c86c-4131-8d2e-c9448986bc0c")
+		)
+		(pin "2"
+			(uuid "64fdde82-9a59-4e6b-b91b-bbb43eb1d085")
+		)
+		(pin "3"
+			(uuid "b5ef3f50-52ce-4c6c-a814-217bdf843619")
+		)
+		(pin "4"
+			(uuid "3a8f1a94-f0d2-47d9-9e9c-9ab9b607e219")
+		)
+		(pin "5"
+			(uuid "79205271-2d88-4a06-ab52-a45520800e80")
+		)
+		(pin "6"
+			(uuid "c0091df9-8b4a-4fb8-80dc-d3cc64e48c4f")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 250.19 127 0)
 		(mirror y)
@@ -9378,6 +10431,87 @@
 			(project "control"
 				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 204.47 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac1f99f7-25fe-4981-a14e-3eb6826d07b7")
+		(property "Reference" "U11"
+			(at 205.74 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 205.74 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 204.47 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 204.47 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecfccdb1-845d-40ba-9522-d82a5c65a813")
+		)
+		(pin "2"
+			(uuid "cfea981a-b3d2-4d2e-a9ae-698203090797")
+		)
+		(pin "3"
+			(uuid "ea1d4487-c6dd-43a3-a139-b60474774251")
+		)
+		(pin "4"
+			(uuid "662ec921-b97b-4132-b424-752825097ea3")
+		)
+		(pin "5"
+			(uuid "1f8d4275-9609-4686-b9b4-1984dfc72a29")
+		)
+		(pin "6"
+			(uuid "f622c348-8a0f-40b1-af1f-74cceed41909")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -10452,6 +11586,87 @@
 		)
 	)
 	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 115.57 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4933394-9020-4b12-b255-71a05aa5cc5b")
+		(property "Reference" "U6"
+			(at 116.84 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 116.84 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 115.57 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 115.57 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc6db1f-f972-4c4f-aaad-155bab740b0d")
+		)
+		(pin "2"
+			(uuid "62e45423-69cf-492e-a2d2-35a35e33b224")
+		)
+		(pin "3"
+			(uuid "be26d7ff-6a39-4208-91d7-d7f79241badb")
+		)
+		(pin "4"
+			(uuid "5a6bc972-993e-4cb3-a201-61ef92e9c176")
+		)
+		(pin "5"
+			(uuid "2f04ab1a-1f25-46f7-beae-7b55b0429211")
+		)
+		(pin "6"
+			(uuid "42655eb6-7847-442b-8b2b-c1a4acd316a1")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AT-Switches:SPST_12-34")
 		(at 171.45 50.8 0)
 		(unit 1)
@@ -11087,6 +12302,87 @@
 		)
 	)
 	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 133.35 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8e82605-8ad3-418c-bdb1-a5f92c50538f")
+		(property "Reference" "U7"
+			(at 134.62 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 134.62 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 133.35 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 133.35 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "948a0f5d-081f-4c34-859f-91dfdb6d88f9")
+		)
+		(pin "2"
+			(uuid "9242d6df-96f8-434f-8590-e167995eb057")
+		)
+		(pin "3"
+			(uuid "362f10dd-2165-4e6d-899b-db2dd2270e6a")
+		)
+		(pin "4"
+			(uuid "a28219f2-f5b1-40e5-a632-10706bbeb880")
+		)
+		(pin "5"
+			(uuid "1923007f-ddfc-42cf-9aaf-58f3cc22d4a4")
+		)
+		(pin "6"
+			(uuid "543c07a4-605d-4584-8246-3db3739dd0fc")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 72.39 119.38 90)
 		(unit 1)
@@ -11228,6 +12524,87 @@
 			(project "control"
 				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT-LED:SK9822")
+		(at 151.13 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fec05cd0-bd36-4bfa-9112-d99dafe9c4cf")
+		(property "Reference" "U8"
+			(at 152.4 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 152.4 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AT-LED:SK9822"
+			(at 151.13 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2343/SK9822_SHIJI.pdf"
+			(at 151.13 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c898fa59-cc98-4afa-bc19-77a4382a01ac")
+		)
+		(pin "2"
+			(uuid "6d8f13dc-4a0f-4925-aba8-9477bfbfc854")
+		)
+		(pin "3"
+			(uuid "9bf38429-2edc-435d-8138-70a8009b5e8b")
+		)
+		(pin "4"
+			(uuid "fe9ae27a-42a7-4961-a828-d7b789884ac3")
+		)
+		(pin "5"
+			(uuid "b254cdd4-834d-4231-a2b4-b00f23fe8145")
+		)
+		(pin "6"
+			(uuid "f7ca376b-24af-48c3-b3c0-e55cff2fed4b")
+		)
+		(instances
+			(project "control"
+				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/af6fef33-e7df-46d4-8215-381c7984a1d6"
+					(reference "U8")
 					(unit 1)
 				)
 			)

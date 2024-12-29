@@ -224,9 +224,10 @@
 		(layer "Dwgs.User")
 		(uuid "b33482c8-be8b-442f-a2ec-9a5e9728b85c")
 	)
-	(gr_rect
-		(start 117.5 72)
-		(end 182.5 107)
+	(gr_poly
+		(pts
+			(xy 182.499999 115) (xy 117.500001 115) (xy 117.5 80) (xy 182.5 80)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -296,6 +297,17 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "d6e0e69f-b577-4668-b869-8bbe9e52a8b8")
+	)
+	(gr_rect
+		(start 182.5 88)
+		(end 213.5 131)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d86487fd-6ff1-4847-9172-c2b4bc047448")
 	)
 	(gr_line
 		(start 193 135)

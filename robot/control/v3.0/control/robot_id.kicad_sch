@@ -1348,11 +1348,11 @@
 			)
 		)
 	)
-	(bus_alias "ID_{SW}"
-		(members "IDX0" "IDX1" "IDX2" "IDX3" "TEAM_BLUE_~{YELLOW}" "SRC_PRIO_USER_~{AUTO}")
-	)
-	(bus_alias "ROBOTID_{DISP}"
+	(bus_alias "ID_DISP"
 		(members "FL" "BL" "BR" "FR" "TeamBlue" "SrcDisagree")
+	)
+	(bus_alias "ID_SW"
+		(members "IDX0" "IDX1" "IDX2" "IDX3" "TEAM_BLUE_~{YELLOW}" "SRC_PRIO_USER_~{AUTO}")
 	)
 	(junction
 		(at 163.83 48.26)

@@ -4781,6 +4781,16 @@
 		)
 		(uuid "1a730dd9-acb3-4874-b965-9bd7020d3bc4")
 	)
+	(text "C: EEEFTC331XAP"
+		(exclude_from_sim no)
+		(at 215.9 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30028a66-f8b2-47c3-b174-8d832b1eb3d3")
+	)
 	(text "3.3V 5A System Power\n"
 		(exclude_from_sim no)
 		(at 31.75 106.68 0)
@@ -4990,7 +5000,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n 50V"
 			(at 140.9763 129.54 90)
 			(effects
 				(font
@@ -5685,7 +5695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF 63V"
+		(property "Value" "100n 50V"
 			(at 344.17 36.8362 0)
 			(effects
 				(font
@@ -5990,7 +6000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n 50V"
 			(at 264.16 121.9262 0)
 			(effects
 				(font
@@ -6088,6 +6098,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "C" "220u"
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -6268,7 +6287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF 10V"
+		(property "Value" "47u 10V"
 			(at 375.92 44.4562 0)
 			(effects
 				(font
@@ -7291,6 +7310,15 @@
 				(hide yes)
 			)
 		)
+		(property "C" "220u"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eef243a3-631a-417d-831d-d0a9300e2d8d")
 		)
@@ -7971,7 +7999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value2" "47uH"
+		(property "Value2" "47u"
 			(at 361.95 43.18 90)
 			(effects
 				(font
@@ -8215,7 +8243,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c336717-85e2-411e-8514-ea023d16bd8e")
 		(property "Reference" "C40"
-			(at 285.75 56.5213 0)
+			(at 285.75 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,8 +8251,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2700pF"
-			(at 285.75 59.0613 0)
+		(property "Value" "2.7n"
+			(at 285.75 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +8463,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n 50V"
 			(at 140.9763 43.18 90)
 			(effects
 				(font
@@ -9517,7 +9545,7 @@
 		(fields_autoplaced yes)
 		(uuid "b49b6747-815b-43ec-b2e1-2b07e2a60a9b")
 		(property "Reference" "C41"
-			(at 298.45 56.5213 0)
+			(at 298.45 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,8 +9553,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10000pF"
-			(at 298.45 59.0613 0)
+		(property "Value" "10n"
+			(at 298.45 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)

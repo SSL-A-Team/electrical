@@ -4706,6 +4706,16 @@
 		)
 		(uuid "1dd4e517-719c-4146-a201-4dfb0b543156")
 	)
+	(text "Since 1.5m or two 3.0m resistors for CS"
+		(exclude_from_sim no)
+		(at 80.01 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f092dfd-5841-415c-8529-bac9721553d7")
+	)
 	(text "~5000ms hold to power off\n"
 		(exclude_from_sim no)
 		(at 154.94 218.44 0)
@@ -5431,7 +5441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u 50V"
+		(property "Value" "100n 50V"
 			(at 314.96 53.3462 0)
 			(effects
 				(font
@@ -5769,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u 63V"
+		(property "Value" "100n 50V"
 			(at 123.19 212.0962 0)
 			(effects
 				(font
@@ -8217,7 +8227,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM02B_GHS"
+		(property "Value" "SM02B-GHS"
 			(at 86.36 214.63 90)
 			(effects
 				(font
@@ -8498,7 +8508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u 63V"
+		(property "Value" "100n 63V"
 			(at 60.96 205.7462 0)
 			(effects
 				(font

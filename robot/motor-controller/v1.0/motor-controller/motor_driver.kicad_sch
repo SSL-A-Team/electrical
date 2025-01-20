@@ -10200,7 +10200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1uF 10V"
 			(at 323.85 180.3462 0)
 			(effects
 				(font
@@ -11306,7 +11306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 207.01 220.9799 0)
 			(effects
 				(font
@@ -12332,7 +12332,7 @@
 				)
 			)
 		)
-		(property "Value" "40.0k 1%"
+		(property "Value" "40.2k 1%"
 			(at 295.91 191.77 90)
 			(effects
 				(font
@@ -12607,7 +12607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 198.12 220.9799 0)
 			(effects
 				(font
@@ -14114,13 +14114,11 @@
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 191.77 219.71 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ce342b5-5e94-460f-9f37-4e8740050bd6")
 		(property "Reference" "R30"
 			(at 189.23 218.4399 0)
@@ -14128,16 +14126,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 189.23 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"

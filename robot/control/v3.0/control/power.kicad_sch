@@ -12,117 +12,6 @@
 		(comment 1 "Author: Will Stuckey")
 	)
 	(lib_symbols
-		(symbol "AT-Supplies:+V_{BATT(RAW)}"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+V_{BATT(RAW)}"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+V_{BATT(RAW)}_0_1"
-				(polyline
-					(pts
-						(xy -0.76 1.27) (xy 0.002 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.002 0) (xy 0.002 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.002 2.54) (xy 0.764 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+V_{BATT(RAW)}_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+V_{BATT(RAW)}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -2413,12 +2302,6 @@
 		(uuid "60a1b8ab-125c-44ce-a862-37637f4cf944")
 	)
 	(junction
-		(at 45.72 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bfa6bdd-eb31-44c2-9084-88737e90407b")
-	)
-	(junction
 		(at 121.92 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2550,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 35.56) (xy 62.23 35.56)
+			(xy 49.53 35.56) (xy 77.47 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2567,16 +2450,6 @@
 			(type default)
 		)
 		(uuid "32ecf390-16b3-4728-880e-4b4aa1b587cf")
-	)
-	(wire
-		(pts
-			(xy 69.85 35.56) (xy 77.47 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335689b8-f109-4ebd-b610-edab9dbe3547")
 	)
 	(wire
 		(pts
@@ -2880,16 +2753,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 35.56) (xy 45.72 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972a1c9e-4997-4c25-ba6f-3aebc2c81e05")
-	)
-	(wire
-		(pts
 			(xy 49.53 41.91) (xy 49.53 38.1)
 		)
 		(stroke
@@ -2930,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 49.53 35.56)
+			(xy 43.18 35.56) (xy 49.53 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3127,16 +2990,6 @@
 			(type default)
 		)
 		(uuid "d7a765e8-f020-41c2-bd1c-85fa8f7d2925")
-	)
-	(wire
-		(pts
-			(xy 45.72 31.75) (xy 45.72 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dad4e916-916d-4395-9d1b-6191b409664e")
 	)
 	(bus
 		(pts
@@ -4123,74 +3976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 66.04 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b36674b-3df8-4a50-b309-8fdb0c2c56d9")
-		(property "Reference" "F5"
-			(at 66.04 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15A"
-			(at 66.04 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AT-Fuses:3557-2"
-			(at 66.04 37.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 66.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b860735-294e-40d0-8768-0d17bfd41a7b")
-		)
-		(pin "2"
-			(uuid "95d17be6-92f3-4b86-bda0-aa84ddab750e")
-		)
-		(instances
-			(project "control"
-				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/47185b2f-effb-4e6a-b4d6-0a2d0dfcdbc6"
-					(reference "F5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:TLV70030_SOT353")
 		(at 132.08 139.7 0)
 		(unit 1)
@@ -4294,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -4597,72 +4382,6 @@
 			(project "control"
 				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/47185b2f-effb-4e6a-b4d6-0a2d0dfcdbc6"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AT-Supplies:+V_{BATT(RAW)}")
-		(at 45.72 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62a88bb1-7610-49e7-b43c-0f8759be88b8")
-		(property "Reference" "#PWR0127"
-			(at 45.72 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+V_{BATT(RAW)}"
-			(at 45.722 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac075879-1ad8-4a6b-a847-4328b411038b")
-		)
-		(instances
-			(project "control"
-				(path "/847d0bbe-37dc-4895-9fde-3757dcb8f4e8/47185b2f-effb-4e6a-b4d6-0a2d0dfcdbc6"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)

@@ -1817,15 +1817,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 104.14 52.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb206d92-17d7-4db6-9b7b-495ed9f9bd9e")
 		(property "Reference" "J15"
-			(at 105.41 40.64 0)
+			(at 105.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1833,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 105.41 43.18 0)
+			(at 105.41 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

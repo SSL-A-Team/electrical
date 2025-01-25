@@ -3,10 +3,13 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.5284)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(date "2025-01-25")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -60,54 +63,59 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(color "FR4 natural")
+				(thickness 0.0994)
+				(material "3313")
+				(epsilon_r 4.05)
+				(loss_tangent 0)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 0.535)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(material "Core")
+				(epsilon_r 4.6)
+				(loss_tangent 0)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(color "FR4 natural")
+				(thickness 0.1088)
+				(material "2116")
+				(epsilon_r 4.25)
+				(loss_tangent 0)
 			)
 			(layer "In3.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 4"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 0.535)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(material "Core")
+				(epsilon_r 4.6)
+				(loss_tangent 0)
 			)
 			(layer "In4.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 5"
 				(type "prepreg")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(color "FR4 natural")
+				(thickness 0.0994)
+				(material "3313")
+				(epsilon_r 4.05)
+				(loss_tangent 0)
 			)
 			(layer "B.Cu"
 				(type "copper")
@@ -2531,7 +2539,7 @@
 	(footprint "at-switches:219-2MST"
 		(layer "F.Cu")
 		(uuid "0dea6137-e714-4088-9e18-8f75e791055e")
-		(at 182.4 72.8 -90)
+		(at 182.4 71 -90)
 		(descr "SMD 2x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x6.55mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile")
 		(property "Reference" "SW3"
 			(at 0 -4.9 90)
@@ -7179,7 +7187,7 @@
 	(footprint "at-switches:219-8MST"
 		(layer "F.Cu")
 		(uuid "25018cfe-859a-4bf9-9b59-5705bad2690c")
-		(at 148.5 73 -90)
+		(at 148.5 71 -90)
 		(descr "SMD 8x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile")
 		(property "Reference" "SW6"
 			(at 0 -12.5 90)
@@ -9018,9 +9026,9 @@
 	(footprint "at-switches:221ADC16"
 		(layer "F.Cu")
 		(uuid "2d5c5a5c-47f9-423f-a76e-7f5d02fe5017")
-		(at 130.5 73 180)
+		(at 130.5 71 180)
 		(property "Reference" "SW4"
-			(at 0 -6 360)
+			(at 0 -6 0)
 			(layer "F.SilkS")
 			(uuid "244286db-2e32-46ae-b90a-3cbf53339a2f")
 			(effects
@@ -9031,7 +9039,7 @@
 			)
 		)
 		(property "Value" "221ADC16"
-			(at 0 6 360)
+			(at 0 6 0)
 			(layer "F.Fab")
 			(uuid "5c7fb3da-a8f2-4fb6-97de-62b516ff7207")
 			(effects
@@ -9042,7 +9050,7 @@
 			)
 		)
 		(property "Footprint" "at-switches:221ADC16"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57a0c7b5-e7c6-40a2-ac76-0949df9b6911")
@@ -9054,7 +9062,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/221.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5fe736c-2bd0-444c-9edd-bfa002c1c621")
@@ -9066,7 +9074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db4c754c-ea07-4608-9839-d58ef659e28a")
@@ -9172,7 +9180,7 @@
 			(uuid "0bd28db3-0d46-43b0-b948-4c3f0091b3ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "801f69f6-829a-4174-af60-273916d93b53")
 			(effects
@@ -10339,7 +10347,7 @@
 	(footprint "at-switches:219-2MST"
 		(layer "F.Cu")
 		(uuid "38794640-1eb9-40ca-ac85-4a51ee7d9721")
-		(at 121 73 -90)
+		(at 121 71 -90)
 		(descr "SMD 2x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x6.55mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile")
 		(property "Reference" "SW5"
 			(at 0 -4.9 90)
@@ -31211,7 +31219,7 @@
 	(footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Omron_A6S-110x_W8.9mm_P2.54mm"
 		(layer "F.Cu")
 		(uuid "c5b0d7a4-36ae-45a8-b8d6-7c29022cc918")
-		(at 164.9 72.8 90)
+		(at 164.9 71 90)
 		(descr "SMD 1x-dip-switch SPST Omron_A6S-110x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)")
 		(tags "SMD DIP Switch SPST Slide 8.9mm 350mil")
 		(property "Reference" "SW1"
@@ -58995,6 +59003,171 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "df63d989-f776-4e80-8e87-d36a6fc10248")
+	)
+	(gr_text "OPTICAL"
+		(at 140.5 131 0)
+		(layer "F.SilkS" knockout)
+		(uuid "057225b8-a675-44a4-8e0d-83f2126fc456")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "BOT NUM"
+		(at 130.5 63 180)
+		(layer "F.SilkS" knockout)
+		(uuid "12546d21-384c-43b0-af08-65bb377029ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "RADIO"
+		(at 125 131 0)
+		(layer "F.SilkS" knockout)
+		(uuid "2d0e7c9a-8e85-4515-bbf6-3a44fdf95703")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "B"
+		(at 122.5 63.5 180)
+		(layer "F.SilkS")
+		(uuid "42868014-7db9-4ea3-8c2a-3d1c80118910")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "DBG"
+		(at 165 63 180)
+		(layer "F.SilkS" knockout)
+		(uuid "516eaf96-518d-4020-9ef3-dff2ef3bf4a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "LV PWR"
+		(at 183.5 131 0)
+		(layer "F.SilkS" knockout)
+		(uuid "5a2a3ddb-5fea-4b4d-ab79-172eefec5525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "BOOT"
+		(at 182.5 63 180)
+		(layer "F.SilkS" knockout)
+		(uuid "632e5994-93d9-4ea3-b176-85cdf8ef8585")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "A"
+		(at 119.5 78.5 180)
+		(layer "F.SilkS")
+		(uuid "78a54f17-9b1d-4a3f-bd76-f7f7340c3d24")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "Y"
+		(at 122.5 78.5 180)
+		(layer "F.SilkS")
+		(uuid "a2ca7dc6-5fa5-4c8e-992d-ef77f174c21f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "KICKER"
+		(at 157.5 131 0)
+		(layer "F.SilkS" knockout)
+		(uuid "b2c94173-f85e-43de-bc89-1ba542f18e45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "WiFi\n"
+		(at 153.5 78.5 180)
+		(layer "F.SilkS")
+		(uuid "b556c703-1c0b-4c19-92ec-2909e347297b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "U"
+		(at 119.5 63.5 180)
+		(layer "F.SilkS")
+		(uuid "d0140df8-4f6a-4d76-80b7-40e1c073d86d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "ON"
+		(at 165 78 180)
+		(layer "F.SilkS")
+		(uuid "d165ed2a-9310-4df8-92fc-7d7bae81173a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "CONFIG"
+		(at 148.5 63 180)
+		(layer "F.SilkS" knockout)
+		(uuid "eccb87cf-84fd-447c-83ce-539318a78a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "PWR TELEM"
+		(at 171.5 131 0)
+		(layer "F.SilkS" knockout)
+		(uuid "f033fd42-ba7c-4f88-a7bb-94ecc7eb7e46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
 	)
 	(zone
 		(net 0)

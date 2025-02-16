@@ -6683,6 +6683,12 @@
 		(uuid "5213b93b-3dd5-485e-89fd-82d8a30d713f")
 	)
 	(junction
+		(at 533.4 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535cc4d3-e3ef-4caf-9d6d-8a6c81c12d4e")
+	)
+	(junction
 		(at 240.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6813,6 +6819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b084d1dc-d625-43a7-ac0e-569b473e4415")
+	)
+	(junction
+		(at 543.56 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5dfbf7b-cfe9-496d-80cb-3034c658b60e")
 	)
 	(junction
 		(at 137.16 363.22)
@@ -8019,6 +8031,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 119.38) (xy 535.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ef9380-076b-4c3f-aad8-752a928be310")
+	)
+	(wire
+		(pts
 			(xy 38.1 238.76) (xy 50.8 238.76)
 		)
 		(stroke
@@ -8066,6 +8088,16 @@
 			(type default)
 		)
 		(uuid "25bbac13-08f9-4901-aa9e-0bfe2fc2f66b")
+	)
+	(wire
+		(pts
+			(xy 533.4 132.08) (xy 543.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264b39fc-6a81-464a-b28e-bdcc00e0126d")
 	)
 	(wire
 		(pts
@@ -9359,6 +9391,16 @@
 	)
 	(wire
 		(pts
+			(xy 543.56 132.08) (xy 543.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1fa365-2022-4533-a511-146ba287632c")
+	)
+	(wire
+		(pts
 			(xy 262.89 147.32) (xy 279.4 147.32)
 		)
 		(stroke
@@ -9469,7 +9511,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 123.19) (xy 533.4 127)
+			(xy 543.56 110.49) (xy 543.56 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10049,7 +10091,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 137.16) (xy 533.4 139.7)
+			(xy 543.56 124.46) (xy 543.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10647,6 +10689,16 @@
 		)
 		(uuid "d8dfc76d-0228-453b-b2ba-c2a53047bfd3")
 	)
+	(wire
+		(pts
+			(xy 533.4 129.54) (xy 533.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d962c031-9da7-4694-affc-83720852e99d")
+	)
 	(polyline
 		(pts
 			(xy 347.98 322.58) (xy 358.14 328.93)
@@ -10846,6 +10898,16 @@
 			(type default)
 		)
 		(uuid "e0745264-a71a-46d0-824a-3a331971f1f5")
+	)
+	(wire
+		(pts
+			(xy 533.4 119.38) (xy 533.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0798423-4e63-44e0-9567-fb5ad09763fd")
 	)
 	(wire
 		(pts
@@ -11049,7 +11111,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 123.19) (xy 533.4 123.19)
+			(xy 530.86 110.49) (xy 543.56 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11139,7 +11201,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 132.08) (xy 525.78 132.08)
+			(xy 530.86 119.38) (xy 533.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -12151,7 +12213,7 @@
 		(uuid "54d80a9a-01c8-40f9-928b-1a9a9e0e203b")
 	)
 	(label "LED_BB_BLUE"
-		(at 520.7 132.08 180)
+		(at 530.86 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12712,7 +12774,7 @@
 		(uuid "d57ef7a9-8c6d-4983-bad8-bc32801dd157")
 	)
 	(label "BB_LED_DRAIN"
-		(at 520.7 123.19 180)
+		(at 530.86 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15179,6 +15241,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 533.4 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37394582-2d49-4bbb-8ab1-cfdd0d2bea68")
+		(property "Reference" "R72"
+			(at 530.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 530.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 534.416 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 533.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 533.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07654071-3ef2-42fc-805a-a420300b7659")
+		)
+		(pin "2"
+			(uuid "543fa738-9363-45cc-abe3-a90e85846a36")
+		)
+		(instances
+			(project "kicker"
+				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/18b5a777-2ae2-444a-8013-2f46c3974bf2"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 80.01 0)
 		(unit 1)
@@ -17554,7 +17687,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 533.4 139.7 0)
+		(at 543.56 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17563,7 +17696,7 @@
 		(fields_autoplaced yes)
 		(uuid "72a8257f-2b3c-4138-9536-cb9749e4b38e")
 		(property "Reference" "#PWR041"
-			(at 533.4 146.05 0)
+			(at 543.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17572,7 +17705,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 533.4 144.78 0)
+			(at 543.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17580,7 +17713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 533.4 139.7 0)
+			(at 543.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17589,7 +17722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 533.4 139.7 0)
+			(at 543.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,7 +17731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 533.4 139.7 0)
+			(at 543.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21802,7 +21935,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 530.86 132.08 0)
+		(at 541.02 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21810,7 +21943,7 @@
 		(dnp no)
 		(uuid "e34ec834-ced7-4e19-bb0d-27c462a2bac2")
 		(property "Reference" "Q1"
-			(at 537.845 130.81 0)
+			(at 548.005 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21819,7 +21952,7 @@
 			)
 		)
 		(property "Value" "BSS138K"
-			(at 537.21 133.3499 0)
+			(at 547.37 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21828,7 +21961,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 535.94 129.54 0)
+			(at 546.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21837,7 +21970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 530.86 132.08 0)
+			(at 541.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21846,7 +21979,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 530.86 132.08 0)
+			(at 541.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5105,7 +5105,7 @@
 	)
 	(bus_alias "VMON"
 		(members "CELL_1" "CELL_2" "CELL_3" "CELL_4" "CELL_5" "CELL_6" "BATT_PRE"
-			"BATT_POST" "5v0" "3v3"
+			"BATT_POST" "5v0" "3v3" "12v0"
 		)
 	)
 	(junction
@@ -5247,16 +5247,8 @@
 		(uuid "fe5d3367-961f-4a86-88d7-564e39430566")
 	)
 	(no_connect
-		(at 220.98 137.16)
-		(uuid "0951e0d3-8900-4bb1-8891-5c726c34c9fc")
-	)
-	(no_connect
 		(at 190.5 104.14)
 		(uuid "1723fcc5-09df-4c81-8474-7f27f2cf8314")
-	)
-	(no_connect
-		(at 220.98 116.84)
-		(uuid "1c6df45f-90c7-4e87-9c47-bf89c23a0764")
 	)
 	(no_connect
 		(at 220.98 114.3)
@@ -5295,8 +5287,8 @@
 		(uuid "94ec3bca-f98d-499a-ba3f-eb7ee73c59ec")
 	)
 	(no_connect
-		(at 220.98 129.54)
-		(uuid "b3f1f122-0da0-4079-9e2d-b4bc26b712b9")
+		(at 220.98 137.16)
+		(uuid "d38d560f-9970-4f56-bb29-3af503a4d725")
 	)
 	(no_connect
 		(at 173.99 223.52)
@@ -5391,6 +5383,15 @@
 			(type default)
 		)
 		(uuid "51d3d627-4644-4b3f-8425-15da535ac7a3")
+	)
+	(bus_entry
+		(at 256.54 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586d173d-a59e-4df1-a986-ea5521211493")
 	)
 	(bus_entry
 		(at 346.71 162.56)
@@ -6065,6 +6066,16 @@
 			(type default)
 		)
 		(uuid "3b4b3aae-f3dd-4c6c-9fc4-049e26102e1a")
+	)
+	(wire
+		(pts
+			(xy 220.98 116.84) (xy 254 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4e568a-784c-451b-bed2-e508e8966ffd")
 	)
 	(wire
 		(pts
@@ -6938,6 +6949,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 129.54) (xy 229.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0baefbf-aa14-4c4b-a9a6-e7e91b2e7363")
+	)
+	(wire
+		(pts
 			(xy 220.98 78.74) (xy 254 78.74)
 		)
 		(stroke
@@ -7078,7 +7099,7 @@
 	)
 	(bus
 		(pts
-			(xy 256.54 110.49) (xy 256.54 116.84)
+			(xy 256.54 110.49) (xy 256.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7215,6 +7236,16 @@
 			(type default)
 		)
 		(uuid "b6ed9ad3-3eb2-4352-ad2c-28ae362333b2")
+	)
+	(bus
+		(pts
+			(xy 256.54 114.3) (xy 256.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77c0249-0a08-4490-826f-55bfd354eeac")
 	)
 	(wire
 		(pts
@@ -8389,6 +8420,17 @@
 		)
 		(uuid "7d2c89f4-e8fc-45de-992d-2a19e626733b")
 	)
+	(label "PWR_12v0_EN"
+		(at 229.87 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "822556e8-2fe9-4591-9eee-497fd9a00374")
+	)
 	(label "SWCLK"
 		(at 360.68 224.79 180)
 		(fields_autoplaced yes)
@@ -8762,6 +8804,16 @@
 			(justify left bottom)
 		)
 		(uuid "efd2e1db-43e6-4617-b4c6-6dd67905129e")
+	)
+	(label "12v0"
+		(at 229.87 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1715541-1672-4d53-843d-e0fc9c5f1af3")
 	)
 	(label "CELL_3"
 		(at 229.87 78.74 0)

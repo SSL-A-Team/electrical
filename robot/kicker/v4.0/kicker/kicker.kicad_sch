@@ -114,7 +114,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector_Generic_MountingPin:Conn_01x08_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -128,12 +128,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x08_MountingPin"
+				(at 1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -154,7 +155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -172,7 +173,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -181,7 +182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
+			(symbol "Conn_01x08_MountingPin_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -279,6 +280,26 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -12.192) (xy 1.016 -12.192)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -11.811 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -418,6 +439,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,6 +1199,102 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
@@ -1728,6 +1863,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 111.76) (xy 38.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58d9001-f6ef-449c-8642-c5b01999b054")
+	)
+	(wire
+		(pts
 			(xy 205.74 64.77) (xy 205.74 114.3)
 		)
 		(stroke
@@ -2068,7 +2213,7 @@
 	)
 	(rectangle
 		(start 29.21 72.39)
-		(end 142.24 118.11)
+		(end 142.24 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -2102,7 +2247,6 @@
 	)
 	(label "3v3_UPSTREAM"
 		(at 53.34 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2257,6 @@
 	)
 	(label "GND_UPSTREAM"
 		(at 53.34 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2124,7 +2267,6 @@
 	)
 	(label "COMS.BOOT0"
 		(at 53.34 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,7 +2277,6 @@
 	)
 	(label "COMS.RX"
 		(at 53.34 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2146,7 +2287,6 @@
 	)
 	(label "COMS{AT_UART}"
 		(at 118.11 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2157,7 +2297,6 @@
 	)
 	(label "COMS{AT_UART}"
 		(at 146.05 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,7 +2307,6 @@
 	)
 	(label "5v0_UPSTREAM"
 		(at 53.34 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2179,7 +2317,6 @@
 	)
 	(label "COMS.~{DET}"
 		(at 53.34 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2190,7 +2327,6 @@
 	)
 	(label "COMS.TX"
 		(at 53.34 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2201,7 +2337,6 @@
 	)
 	(label "COMS.RST"
 		(at 53.34 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,7 +2355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "005d03e7-bd33-433f-908d-4871acdb575f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 217.17 97.79 0)
 			(effects
 				(font
@@ -2270,7 +2405,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -2286,7 +2421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15723ddb-0c10-4e1e-b1f6-9c45fbba897d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR4"
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -2336,7 +2471,72 @@
 		(instances
 			(project ""
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR03")
+					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2134f51a-3505-4813-b58b-331ef1a3cc13")
+		(property "Reference" "#PWR127"
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23dd98ce-62ce-4e25-924e-2842bc20cc68")
+		)
+		(instances
+			(project "kicker"
+				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
+					(reference "#PWR127")
 					(unit 1)
 				)
 			)
@@ -2352,7 +2552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24734bde-bed4-4294-bb1a-f39cd4ee89a0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 99.06 33.02 0)
 			(effects
 				(font
@@ -2402,7 +2602,7 @@
 		(instances
 			(project ""
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d482020-9d6d-493b-8f02-e691fdeba30a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR3"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -2468,7 +2668,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR06")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60108e73-c5f6-49bf-b36c-468b2735ddb4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 91.44 33.02 0)
 			(effects
 				(font
@@ -2602,7 +2802,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -2618,7 +2818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68834676-814c-4b48-9a57-1a0f37c3e134")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR5"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -2668,7 +2868,7 @@
 		(instances
 			(project ""
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR04")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79c24049-061e-4b41-aa04-a187922e54a8")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 46.99 100.33 90)
 			(effects
 				(font
@@ -2735,14 +2935,14 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin")
 		(at 38.1 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -2760,7 +2960,7 @@
 				)
 			)
 		)
-		(property "Value" "SM08B-GHS"
+		(property "Value" "BM08B-GHS-TBT"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -2786,7 +2986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 96.52 0)
 			(effects
 				(font
@@ -2818,6 +3018,9 @@
 		)
 		(pin "1"
 			(uuid "5fda7a8a-b489-48ec-8a45-b9cd4b2252b7")
+		)
+		(pin "MP"
+			(uuid "824c8717-59af-4cad-9c91-15df95b5faba")
 		)
 		(instances
 			(project ""
@@ -2905,7 +3108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6672c95-05e3-413b-b04f-699c9c4fb0fb")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 101.6 86.3599 0)
 			(effects
 				(font
@@ -2959,7 +3162,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2975,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa3b717-e935-43ef-8284-0f6845a20d4d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 224.79 97.79 0)
 			(effects
 				(font
@@ -3025,7 +3228,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca11ff48-a695-4c1f-8951-32f103b49bfb")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG1"
 			(at 46.99 83.185 0)
 			(effects
 				(font
@@ -3091,7 +3294,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#FLG01")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -3107,7 +3310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32c359b-76af-46c7-981c-a0b5d6236afe")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR6"
 			(at 121.92 33.02 0)
 			(effects
 				(font
@@ -3157,7 +3360,7 @@
 		(instances
 			(project ""
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516"
-					(reference "#PWR05")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)

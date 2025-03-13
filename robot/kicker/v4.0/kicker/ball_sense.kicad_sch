@@ -12,7 +12,7 @@
 		(comment 1 "W. Stuckey")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector_Generic_MountingPin:Conn_01x08_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -26,12 +26,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x08_MountingPin"
+				(at 1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -52,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
+			(symbol "Conn_01x08_MountingPin_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -177,6 +178,26 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -12.192) (xy 1.016 -12.192)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -11.811 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -316,6 +337,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -807,6 +846,10 @@
 		(color 0 0 0 0)
 		(uuid "893cbc17-4709-426e-8495-6adc1bf079ad")
 	)
+	(no_connect
+		(at 167.64 69.85)
+		(uuid "a1f5a28b-c903-4894-a7de-7eba996a3e1a")
+	)
 	(bus_entry
 		(at 63.5 54.61)
 		(size 2.54 2.54)
@@ -1128,7 +1171,6 @@
 	)
 	(label "SENSE_BOOT_UART.TX"
 		(at 139.7 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,7 +1181,6 @@
 	)
 	(label "SENSE_BOOT_UART.RX"
 		(at 139.7 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,7 +1191,6 @@
 	)
 	(label "SENSE_BOOT_UART.BOOT0"
 		(at 139.7 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1161,7 +1201,6 @@
 	)
 	(label "SENSE_BOOT_UART.~{DET}"
 		(at 139.7 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1172,7 +1211,6 @@
 	)
 	(label "SENSE_BOOT_UART.RST"
 		(at 139.7 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1184,7 +1222,6 @@
 	(hierarchical_label "SENSE_BOOT_UART{AT_UART}"
 		(shape bidirectional)
 		(at 62.23 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1203,7 +1240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b8efb15-c3fe-43f5-ba44-39a013715a1d")
-		(property "Reference" "R80"
+		(property "Reference" "R78"
 			(at 148.59 55.88 90)
 			(effects
 				(font
@@ -1255,14 +1292,14 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "R80")
+					(reference "R78")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin")
 		(at 167.64 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1271,8 +1308,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc8a074-d66d-4152-8ac1-080082368cdc")
-		(property "Reference" "J13"
-			(at 170.18 54.6099 0)
+		(property "Reference" "J10"
+			(at 170.18 54.9655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,8 +1317,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM08B-GH"
-			(at 170.18 57.1499 0)
+		(property "Value" "SM08B-GHS-TB"
+			(at 170.18 57.5055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 167.64 54.61 0)
 			(effects
 				(font
@@ -1340,10 +1377,13 @@
 		(pin "1"
 			(uuid "54ed1ca8-6c1d-4c6d-9bfd-06548201f223")
 		)
+		(pin "MP"
+			(uuid "30c3e2e5-6e3f-4cad-a0c3-bc80eb21dd32")
+		)
 		(instances
 			(project ""
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1359,7 +1399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41426ab7-5406-4ab0-830b-666c94c44104")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR126"
 			(at 154.94 39.37 0)
 			(effects
 				(font
@@ -1409,7 +1449,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "#PWR0134")
+					(reference "#PWR126")
 					(unit 1)
 				)
 			)
@@ -1425,7 +1465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "510b5fb6-e48a-409f-95a1-0d9430aafb5a")
-		(property "Reference" "R78"
+		(property "Reference" "R76"
 			(at 99.06 46.9899 0)
 			(effects
 				(font
@@ -1479,7 +1519,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "R78")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -1495,7 +1535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6068e587-dfa6-4f16-bcf2-74cb50a8cf07")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR124"
 			(at 146.05 39.37 0)
 			(effects
 				(font
@@ -1545,7 +1585,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "#PWR0133")
+					(reference "#PWR124")
 					(unit 1)
 				)
 			)
@@ -1561,7 +1601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b66559-5e5a-407b-8e27-9a6060e1ff53")
-		(property "Reference" "R79"
+		(property "Reference" "R77"
 			(at 110.49 46.9899 0)
 			(effects
 				(font
@@ -1615,7 +1655,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "R79")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -1631,7 +1671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "944634eb-135b-4c1b-8ea8-1eb3778620b6")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR122"
 			(at 96.52 46.99 0)
 			(effects
 				(font
@@ -1681,7 +1721,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "#PWR0135")
+					(reference "#PWR122")
 					(unit 1)
 				)
 			)
@@ -1697,7 +1737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d19c92-097e-4722-918a-211ed8e2ca49")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR125"
 			(at 153.67 82.55 0)
 			(effects
 				(font
@@ -1747,7 +1787,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "#PWR0137")
+					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -1763,7 +1803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0196957-17a9-497a-acdf-f5d2902cf38d")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR123"
 			(at 107.95 46.99 0)
 			(effects
 				(font
@@ -1813,7 +1853,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7a1ed07f-54d5-4760-ac90-4add0b6ea46f"
-					(reference "#PWR0136")
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)

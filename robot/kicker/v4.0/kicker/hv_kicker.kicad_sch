@@ -662,7 +662,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.91 42.545) (xy 168.91 95.25)
+			(xy 168.91 41.91) (xy 168.91 94.615)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +942,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.155 42.545) (xy 129.54 42.545)
+			(xy 92.71 42.545) (xy 139.065 42.545)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +952,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.155 42.545) (xy 97.155 71.12)
+			(xy 92.71 42.545) (xy 92.71 89.535)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +992,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.155 71.12) (xy 129.54 71.12)
+			(xy 92.71 89.535) (xy 139.065 89.535)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1052,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 71.12) (xy 129.54 42.545)
+			(xy 139.065 89.535) (xy 139.065 42.545)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1195,7 @@
 	)
 	(text "Energy Bank"
 		(exclude_from_sim no)
-		(at 97.79 45.085 0)
+		(at 93.98 45.085 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1203,6 +1203,17 @@
 			(justify left bottom)
 		)
 		(uuid "ece88105-aa3a-46ea-ae8c-4dec8829c847")
+	)
+	(text "If using alternatives,\nheight must be less than or equal to 50mm"
+		(exclude_from_sim no)
+		(at 93.98 84.455 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2463ea5-3788-47f8-904b-e5a68107d1e8")
 	)
 	(label "DL2S"
 		(at 161.29 62.23 0)
@@ -1329,8 +1340,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1500uF 200V"
-			(at 109.22 67.31 90)
+		(property "Value" "ESMQ201VSN152MR35S"
+			(at 109.22 78.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,6 +1374,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value2" "1500uF 200V"
+			(at 111.76 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2295,8 +2315,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1500uF 200V"
-			(at 121.92 67.31 90)
+		(property "Value" "ESMQ201VSN152MR35S"
+			(at 121.92 78.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,6 +2349,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value2" "1500uF 200V"
+			(at 124.46 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"

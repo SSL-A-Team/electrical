@@ -1,0 +1,216 @@
+(footprint "2165711002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mates with 2157591002")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "058fedcc-704d-4293-8197-34a17ef8dc07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2165711002"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9af433b-c759-435f-b23f-8e61bde22221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa521670-368f-4dd3-9d7d-071b5668c87a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/216/216571/2165711002_sd.pdf?inline"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8691ae83-8021-44f9-b8bf-cda5bbd1fdc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mates with 2157591002"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1a2e94f-2713-4f8e-bd54-befd5e4e67c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 -2.09)
+		(end -0.7 -2.09)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a9ee0609-f45a-4feb-adae-17b810f8418d")
+	)
+	(fp_line
+		(start -3.5 2.09)
+		(end -3.5 -2.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "713f8bf8-d771-4862-bb18-7b6f3b027ba3")
+	)
+	(fp_line
+		(start -0.7 -3.24)
+		(end 0.7 -3.24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "413ad158-5d24-450c-8ae2-22f700cd71bc")
+	)
+	(fp_line
+		(start -0.7 -2.09)
+		(end -0.7 -3.24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5bb1fe9d-cfd4-4428-8b19-5b60c84f94b3")
+	)
+	(fp_line
+		(start 0.7 -3.24)
+		(end 0.7 -2.09)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9316a6a1-f84d-4951-9514-9aa19b519831")
+	)
+	(fp_line
+		(start 0.7 -2.09)
+		(end 3.5 -2.09)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "987969a4-431a-413c-a77a-06d2692535a9")
+	)
+	(fp_line
+		(start 3.5 -2.09)
+		(end 3.5 2.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a881fee1-2247-4b84-acc6-5a7e843e2ba6")
+	)
+	(fp_line
+		(start 3.5 2.09)
+		(end -3.5 2.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4406c962-ad4e-4078-b602-6c519257203f")
+	)
+	(fp_rect
+		(start -4 -5.5)
+		(end 4 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dea7977f-35a5-4ab6-9f15-d15463c4e0d5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7050574-27e1-4a80-9dab-24805663409e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.78 -0.98)
+		(size 1.02 1.02)
+		(drill 1.02)
+		(layers "*.Mask")
+		(uuid "715e1c58-0187-42df-a1f6-0cf33f8cd655")
+	)
+	(pad "1" thru_hole roundrect
+		(at 1.5 0)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "5f3f0408-a3b0-4f22-91e2-9a024ab006ab")
+	)
+	(pad "2" thru_hole circle
+		(at -1.5 0)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "065bbab7-8db3-4432-af94-d82301097bd8")
+	)
+	(model "${LIB_DIR_AT}/3dmodels/cube_1x1x1mm.step"
+		(offset
+			(xyz 0 1.645 0)
+		)
+		(scale
+			(xyz 6.85 7.75 19.56)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,32 +1,212 @@
-(footprint "2157601002" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (fp_text reference "REF**" (at 0 -9.5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 058fedcc-704d-4293-8197-34a17ef8dc07)
-  )
-  (fp_text value "2157601002" (at 0 12.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c9af433b-c759-435f-b23f-8e61bde22221)
-  )
-  (fp_text user "${REFERENCE}" (at 0 14 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c7050574-27e1-4a80-9dab-24805663409e)
-  )
-  (fp_line (start -3.5 -4.5) (end 3.5 -4.5)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4208e0be-10e2-4b80-a414-1519879271b4))
-  (fp_line (start -3.5 0) (end -3.5 -4.5)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 713f8bf8-d771-4862-bb18-7b6f3b027ba3))
-  (fp_line (start -3.5 4) (end -3.5 0)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 73f848b4-ade7-4987-86e9-cda67c99315b))
-  (fp_line (start 3.5 -4.5) (end 3.5 0)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a881fee1-2247-4b84-acc6-5a7e843e2ba6))
-  (fp_line (start 3.5 0) (end 3.5 4)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b55f6fd6-b5a9-46c1-9ccf-a9b9dbedb0ae))
-  (fp_line (start 3.5 4) (end -3.5 4)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4406c962-ad4e-4078-b602-6c519257203f))
-  (fp_circle (center 0 0) (end 0.9 1.4)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp af96c11e-8e5a-43be-85d5-b32dd8685ab4))
-  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers "*.Mask") (tstamp 951f92e3-c509-40e8-964b-37dd7e0e82bf))
-  (pad "1" thru_hole circle (at 1.5 -4.3) (size 2 2) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp 5f3f0408-a3b0-4f22-91e2-9a024ab006ab))
-  (pad "2" thru_hole circle (at -1.5 -4.3) (size 2 2) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp 065bbab7-8db3-4432-af94-d82301097bd8))
+(footprint "2157601002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "058fedcc-704d-4293-8197-34a17ef8dc07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2157601002"
+		(at 0 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9af433b-c759-435f-b23f-8e61bde22221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa521670-368f-4dd3-9d7d-071b5668c87a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8691ae83-8021-44f9-b8bf-cda5bbd1fdc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1a2e94f-2713-4f8e-bd54-befd5e4e67c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.5 -4.5)
+		(end -3 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4208e0be-10e2-4b80-a414-1519879271b4")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -3.5 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "713f8bf8-d771-4862-bb18-7b6f3b027ba3")
+	)
+	(fp_line
+		(start -3.5 4)
+		(end -3.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f848b4-ade7-4987-86e9-cda67c99315b")
+	)
+	(fp_line
+		(start 3 -4.5)
+		(end 3.5 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "577784a0-7f22-4d7b-b51e-437fab085066")
+	)
+	(fp_line
+		(start 3.5 -4.5)
+		(end 3.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a881fee1-2247-4b84-acc6-5a7e843e2ba6")
+	)
+	(fp_line
+		(start 3.5 0)
+		(end 3.5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b55f6fd6-b5a9-46c1-9ccf-a9b9dbedb0ae")
+	)
+	(fp_line
+		(start 3.5 4)
+		(end -3.5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4406c962-ad4e-4078-b602-6c519257203f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "af96c11e-8e5a-43be-85d5-b32dd8685ab4")
+	)
+	(fp_rect
+		(start -4 -5.5)
+		(end 4 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dea7977f-35a5-4ab6-9f15-d15463c4e0d5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7050574-27e1-4a80-9dab-24805663409e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Mask")
+		(uuid "951f92e3-c509-40e8-964b-37dd7e0e82bf")
+	)
+	(pad "1" thru_hole circle
+		(at 1.5 -4.3)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "5f3f0408-a3b0-4f22-91e2-9a024ab006ab")
+	)
+	(pad "2" thru_hole circle
+		(at -1.5 -4.3)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "065bbab7-8db3-4432-af94-d82301097bd8")
+	)
+	(model "${LIB_DIR_AT}/3dmodels/cube_1x1x1mm.step"
+		(offset
+			(xyz 0 0.25 0)
+		)
+		(scale
+			(xyz 7 8.5 8)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

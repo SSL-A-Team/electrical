@@ -2050,6 +2050,7 @@
 	)
 	(label "GATE_{kick}_FILT"
 		(at 207.01 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2060,6 +2061,7 @@
 	)
 	(label "GATE_{kick}_FILT"
 		(at 110.49 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2070,6 +2072,7 @@
 	)
 	(label "V_{cc}"
 		(at 38.1 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,6 +2083,7 @@
 	)
 	(label "V_{cc}"
 		(at 102.87 29.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,6 +2094,7 @@
 	)
 	(label "GATE_{chip}_FILT"
 		(at 180.34 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2100,6 +2105,7 @@
 	)
 	(label "GATE_{kick}"
 		(at 149.86 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,6 +2116,7 @@
 	)
 	(label "GATE_{chip}"
 		(at 149.86 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,6 +2127,7 @@
 	)
 	(label "CMD_{KICK}"
 		(at 38.1 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2130,6 +2138,7 @@
 	)
 	(label "CMD_{KICK}"
 		(at 102.87 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,6 +2149,7 @@
 	)
 	(label "CMD_{CHIP}"
 		(at 38.1 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,6 +2160,7 @@
 	)
 	(label "CMD_{CHIP}"
 		(at 102.87 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,6 +2171,7 @@
 	)
 	(label "GATE_{chip}_FILT"
 		(at 207.01 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2170,6 +2182,7 @@
 	)
 	(label "V_{solenoid}"
 		(at 111.76 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2180,6 +2193,7 @@
 	)
 	(label "KICK_SW"
 		(at 129.54 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2190,6 +2204,7 @@
 	)
 	(label "CHIP_SW"
 		(at 199.39 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,6 +2215,7 @@
 	)
 	(label "V_{solenoid}"
 		(at 38.1 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,6 +2227,7 @@
 	(hierarchical_label "CMD_{KICK}"
 		(shape input)
 		(at 33.02 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,6 +2239,7 @@
 	(hierarchical_label "V_{cc}"
 		(shape input)
 		(at 33.02 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,6 +2251,7 @@
 	(hierarchical_label "V_{solenoid}"
 		(shape input)
 		(at 33.02 29.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,6 +2263,7 @@
 	(hierarchical_label "CMD_{CHIP}"
 		(shape input)
 		(at 33.02 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2485,7 +2505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33392f81-8e6a-4a7e-9afc-74f340f1dc57")
-		(property "Reference" "#PWR86"
+		(property "Reference" "#PWR086"
 			(at 124.46 152.4 0)
 			(effects
 				(font
@@ -2535,7 +2555,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR86")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2551,7 +2571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a70d286-cc39-4ff8-ad12-1643a238dfd6")
-		(property "Reference" "#PWR82"
+		(property "Reference" "#PWR082"
 			(at 107.95 48.26 0)
 			(effects
 				(font
@@ -2601,7 +2621,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR82")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "698326bd-344d-4571-a8d2-609d16388c4f")
-		(property "Reference" "#PWR87"
+		(property "Reference" "#PWR087"
 			(at 138.43 81.28 0)
 			(effects
 				(font
@@ -2740,7 +2760,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR87")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -2826,7 +2846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96f34ee7-ad5e-440b-8bd7-d30cf806bb1a")
-		(property "Reference" "#PWR89"
+		(property "Reference" "#PWR089"
 			(at 173.99 81.28 0)
 			(effects
 				(font
@@ -2876,7 +2896,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR89")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b442888c-4f56-41b4-9d6d-81a9d58b4f55")
-		(property "Reference" "#PWR90"
+		(property "Reference" "#PWR090"
 			(at 194.31 152.4 0)
 			(effects
 				(font
@@ -3152,7 +3172,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR90")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -3463,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c61a1f12-31d9-412f-82ab-604a51e0c697")
-		(property "Reference" "#PWR88"
+		(property "Reference" "#PWR088"
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -3513,7 +3533,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR88")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a31fdc-0874-4795-bcdb-373e666b3539")
-		(property "Reference" "#PWR85"
+		(property "Reference" "#PWR085"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -3649,7 +3669,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR85")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3822,7 +3842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3036c0-5af7-4aa8-8527-a0cc0eacb0a5")
-		(property "Reference" "#PWR83"
+		(property "Reference" "#PWR083"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -3872,7 +3892,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR83")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3888,7 +3908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdb7aa95-a759-4611-b522-dde588d870cc")
-		(property "Reference" "#PWR84"
+		(property "Reference" "#PWR084"
 			(at 123.19 48.26 0)
 			(effects
 				(font
@@ -3938,7 +3958,7 @@
 		(instances
 			(project "kicker"
 				(path "/7c007fad-bfbf-4e78-a837-1f8089552516/7eb261a6-326a-4be1-a81a-5b1bf336a030/be691979-194f-4ae3-a211-ca3d3fc09e10"
-					(reference "#PWR84")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

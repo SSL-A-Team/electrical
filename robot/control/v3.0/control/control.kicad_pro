@@ -59,6 +59,10 @@
         }
       ],
       "drc_exclusions": [
+        "annular_width|172000000|71000000|5839b83e-d809-4ac5-b2ef-34f74d36abf5|00000000-0000-0000-0000-000000000000",
+        "annular_width|172250000|68415000|501426c4-9d89-44e0-8487-34468760b831|00000000-0000-0000-0000-000000000000",
+        "annular_width|172500000|69715000|9bfe5203-046d-4fa7-81ca-6c7c5ead66f5|00000000-0000-0000-0000-000000000000",
+        "annular_width|173250000|68415000|4e3c946d-1a91-41f7-b033-4bdc3ecb3e31|00000000-0000-0000-0000-000000000000",
         "connection_width|197539595|143452591|0bb8dfef-9fbc-4d2f-ae3a-8a2ecfa97c79|3167d16a-aec4-4449-a0ce-d26d798e3d0c",
         "footprint_type_mismatch|173000000|66500000|47b8bd60-502e-4530-9adc-93dfe939fe1f|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|123500000|98000000|348bc412-8b5c-41a6-9da4-6e67f2c62914|00000000-0000-0000-0000-000000000000",
@@ -129,7 +133,7 @@
         "min_clearance": 0.09,
         "min_connection": 0.09,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.254,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -137,10 +141,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.45,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -189,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.11,
         0.153,
         0.175,
         0.2,
@@ -229,6 +234,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
         },
         {
           "diameter": 0.45,
@@ -795,6 +804,23 @@
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -802,7 +828,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": ""
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu/USB_HS_D_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu/USB_HS_D_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

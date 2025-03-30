@@ -1314,7 +1314,7 @@
 		(path "/70276a8f-3b08-4e9b-906b-ee3937a21cfb/55bab337-d8b0-44d9-94a2-f0c6aee02bf2")
 		(sheetname "Power Regulation")
 		(sheetfile "power_regulation.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.01 2.71)
 			(end 7.71 2.71)
@@ -2168,7 +2168,7 @@
 		(path "/18b5a777-2ae2-444a-8013-2f46c3974bf2/42d251d8-a9b6-4e3f-9a3c-18a55c488dcf")
 		(sheetname "digital")
 		(sheetfile "digital.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -8970,11 +8970,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C473031"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c8a48d2-ac09-41da-ac20-6918fa3c0966")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85/8a3818a7-b88a-4e89-95c3-f57945c6beae")
 		(sheetname "flyback_charger")
 		(sheetfile "flyback_charger.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -29274,11 +29286,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C473031"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7231af12-7889-4a69-81ce-16b252d974bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7eb261a6-326a-4be1-a81a-5b1bf336a030/117a87e7-5496-45a7-8d2e-674719fd4e85/e1cd8b1b-0efc-43ed-a069-71b650cf5035")
 		(sheetname "flyback_charger")
 		(sheetfile "flyback_charger.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -48599,7 +48623,7 @@
 		(path "/4ab62a5b-23b4-4bdb-8428-15cac3591d65")
 		(sheetname "Root")
 		(sheetfile "kicker.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -50737,7 +50761,7 @@
 		(path "/d95a7ced-5034-4f1d-aad2-766ed664490e")
 		(sheetname "Root")
 		(sheetfile "kicker.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)

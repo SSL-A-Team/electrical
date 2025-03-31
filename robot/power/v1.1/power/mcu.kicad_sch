@@ -5729,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 24.13) (xy 58.42 24.13)
+			(xy 49.53 21.59) (xy 58.42 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5826,6 +5826,16 @@
 			(type default)
 		)
 		(uuid "2148cd57-6dac-495f-88d6-f7589ea75a86")
+	)
+	(wire
+		(pts
+			(xy 49.53 24.13) (xy 58.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cefad3-d5ef-485f-9055-ded8e539929b")
 	)
 	(wire
 		(pts
@@ -7980,6 +7990,17 @@
 		)
 		(uuid "0007a2ea-5b51-4197-9926-b63d71f4f948")
 	)
+	(label "PWR_12v0_EN"
+		(at 58.42 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "037cb4cb-b79d-47f7-b7a1-d12b2b52987f")
+	)
 	(label "BATT_POST"
 		(at 360.68 165.1 180)
 		(fields_autoplaced yes)
@@ -7992,7 +8013,7 @@
 		(uuid "04d6441b-571f-4f3e-aa2a-78817c11fc7d")
 	)
 	(label "CELL_2"
-		(at 360.68 132.08 180)
+		(at 360.68 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8058,7 +8079,7 @@
 		(uuid "126fde93-ff92-4055-88f6-8ad19c087dde")
 	)
 	(label "PWR_~{KILL}"
-		(at 58.42 24.13 0)
+		(at 58.42 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8178,7 +8199,7 @@
 		)
 		(uuid "40c0866e-d97f-46a0-aeb5-ebec260413ca")
 	)
-	(label "CELL_2"
+	(label "CELL_5"
 		(at 229.87 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8222,7 +8243,7 @@
 		)
 		(uuid "456c1abe-b008-4552-b2e8-671c0cb69f66")
 	)
-	(label "CELL_4"
+	(label "CELL_3"
 		(at 229.87 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8234,7 +8255,7 @@
 		(uuid "45d6c936-c7bf-41e6-9fff-df75b1d2327f")
 	)
 	(label "3v3"
-		(at 360.68 180.34 180)
+		(at 360.68 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8278,7 +8299,7 @@
 		(uuid "55285383-230c-4ad9-8072-c49c0af05871")
 	)
 	(label "CELL_4"
-		(at 360.68 137.16 180)
+		(at 360.68 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8475,7 +8496,7 @@
 		)
 		(uuid "8d2f9182-5204-4eb3-b072-150ebbf0d135")
 	)
-	(label "CELL_5"
+	(label "CELL_2"
 		(at 229.87 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8509,7 +8530,7 @@
 		(uuid "9544f6e0-c640-4a53-938b-5474f9ece93f")
 	)
 	(label "CELL_3"
-		(at 360.68 127 180)
+		(at 360.68 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8651,7 +8672,7 @@
 		)
 		(uuid "c86869fb-454a-4271-82e0-1db5fa051338")
 	)
-	(label "CELL_6"
+	(label "CELL_1"
 		(at 229.87 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8696,7 +8717,7 @@
 		(uuid "da58c593-2202-4573-b360-fce000707375")
 	)
 	(label "5v0"
-		(at 360.68 175.26 180)
+		(at 360.68 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8717,7 +8738,7 @@
 		)
 		(uuid "e1482cfc-ebdb-4863-9cd8-998393a04b5f")
 	)
-	(label "CELL_1"
+	(label "CELL_6"
 		(at 229.87 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8807,6 +8828,7 @@
 	)
 	(label "12v0"
 		(at 229.87 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8815,7 +8837,7 @@
 		)
 		(uuid "f1715541-1672-4d53-843d-e0fc9c5f1af3")
 	)
-	(label "CELL_3"
+	(label "CELL_4"
 		(at 229.87 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8870,6 +8892,18 @@
 			)
 		)
 	)
+	(hierarchical_label "PWR_12v0_EN"
+		(shape output)
+		(at 49.53 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07a12231-608b-4a20-8c3c-3e31fa0ce86e")
+	)
 	(hierarchical_label "LOAD_SW_PGOOD"
 		(shape input)
 		(at 49.53 36.83 180)
@@ -8908,7 +8942,7 @@
 	)
 	(hierarchical_label "PWR_~{KILL}"
 		(shape output)
-		(at 49.53 24.13 180)
+		(at 49.53 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

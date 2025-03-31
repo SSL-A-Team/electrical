@@ -336,6 +336,16 @@
 		)
 		(uuid "1bc810a3-6b30-4f51-9446-cfdc91f0fb74")
 	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 191.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b66571-0064-4bb6-8e8c-f0e6ed73fa04")
+	)
 	(bus
 		(pts
 			(xy 127 83.82) (xy 132.08 83.82)
@@ -508,6 +518,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 48.26) (xy 214.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2201c10-7e74-46d7-9eca-79ea5be2a45e")
+	)
+	(wire
+		(pts
 			(xy 196.85 88.9) (xy 196.85 53.34)
 		)
 		(stroke
@@ -555,6 +575,16 @@
 			(type default)
 		)
 		(uuid "e3949f02-21c6-4dee-8812-48bb8f941d7a")
+	)
+	(wire
+		(pts
+			(xy 189.23 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd25f09-6c33-4bc4-86a9-5972060ef4c2")
 	)
 	(bus
 		(pts
@@ -1012,6 +1042,16 @@
 			)
 			(uuid "61ca3613-cd54-4e0d-98c7-c2d18c30402f")
 		)
+		(pin "PWR_12v0_EN" output
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0faf1fdf-abb7-45d6-b21d-dd9e900c18b8")
+		)
 		(instances
 			(project "power"
 				(path "/4cdb9584-19eb-413c-93c9-302dd5f1c78c"
@@ -1137,6 +1177,16 @@
 				(justify left)
 			)
 			(uuid "b340b245-8a38-4009-a054-519048670c53")
+		)
+		(pin "12v0_EN" input
+			(at 214.63 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2f5d518-c77d-4d1b-99d3-412203e775fb")
 		)
 		(instances
 			(project "power"

@@ -2195,7 +2195,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C160403"
+		(property "LCSC" "C514175"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2742,6 +2742,28 @@
 		(layer "F.SilkS")
 		(uuid "be43a3c9-469e-42bd-9e39-d3fd2ec5ec19")
 	)
+	(gr_circle
+		(center 104.5 92.000001)
+		(end 105.7 92.000001)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "4ef039f9-02b4-46b9-901e-e95e13fb362d")
+	)
+	(gr_circle
+		(center 90.5 68.000001)
+		(end 91.7 68.000001)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d777f266-9bd9-4c97-a5fe-fa7ae55bc692")
+	)
 	(gr_line
 		(start 100.500002 81.000001)
 		(end 92.499998 81.000001)
@@ -2773,17 +2795,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "48bba042-6761-4e6c-959e-c03882fcba56")
-	)
-	(gr_circle
-		(center 104.5 92.000001)
-		(end 103.3 92.000001)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "4ef039f9-02b4-46b9-901e-e95e13fb362d")
 	)
 	(gr_line
 		(start 106.500001 95.000001)
@@ -2877,17 +2888,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c6255ed2-f59c-4a25-aeff-2b1466b1c6b3")
-	)
-	(gr_circle
-		(center 90.5 68.000001)
-		(end 89.3 68.000001)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "d777f266-9bd9-4c97-a5fe-fa7ae55bc692")
 	)
 	(gr_line
 		(start 91.5 80.000001)

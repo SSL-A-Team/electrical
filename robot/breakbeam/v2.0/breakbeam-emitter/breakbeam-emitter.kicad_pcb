@@ -139,6 +139,8 @@
 	(net 6 "unconnected-(RV1-Pad1)")
 	(net 7 "Net-(Q1-D)")
 	(net 8 "Net-(R1-Pad2)")
+	(net 9 "unconnected-(J1-MountPin-PadMP)")
+	(net 10 "unconnected-(J1-MountPin-PadMP)_1")
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "15b9597e-862e-4b9c-b5ee-da806fa8d306")
@@ -192,7 +194,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -204,7 +206,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C101000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ebfefa5-9584-40b9-937d-90dafebf211e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/cea7371e-9cb1-4d6e-a751-62e1bf51249e")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -388,7 +405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Variable-Resistors-Potentiometers_BOURNS-TC33X-2-501E_C720649.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -400,7 +417,7 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -412,7 +429,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C720649"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6148e31-4d1e-4bae-904d-a196fca454ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/8e9e7ea9-0f85-4490-bb6b-8b76f9df5887")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -711,7 +743,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -723,7 +755,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b565249-bc61-4bde-aae2-567d34f84778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/e5063c6f-bbe9-4cc6-8b4c-3fc07c605ded")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -920,7 +967,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -932,7 +979,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554a3317-c1be-4c97-9fd5-06a1d9ca879c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/5444fcba-3a4a-4f1d-bd58-6a6770dfa986")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1130,7 +1192,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1142,9 +1204,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/e07a84a4-c56c-420b-8ce5-3f1b6192c43b")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
-		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -1245,7 +1308,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1257,9 +1320,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/922ff03e-26db-4e83-bc4c-366b7d2b78ec")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
-		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -1585,7 +1649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1597,7 +1661,7 @@
 				)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1609,7 +1673,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C82045"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "082fbaa4-04d2-416c-bfc1-61da10d3db73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/9ce08b17-2366-4a26-a959-b3f4c4312c56")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2102,7 +2181,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2116,7 +2195,23 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C160403"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b35fa82-1c2a-4dba-9bef-dfad8d03e465")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/a36e5683-08b3-455e-ae61-f7fb0b64efb6")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2326,6 +2421,9 @@
 			(size 1 2.7)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
+			(net 9 "unconnected-(J1-MountPin-PadMP)")
+			(pinfunction "MountPin")
+			(pintype "passive+no_connect")
 			(uuid "3fbf0c46-8aed-469f-b261-abf94e05434d")
 		)
 		(pad "MP" smd roundrect
@@ -2333,6 +2431,9 @@
 			(size 1 2.7)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
+			(net 10 "unconnected-(J1-MountPin-PadMP)_1")
+			(pinfunction "MountPin")
+			(pintype "passive+no_connect")
 			(uuid "7490fed6-5eb1-4706-8f42-6e208e3be9fe")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal.wrl"
@@ -2401,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2413,9 +2514,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3e84e781-fa94-49ba-aa0a-1befbd0d7aad")
+		(sheetname "Root")
 		(sheetfile "breakbeam-emitter.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -0.29 -1.236)
 			(end -0.29 -1.08)

@@ -1,7 +1,7 @@
 # Important Documents
 #   - Datasheet: STSPIN32F0
 #   - Current Sensing: AN5397
-# 
+#
 #
 # we should deploy a layered protection strategy covering the following cases
 # dead shorts
@@ -11,9 +11,9 @@
 #    OR accidential (bad controls)
 #
 # We rely on a slow blow high current fuse to address dead shorts
-# The fuse and OCP will address motor stalls, OCP will probably kick in first 
+# The fuse and OCP will address motor stalls, OCP will probably kick in first
 #   Slow blow fuses tend to be *very* slow unless the current is quite a bit higher than rated
-#   Fast blow is probably wrong choice here, collisions/etc might cause short momentary current spikes 
+#   Fast blow is probably wrong choice here, collisions/etc might cause short momentary current spikes
 #   and we don't want the motor controller to just break safe in these cases
 #
 # The upstream board can always fuse *lower* for a specific deployed motor
@@ -23,7 +23,7 @@
 #
 # OpAmp Params
 #   GBP: 18Mhz
-#   
+#
 #
 
 nanotec_df45_50W_Irated = 2.4
@@ -87,3 +87,16 @@ print(f"\tSelected Bias: {Vibias_selected_op}")
 Vdynrng_guard_error = abs(Vibias_selected_op - Vdynrng_guard)
 
 print(f"\tDyn Rng Guard Error: {Vdynrng_guard_error}")
+
+GReal = Ra / (Ra + Rb) * G
+
+print(f"\tReal Gain: {GReal}")
+
+I_input_bias = 100e-12
+
+Voutput_bias_pos = I_input_bias * ((1)/((1/Ra)+(1/Rb)) * (1 + R2/R1))
+Voutput_bias_neg = -I_input_bias * ((R1*R2)/(R1+R2))
+Voutput_bias_total = Voutput_bias_pos + Voutput_bias_neg
+print(f"\tVob_pos: {Voutput_bias_pos}")
+print(f"\tVob_neg: {Voutput_bias_neg}")
+print(f"\tVob_total: {Voutput_bias_total}")

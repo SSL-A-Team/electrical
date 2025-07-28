@@ -259,7 +259,7 @@
 	(net 74 "unconnected-(U2-W{slash}PWM-Pad8)")
 	(net 75 "unconnected-(U3-NC-Pad4)")
 	(net 76 "Net-(J5-Pin_1)")
-	(net 77 "Net-(D7-K)")
+	(net 77 "Net-(D7-A1)")
 	(net 78 "unconnected-(J6-SWO{slash}TDO-Pad6)")
 	(net 79 "unconnected-(J6-NC{slash}TDI-Pad8)")
 	(net 80 "/motor_driver/SWDIO")
@@ -3855,6 +3855,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2b8dc04-8ac0-4f8b-8d90-b419e265466f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/dc86a34d-1ce5-40ca-a932-8eb4f5e416cd")
 		(sheetname "/motor_driver/")
@@ -4841,7 +4854,7 @@
 			(size 1.05 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 77 "Net-(D7-K)")
+			(net 77 "Net-(D7-A1)")
 			(pintype "passive")
 			(uuid "a805e456-d7dc-4aba-b3f8-336054199e80")
 		)
@@ -7426,7 +7439,7 @@
 				)
 			)
 		)
-		(property "Value" "BZT52C4V7"
+		(property "Value" "SMF3.3CA"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "0b7c9ebf-3a4f-42e8-be41-a764c057c156")
@@ -7450,7 +7463,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7476,7 +7489,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C151054"
+		(property "LCSC" "C6165153"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7484,6 +7497,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vbr" "3.5V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85d0da67-7f2a-488f-804b-fc43e9812c6a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7689,8 +7715,8 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 77 "Net-(D7-K)")
-			(pinfunction "K")
+			(net 77 "Net-(D7-A1)")
+			(pinfunction "A1")
 			(pintype "passive")
 			(uuid "cfe730a6-58d3-4b61-87b9-2f34a062e600")
 		)
@@ -7700,7 +7726,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 3 "GND")
-			(pinfunction "A")
+			(pinfunction "A2")
 			(pintype "passive")
 			(uuid "2a368afe-a92f-4fc5-b242-deacc718b830")
 		)
@@ -11667,7 +11693,7 @@
 			(size 0.8 2.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 77 "Net-(D7-K)")
+			(net 77 "Net-(D7-A1)")
 			(pinfunction "Pin_12")
 			(pintype "passive")
 			(uuid "3403596d-5ea2-4dc0-82d3-dacbd058ae67")
@@ -14827,6 +14853,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "70cbc058-d062-448e-90ac-8b6205888f09")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -22784,7 +22824,7 @@
 			)
 		)
 		(property ki_fp_filters "*SOT?363*")
-		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/899e07c5-edfb-4cfd-aa5f-3736bdf707f1")
+		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/c6f41e92-4728-45f7-a178-c0e30875b7d8")
 		(sheetname "/motor_driver/")
 		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)

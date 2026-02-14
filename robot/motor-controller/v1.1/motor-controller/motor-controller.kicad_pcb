@@ -6065,6 +6065,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5304907"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b9e7dc67-98e6-450f-a2f7-be7249f661c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/0f4bf67e-7de0-4617-85ce-8a5c103f6e29")
 		(sheetname "/motor_driver/")
@@ -6834,7 +6846,7 @@
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/d00bdabf-9256-4bb2-b46a-4956cce79880")
 		(sheetname "/motor_driver/")
 		(sheetfile "motor_driver.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -8432,6 +8444,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5177195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fa173656-5a31-49e6-83fb-8bd6ea3fa398")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12255,7 +12279,7 @@
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/2db81da2-95df-4dba-976b-107af4762aae")
 		(sheetname "/motor_driver/")
 		(sheetfile "motor_driver.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -14372,7 +14396,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "12.7k 1%"
+		(property "Value" "15.0k 1%"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "b3e336a1-93cb-4eb3-8013-59128ff5e0f2")
@@ -15498,7 +15522,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.37k 1%"
+		(property "Value" "2.49k 1%"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "eb00b557-7bf1-4f80-bea6-4f5bf9ee3665")
@@ -17342,7 +17366,7 @@
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/114902ad-4ae5-42b7-8ae0-a63816631f13")
 		(sheetname "/motor_driver/")
 		(sheetfile "motor_driver.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -17894,7 +17918,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "140k 1%"
+		(property "Value" "165k 1%"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "e18dcb77-ee7d-44f7-8d63-2b36a2494a8b")
@@ -20081,7 +20105,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20 1%"
+		(property "Value" "62 1%"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "71fc74c9-9811-4b3c-8c1a-36e987aedfce")
@@ -20343,7 +20367,7 @@
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/eb0efda5-8952-4e35-9514-c108289ef93d")
 		(sheetname "/motor_driver/")
 		(sheetfile "motor_driver.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -20407,7 +20431,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.37k 1%"
+		(property "Value" "2.49k 1%"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "d2d78c4f-3dc8-4960-9e63-467dfbbcbbed")
@@ -20625,7 +20649,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "40.2k 1%"
+		(property "Value" "13.7 1%"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "d132a98c-90e6-4862-9e44-482ee6cb8222")
@@ -20887,7 +20911,7 @@
 		(path "/cc912fad-bd7a-44ed-8392-4f59afec85c9/4edde912-dbde-4428-a97c-f3e68b9ced3d")
 		(sheetname "/motor_driver/")
 		(sheetfile "motor_driver.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -21855,7 +21879,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10.0k 1%"
+		(property "Value" "2.49k 1%"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "9d8f3bc3-df90-47f6-add2-66abf2a29b8d")

@@ -3068,6 +3068,26 @@
 					(hide yes)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(effects
@@ -3167,16 +3187,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
+					(at 0 -2.54 90)
 					(length 0.635)
-					(name "4"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -3187,14 +3207,15 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.635)
-					(name "2"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -3543,11 +3564,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:R_Shunt_US"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3586,7 +3605,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Shunt resistor, US symbol"
+			(property "Description" "Shunt resistor with Kelvin connections, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3701,7 +3720,7 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3719,7 +3738,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "4"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3735,9 +3754,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "2"
+					(at 2.54 2.54 180)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3753,9 +3772,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "3"
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5593,12 +5612,6 @@
 		(uuid "75ba86d4-4fc6-48c2-8c3e-55b3521a3a5b")
 	)
 	(junction
-		(at 382.27 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ad96593-c482-4735-9935-61e7ad72a602")
-	)
-	(junction
 		(at 308.61 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6163,16 +6176,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 260.35) (xy 105.41 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1407ed15-e797-4477-b23d-4640717684e1")
-	)
-	(wire
-		(pts
 			(xy 248.92 105.41) (xy 255.27 105.41)
 		)
 		(stroke
@@ -6250,16 +6253,6 @@
 			(type default)
 		)
 		(uuid "194afdee-2836-4d13-bf20-31fa3c3a19f8")
-	)
-	(wire
-		(pts
-			(xy 378.46 213.36) (xy 382.27 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197ce02b-90ea-4495-a431-62e94cf9c966")
 	)
 	(wire
 		(pts
@@ -6543,13 +6536,13 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 205.74) (xy 382.27 204.47)
+			(xy 101.6 260.35) (xy 105.41 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30ff7be3-0851-4ded-af59-43dede6ba50f")
+		(uuid "32d7cd6f-9750-4af7-909f-143ced0cb942")
 	)
 	(wire
 		(pts
@@ -6750,16 +6743,6 @@
 			(type default)
 		)
 		(uuid "4285daa9-f762-4f4c-9683-23055072cfca")
-	)
-	(wire
-		(pts
-			(xy 382.27 213.36) (xy 382.27 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42ef376a-eb30-464a-b6fd-ee3417d61d8b")
 	)
 	(wire
 		(pts
@@ -7543,16 +7526,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 204.47) (xy 378.46 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d28bbc9-70e7-4cde-a2c2-38d3838467ac")
-	)
-	(wire
-		(pts
 			(xy 379.73 109.22) (xy 388.62 109.22)
 		)
 		(stroke
@@ -7583,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 210.82) (xy 382.27 213.36)
+			(xy 382.27 210.82) (xy 382.27 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7930,16 +7903,6 @@
 			(type solid)
 		)
 		(uuid "93008525-31d2-403b-bcd6-1bc1d1f267a3")
-	)
-	(wire
-		(pts
-			(xy 378.46 204.47) (xy 378.46 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952c078f-d3a3-4ea7-955f-8f841f3c7975")
 	)
 	(wire
 		(pts
@@ -8543,6 +8506,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 255.27) (xy 105.41 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36a829b-f119-458a-af9b-cf75cf34abd3")
+	)
+	(wire
+		(pts
 			(xy 90.17 228.6) (xy 90.17 229.87)
 		)
 		(stroke
@@ -8800,16 +8773,6 @@
 			(type default)
 		)
 		(uuid "d0e2e4e0-c8b9-497c-9657-975d6021df0e")
-	)
-	(wire
-		(pts
-			(xy 102.87 255.27) (xy 105.41 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1fe0fb8-0cd2-47ed-8ad7-bf12338997c6")
 	)
 	(wire
 		(pts
@@ -9153,13 +9116,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 260.35) (xy 119.38 260.35)
+			(xy 115.57 260.35) (xy 119.38 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecd08fb0-bbee-4b12-8834-ac150c9c71d0")
+		(uuid "ecc5a35a-65aa-48bc-a6d1-2dcbc9a6cc25")
 	)
 	(wire
 		(pts
@@ -9273,16 +9236,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 255.27) (xy 119.38 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92ad8e4-e009-4ed7-981c-d611a52daf32")
-	)
-	(wire
-		(pts
 			(xy 200.66 182.88) (xy 200.66 180.34)
 		)
 		(stroke
@@ -9390,6 +9343,16 @@
 			(type solid)
 		)
 		(uuid "fe7efef1-ce4d-4ed8-935d-569f90106e41")
+	)
+	(wire
+		(pts
+			(xy 115.57 255.27) (xy 119.38 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2ac5b6-980c-4ae1-a4ff-0e2540708822")
 	)
 	(wire
 		(pts
@@ -10990,7 +10953,7 @@
 			(uuid "597265eb-0b6e-40e4-9d8f-783f1260e7e8")
 		)
 		(instances
-			(project ""
+			(project "motor-controller"
 				(path "/128aa784-6ac2-4038-a52f-4d25824b8edd/cc912fad-bd7a-44ed-8392-4f59afec85c9"
 					(reference "J4")
 					(unit 1)
@@ -11071,7 +11034,7 @@
 			(uuid "e599d583-60de-4a83-b2ab-23b536ebb910")
 		)
 		(instances
-			(project ""
+			(project "motor-controller"
 				(path "/128aa784-6ac2-4038-a52f-4d25824b8edd/cc912fad-bd7a-44ed-8392-4f59afec85c9"
 					(reference "J2")
 					(unit 1)
@@ -11452,7 +11415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor, US symbol"
+		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
 			(at 99.06 257.81 0)
 			(effects
 				(font
@@ -12213,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C100501"
+		(property "LCSC" "C852875"
 			(at 316.23 166.37 0)
 			(effects
 				(font
@@ -12357,7 +12320,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25884"
+		(property "LCSC" "C852700"
 			(at 259.08 210.82 0)
 			(effects
 				(font
@@ -12731,7 +12694,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2909322"
+		(property "LCSC" "C853539"
 			(at 273.05 175.2599 0)
 			(effects
 				(font
@@ -12808,7 +12771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25854"
+		(property "LCSC" "C852522"
 			(at 295.91 194.31 0)
 			(effects
 				(font
@@ -13579,7 +13542,7 @@
 			(uuid "d5c86b34-3094-4aea-887a-64f593ae7169")
 		)
 		(instances
-			(project ""
+			(project "motor-controller"
 				(path "/128aa784-6ac2-4038-a52f-4d25824b8edd/cc912fad-bd7a-44ed-8392-4f59afec85c9"
 					(reference "TP1")
 					(unit 1)
@@ -13832,7 +13795,7 @@
 			(uuid "eb3fe9c3-2c12-4612-bea5-3373b61a7400")
 		)
 		(instances
-			(project ""
+			(project "motor-controller"
 				(path "/128aa784-6ac2-4038-a52f-4d25824b8edd/cc912fad-bd7a-44ed-8392-4f59afec85c9"
 					(reference "C22")
 					(unit 1)
@@ -15350,7 +15313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor, US symbol"
+		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
 			(at 113.03 257.81 0)
 			(effects
 				(font
@@ -15390,7 +15353,7 @@
 			(uuid "a0896ed7-4d92-4b18-a39a-b08194c08fce")
 		)
 		(instances
-			(project ""
+			(project "motor-controller"
 				(path "/128aa784-6ac2-4038-a52f-4d25824b8edd/cc912fad-bd7a-44ed-8392-4f59afec85c9"
 					(reference "R27")
 					(unit 1)
@@ -15791,7 +15754,7 @@
 			(uuid "5ab1950f-4949-4bb5-a970-1211ba89f481")
 		)
 		(instances
-			(project ""
+			(project "motor-controller"
 				(path "/128aa784-6ac2-4038-a52f-4d25824b8edd/cc912fad-bd7a-44ed-8392-4f59afec85c9"
 					(reference "#PWR01")
 					(unit 1)
@@ -16642,7 +16605,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25884"
+		(property "LCSC" "C852700"
 			(at 278.13 194.31 0)
 			(effects
 				(font
@@ -19860,7 +19823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25884"
+		(property "LCSC" "C852700"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -19940,7 +19903,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C38706"
+		(property "LCSC" "C1509613"
 			(at 273.05 165.0999 0)
 			(effects
 				(font

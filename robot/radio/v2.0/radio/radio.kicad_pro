@@ -59,24 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|166650000|109100000|959a62e7-1fdb-42d2-88fc-e77a9273256f|1cf4fabe-143f-482d-8785-2ab7c1654983",
-          ""
-        ],
-        [
-          "solder_mask_bridge|167160618|108652382|959a62e7-1fdb-42d2-88fc-e77a9273256f|1cf4fabe-143f-482d-8785-2ab7c1654983",
-          ""
-        ],
-        [
-          "solder_mask_bridge|177150000|109050000|df79578a-03f3-46c7-8ee3-1a2ce4757bda|152bea80-ec8d-43d9-8f98-6cf2c513beb2",
-          ""
-        ],
-        [
-          "solder_mask_bridge|177660618|108602382|df79578a-03f3-46c7-8ee3-1a2ce4757bda|152bea80-ec8d-43d9-8f98-6cf2c513beb2",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -524,6 +507,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

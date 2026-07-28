@@ -6,7 +6,7 @@ The team noticed that minor soldering technique choices had a substantial impact
 
 ## Solder Choice
 
-Leaded solder should be used (60/40 or 63/37) to reduce the hot air reflow temperature. Especially on larger boards (like control), lower and slower temperature bring ups reduce warping from localized heating. This impacts yeild rate of components like the stm32h7 in the large lqfp-144 package that need a highly planer board to adhere all pins.
+Leaded solder should be used (60/40 or 63/37) to reduce the hot air reflow temperature. Especially on larger boards (like control), lower and slower temperature bring ups reduce warping from localized heating. This impacts yield rate of components like the stm32h7 in the large lqfp-144 package that need a highly planer board to adhere all pins.
 
 Keeping the reflow temperature low was also important for our Odin-W262 radio, which is a SoM board made with lead-free solder. Keeping the temperature low means we do not reflow the SoM components when attaching the SoM to our board.
 
@@ -22,10 +22,10 @@ We recommend the use of ChipQuik WS991. We also recommend against using other wa
 
 ## Parts with EPAD
 
-For parts with a ground pad underneath, take care not to overfill the pad. When the part is pushed down this can cause shoting to pins underneath. This is easy to do because a larger pad size (EPAD) compared with the other package pins produces a larger meniscus, which is non-linear.
+For parts with a ground pad underneath, take care not to overfill the pad. When the part is pushed down this can cause shorting to pins underneath. This is easy to do because a larger pad size (EPAD) compared with the other package pins produces a larger meniscus, which is non-linear.
 
 Espcially on switching power supplies with very low resistance current detection, the potential difference created between CSN and EPAD due to a large solder blob on EPAD may be non-trivial. This was the case with the 12V regulator (U2), and the lt3751 and lt3757 on the kicker versions.
 
 ## IMUs
 
-The small LGA IMUs are quite difficult to solder. We found yeild rates increased by fluxing then tinning both the board *AND* the part, then reflowing the part onto the board.
+The small LGA IMUs are quite difficult to solder. We found yield rates increased by fluxing then tinning both the board *AND* the part, then reflowing the part onto the board.
